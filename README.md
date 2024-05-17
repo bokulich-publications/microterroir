@@ -6,7 +6,7 @@ All notebooks to analyse data generated within the Lavaux project.
  ## Sensory Analysis 
  `Sensory_Analysis.ipynb`
 
- Data from tasting with 12 judges of the 2022 microvinification wines according to given sensory characteristics (olfactory and taste). 
+ Data from tasting with 12 judges of the 2021 microvinification wines according to given sensory characteristics (olfactory and taste). 
 
  * 2-way ANOVA: primarily significant differences between the judges 
  * PCA: visually check scatter between samples 
@@ -24,6 +24,9 @@ VOCs analysis with HS-SPME-GC-MS of all 2023 microvinification samples and the e
 * Compare MLF samples from different years: 
   * Heatmaps with Z score, euclidian clustering, top variable compounds
   * PCA plot
+  * Compare MLF samples with Plot metadata
+    * PERMANOVA 
+    * Mantel Test with geodisic distances between plots
 * Compare 2023 samples 
   * Heatmap
   * PCA plot
@@ -49,6 +52,7 @@ HPLC data of 2021, 2022, 2023 berries
 * Swarmplots of major organic acids and sugars
 * ANOVA 
   * Nested (`~ Plot_No * Date`)
+  * with Plot Metadata 
 
 
 ## Sensor Data --> WORK IN PROGRESS 
