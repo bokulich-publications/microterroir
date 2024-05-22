@@ -10,9 +10,12 @@ All notebooks to analyse data generated within the Lavaux project.
 
  * 2-way ANOVA: primarily significant differences between the judges 
  * PCA: visually check scatter between samples 
+ * Analyse sensory data in context of plot metadata, managament, phenology, wine chemistry (nested for judge, or median) 
+ * Biplot with loadings 
  * Box Plots of characteristics
  * Get median sensory values for each plot --> metadata in future analysis! 
  * Spider plots showing distribution of characteristics of each plot 
+ * Median values with medatada (maybe delete)
 
 
 ## GC-MS 
@@ -25,7 +28,7 @@ VOCs analysis with HS-SPME-GC-MS of all 2023 microvinification samples and the e
   * Heatmaps with Z score, euclidian clustering, top variable compounds
   * PCA plot
   * Compare MLF samples with Plot metadata
-    * PERMANOVA 
+    * PERMANOVA with distance Jaccard and Bray Curtis distance matrix 
     * Mantel Test with geodisic distances between plots
 * Compare 2023 samples 
   * Heatmap
@@ -42,17 +45,21 @@ VOCs analysis with HS-SPME-GC-MS of all 2023 microvinification samples and the e
 * PLSR analysis
   * Determine number of components 
   * PLSR with various number of components 
-  * Biplot with major loadings 
+  * Biplot with major loadings (also 3D)
 
 
-## Berry Chemistry --> WORK IN PROGRESS 
+## Berry Chemistry 
 `Berry_Chemistry.ipynb`
 
 HPLC data of 2021, 2022, 2023 berries 
 * Swarmplots of major organic acids and sugars
 * ANOVA 
-  * Nested (`~ Plot_No * Date`)
-  * with Plot Metadata 
+  * Phenostage, Year, Plot 
+  * with Plot Metadata and Management 
+  
+Extensive 2023 Must chemical analysis 
+* swarmplot 
+* ANOVA with plot metadata 
 
 
 ## Sensor Data --> WORK IN PROGRESS 
