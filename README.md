@@ -3,7 +3,11 @@
 All notebooks to analyse data generated within the Lavaux project.
 
 
- ## Sensory Analysis 
+## Microbiome 
+
+
+ ## Sensory
+ ### Sensory Analysis 
  `Sensory_Analysis.ipynb`
 
  Data from tasting with 12 judges of the 2021 microvinification wines according to given sensory characteristics (olfactory and taste). 
@@ -17,8 +21,18 @@ All notebooks to analyse data generated within the Lavaux project.
  * Spider plots showing distribution of characteristics of each plot 
  * Median values with medatada (maybe delete)
 
+### Correlate GC-MS and Sensory Data
+`Correlate_GC_Sensory.ipynb`
 
-## GC-MS 
+* Canonical Correlation Analysis
+* PLSR analysis
+  * Determine number of components 
+  * PLSR with various number of components 
+  * Biplot with major loadings (also 3D)
+  
+
+## Metabolomics 
+### GC-MS 
 `GC-MS.ipynb`
 
 VOCs analysis with HS-SPME-GC-MS of all 2023 microvinification samples and the end-point fermentation samples (post-MLF) from 2022 and 2021.
@@ -38,14 +52,10 @@ VOCs analysis with HS-SPME-GC-MS of all 2023 microvinification samples and the e
   * Diversity Analysis with Richness and Shannon 
   * Statistical differences between groups with ANOVA (box plots)
   
-## Correlate GC-MS and Sensory Data
-`Correlate_GC_Sensory.ipynb`
+### LC-MS 
+`LC-MS_pilot.ipynb`
 
-* Canonical Correlation Analysis
-* PLSR analysis
-  * Determine number of components 
-  * PLSR with various number of components 
-  * Biplot with major loadings (also 3D)
+* Venn Diagrams of the LC-MS pilot 
 
 
 ## Berry Chemistry 
@@ -62,7 +72,8 @@ Extensive 2023 Must chemical analysis
 * ANOVA with plot metadata 
 
 
-## Sensor Data --> WORK IN PROGRESS 
+## Climate
+### Sensor Data --> WORK IN PROGRESS 
 Data from Temperature and Relative Humidity Sensors installed in each plot for 3 years. 
 
 `Sensor_Data_Temperature.ipynb`
@@ -73,11 +84,6 @@ Data from Temperature and Relative Humidity Sensors installed in each plot for 3
 
 `Sensor_Data_RH.ipynb`
 
-
-## LC-MS 
-`LC-MS_pilot.ipynb`
-
-* Venn Diagrams of the LC-MS pilot 
 
 
 ## Soil Analyis 

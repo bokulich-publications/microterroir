@@ -1,0 +1,91 @@
+﻿SAMPLE_NAME,Collected by,COLLECTION_DATE,DESCRIPTION,BOKULICH.ENVIRONMENTAL_SAMPLE.GEO_LOC_NAME,BOKULICH.ENVIRONMENTAL_SAMPLE.ISOLATION_SOURCE,LOCATION_ID,BOKULICH.ENVIRONMENTAL_SAMPLE.LATITUDE,BOKULICH.ENVIRONMENTAL_SAMPLE.LONGITUDE,parents,,COUNT,68,,not used,numbers,ID on extraction plate
+SB_must_RT_immediately_1,Lena Flörl,2021-10-08 00:00:00 +0200,,Weingut_Diederik,must,Weingut_Diederik,8.594416,47.310444,/BOKULICH_LFLOERL/SAMPLING_BENCHMARKING/ENTRY190,,,,,ID1.1,1,1001
+SB_must_RT_immediately_2,Lena Flörl,2021-10-08 00:00:00 +0200,,Weingut_Diederik,must,Weingut_Diederik,8.594491,47.310141,/BOKULICH_LFLOERL/SAMPLING_BENCHMARKING/ENTRY190,,,,,ID1.2,2,1002
+SB_must_RT_immediately_3,Lena Flörl,2021-10-08 00:00:00 +0200,,Weingut_Diederik,must,Weingut_Diederik,8.594267,47.310316,/BOKULICH_LFLOERL/SAMPLING_BENCHMARKING/ENTRY190,,,,,ID1.3,3,1003
+SB_must_RT_24h_1,Lena Flörl,2021-10-08 00:00:00 +0200,,Weingut_Diederik,must,Weingut_Diederik,8.594416,47.310444,/BOKULICH_LFLOERL/SAMPLING_BENCHMARKING/ENTRY190,,,,,ID1.4,4,1004
+SB_must_RT_24h_2,Lena Flörl,2021-10-08 00:00:00 +0200,,Weingut_Diederik,must,Weingut_Diederik,8.594491,47.310141,/BOKULICH_LFLOERL/SAMPLING_BENCHMARKING/ENTRY190,,,,,ID1.5,5,1005
+SB_must_RT_24h_3,Lena Flörl,2021-10-08 00:00:00 +0200,,Weingut_Diederik,must,Weingut_Diederik,8.594267,47.310316,/BOKULICH_LFLOERL/SAMPLING_BENCHMARKING/ENTRY190,,,,,ID1.6,6,1006
+SB_must_4deg_24h_1,Lena Flörl,2021-10-08 00:00:00 +0200,,Weingut_Diederik,must,Weingut_Diederik,8.594416,47.310444,/BOKULICH_LFLOERL/SAMPLING_BENCHMARKING/ENTRY190,,,,,ID1.7,7,1007
+SB_must_4deg_24h_2,Lena Flörl,2021-10-08 00:00:00 +0200,,Weingut_Diederik,must,Weingut_Diederik,8.594491,47.310141,/BOKULICH_LFLOERL/SAMPLING_BENCHMARKING/ENTRY190,,,,,ID1.8,8,1008
+SB_must_4deg_24h_3,Lena Flörl,2021-10-08 00:00:00 +0200,,Weingut_Diederik,must,Weingut_Diederik,8.594267,47.310316,/BOKULICH_LFLOERL/SAMPLING_BENCHMARKING/ENTRY190,,,,,ID1.9,9,1009
+SB_must_4deg_72h_1,Lena Flörl,2021-10-08 00:00:00 +0200,,Weingut_Diederik,must,Weingut_Diederik,8.594416,47.310444,/BOKULICH_LFLOERL/SAMPLING_BENCHMARKING/ENTRY190,,,,,ID1.10,10,1010
+SB_must_4deg_72h_2,Lena Flörl,2021-10-08 00:00:00 +0200,,Weingut_Diederik,must,Weingut_Diederik,8.594491,47.310141,/BOKULICH_LFLOERL/SAMPLING_BENCHMARKING/ENTRY190,,,,,ID1.11,11,1011
+SB_must_4deg_72h_3,Lena Flörl,2021-10-08 00:00:00 +0200,,Weingut_Diederik,must,Weingut_Diederik,8.594267,47.310316,/BOKULICH_LFLOERL/SAMPLING_BENCHMARKING/ENTRY190,,,,,ID1.12,12,1012
+SB_must_4deg_1wk_1,Lena Flörl,2021-10-08 00:00:00 +0200,,Weingut_Diederik,must,Weingut_Diederik,8.594416,47.310444,/BOKULICH_LFLOERL/SAMPLING_BENCHMARKING/ENTRY190,,,,,ID1.13,13,1013
+SB_must_4deg_1wk_2,Lena Flörl,2021-10-08 00:00:00 +0200,,Weingut_Diederik,must,Weingut_Diederik,8.594491,47.310141,/BOKULICH_LFLOERL/SAMPLING_BENCHMARKING/ENTRY190,,,,,ID1.14,14,1014
+SB_must_4deg_1wk_3,Lena Flörl,2021-10-08 00:00:00 +0200,,Weingut_Diederik,must,Weingut_Diederik,8.594267,47.310316,/BOKULICH_LFLOERL/SAMPLING_BENCHMARKING/ENTRY190,,,,,ID1.15,15,1015
+SB_must_min80_1wk_1,Lena Flörl,2021-10-08 00:00:00 +0200,,Weingut_Diederik,must,Weingut_Diederik,8.594416,47.310444,/BOKULICH_LFLOERL/SAMPLING_BENCHMARKING/ENTRY190,,,,,ID1.16,16,1016
+SB_must_min80_1wk_2,Lena Flörl,2021-10-08 00:00:00 +0200,,Weingut_Diederik,must,Weingut_Diederik,8.594491,47.310141,/BOKULICH_LFLOERL/SAMPLING_BENCHMARKING/ENTRY190,,,,,ID1.17,17,1017
+SB_must_min80_1wk_3,Lena Flörl,2021-10-08 00:00:00 +0200,,Weingut_Diederik,must,Weingut_Diederik,8.594267,47.310316,/BOKULICH_LFLOERL/SAMPLING_BENCHMARKING/ENTRY190,,,,,ID1.18,18,1018
+SB_must_min80_1month_1,Lena Flörl,2021-10-08 00:00:00 +0200,,Weingut_Diederik,must,Weingut_Diederik,8.594416,47.310444,/BOKULICH_LFLOERL/SAMPLING_BENCHMARKING/ENTRY190,,,,,ID1.19,19,1019
+SB_must_min80_1month_2,Lena Flörl,2021-10-08 00:00:00 +0200,,Weingut_Diederik,must,Weingut_Diederik,8.594491,47.310141,/BOKULICH_LFLOERL/SAMPLING_BENCHMARKING/ENTRY190,,,,,ID1.20,20,1020
+SB_must_min80_1month_3,Lena Flörl,2021-10-08 00:00:00 +0200,,Weingut_Diederik,must,Weingut_Diederik,8.594267,47.310316,/BOKULICH_LFLOERL/SAMPLING_BENCHMARKING/ENTRY190,,,,,ID1.21,21,1021
+SB_must_min20_24h_1,Lena Flörl,2021-10-08 00:00:00 +0200,,Weingut_Diederik,must,Weingut_Diederik,8.594416,47.310444,/BOKULICH_LFLOERL/SAMPLING_BENCHMARKING/ENTRY190,,,,,ID1.22,22,1022
+SB_must_min20_24h_2,Lena Flörl,2021-10-08 00:00:00 +0200,,Weingut_Diederik,must,Weingut_Diederik,8.594491,47.310141,/BOKULICH_LFLOERL/SAMPLING_BENCHMARKING/ENTRY190,,,,,ID1.23,23,1023
+SB_must_min20_24h_3,Lena Flörl,2021-10-08 00:00:00 +0200,,Weingut_Diederik,must,Weingut_Diederik,8.594267,47.310316,/BOKULICH_LFLOERL/SAMPLING_BENCHMARKING/ENTRY190,,,,,ID1.24,24,1024
+SB_must_min20_1wk_1,Lena Flörl,2021-10-08 00:00:00 +0200,,Weingut_Diederik,must,Weingut_Diederik,8.594416,47.310444,/BOKULICH_LFLOERL/SAMPLING_BENCHMARKING/ENTRY190,,,,,ID1.25,25,1025
+SB_must_min20_1wk_2,Lena Flörl,2021-10-08 00:00:00 +0200,,Weingut_Diederik,must,Weingut_Diederik,8.594491,47.310141,/BOKULICH_LFLOERL/SAMPLING_BENCHMARKING/ENTRY190,,,,,ID1.26,26,1026
+SB_must_min20_1wk_3,Lena Flörl,2021-10-08 00:00:00 +0200,,Weingut_Diederik,must,Weingut_Diederik,8.594267,47.310316,/BOKULICH_LFLOERL/SAMPLING_BENCHMARKING/ENTRY190,,,,,ID1.27,27,1027
+SB_must_min20_1month_1,Lena Flörl,2021-10-08 00:00:00 +0200,,Weingut_Diederik,must,Weingut_Diederik,8.594416,47.310444,/BOKULICH_LFLOERL/SAMPLING_BENCHMARKING/ENTRY190,,,,,ID1.28,28,1028
+SB_must_min20_1month_2,Lena Flörl,2021-10-08 00:00:00 +0200,,Weingut_Diederik,must,Weingut_Diederik,8.594491,47.310141,/BOKULICH_LFLOERL/SAMPLING_BENCHMARKING/ENTRY190,,,,,ID1.29,29,1029
+SB_must_min20_1month_3,Lena Flörl,2021-10-08 00:00:00 +0200,,Weingut_Diederik,must,Weingut_Diederik,8.594267,47.310316,/BOKULICH_LFLOERL/SAMPLING_BENCHMARKING/ENTRY190,,,,,ID1.30,30,1030
+SB_must_winery_Meilen,Didi Michel,,,Weingut_Diederik,must,Weingut_Diederik,,,/BOKULICH_LFLOERL/SAMPLING_BENCHMARKING/ENTRY190,,,,,ID1.31,31,1031
+SB_swab(cotton)_freeze_immediately_1,Lena Flörl,2021-10-13 00:00:00 +0200,,Grenchen,swab(cotton),Grenchen,7.4085074,47.1630425,/BOKULICH_LFLOERL/SAMPLING_BENCHMARKING/ENTRY191,,,,,ID1.32,32,1032
+SB_swab(cotton)_freeze_immediately_2,Lena Flörl,2021-10-13 00:00:00 +0200,,Grenchen,swab(cotton),Grenchen,7.408851,47.162828,/BOKULICH_LFLOERL/SAMPLING_BENCHMARKING/ENTRY191,,,,,ID1.33,33,1033
+SB_swab(cotton)_freeze_immediately_3,Lena Flörl,2021-10-13 00:00:00 +0200,,Grenchen,swab(cotton),Grenchen,7.408264,47.163233,/BOKULICH_LFLOERL/SAMPLING_BENCHMARKING/ENTRY191,,,,,ID1.34,34,1034
+SB_swab(cotton)_4deg_24h_1,Lena Flörl,2021-10-13 00:00:00 +0200,,Grenchen,swab(cotton),Grenchen,7.4085074,47.1630425,/BOKULICH_LFLOERL/SAMPLING_BENCHMARKING/ENTRY191,,,,,ID1.35,35,1035
+SB_swab(cotton)_4deg_24h_2,Lena Flörl,2021-10-13 00:00:00 +0200,,Grenchen,swab(cotton),Grenchen,7.408851,47.162828,/BOKULICH_LFLOERL/SAMPLING_BENCHMARKING/ENTRY191,,,,,ID1.36,36,1036
+SB_swab(cotton)_4deg_24h_3,Lena Flörl,2021-10-13 00:00:00 +0200,,Grenchen,swab(cotton),Grenchen,7.408264,47.163233,/BOKULICH_LFLOERL/SAMPLING_BENCHMARKING/ENTRY191,,,,,ID1.37,37,1037
+SB_must_freeze_immediately_1,Lena Flörl,2021-10-13 00:00:00 +0200,,Grenchen,must,Grenchen,7.4085074,47.1630425,/BOKULICH_LFLOERL/SAMPLING_BENCHMARKING/ENTRY191,,,,,ID1.38,38,1038
+SB_must_freeze_immediately_2,Lena Flörl,2021-10-13 00:00:00 +0200,,Grenchen,must,Grenchen,7.408851,47.162828,/BOKULICH_LFLOERL/SAMPLING_BENCHMARKING/ENTRY191,,,,,ID1.39,39,1039
+SB_must_freeze_immediately_3,Lena Flörl,2021-10-13 00:00:00 +0200,,Grenchen,must,Grenchen,7.408264,47.163233,/BOKULICH_LFLOERL/SAMPLING_BENCHMARKING/ENTRY191,,,,,ID1.40,40,1040
+SB_must_4deg_24h_1,Lena Flörl,2021-10-13 00:00:00 +0200,,Grenchen,must,Grenchen,7.4085074,47.1630425,/BOKULICH_LFLOERL/SAMPLING_BENCHMARKING/ENTRY191,,,,,ID1.41,41,1041
+SB_must_4deg_24h_2,Lena Flörl,2021-10-13 00:00:00 +0200,,Grenchen,must,Grenchen,7.408851,47.162828,/BOKULICH_LFLOERL/SAMPLING_BENCHMARKING/ENTRY191,,,,,ID1.42,42,1042
+SB_must_4deg_24h_3,Lena Flörl,2021-10-13 00:00:00 +0200,,Grenchen,must,Grenchen,7.408264,47.163233,/BOKULICH_LFLOERL/SAMPLING_BENCHMARKING/ENTRY191,,,,,ID1.43,43,1043
+SB_water_berry_wash_1,Lena Flörl,2021-10-13 00:00:00 +0200,water,Grenchen,berry_wash,Grenchen,7.4085074,47.1630425,/BOKULICH_LFLOERL/SAMPLING_BENCHMARKING/ENTRY191,,,,,ID1.44,44,1044
+SB_water_berry_wash_2,Lena Flörl,2021-10-13 00:00:00 +0200,water,Grenchen,berry_wash,Grenchen,7.408851,47.162828,/BOKULICH_LFLOERL/SAMPLING_BENCHMARKING/ENTRY191,,,,,ID1.45,45,1045
+SB_water_berry_wash_3,Lena Flörl,2021-10-13 00:00:00 +0200,water,Grenchen,berry_wash,Grenchen,7.408264,47.163233,/BOKULICH_LFLOERL/SAMPLING_BENCHMARKING/ENTRY191,,,,,ID1.46,46,1046
+SB_PBS_berry_wash_1,Lena Flörl,2021-10-13 00:00:00 +0200,PBS,Grenchen,berry_wash,Grenchen,7.4085074,47.1630425,/BOKULICH_LFLOERL/SAMPLING_BENCHMARKING/ENTRY191,,,,,ID1.47,47,1047
+SB_PBS_berry_wash_2,Lena Flörl,2021-10-13 00:00:00 +0200,PBS,Grenchen,berry_wash,Grenchen,7.408851,47.162828,/BOKULICH_LFLOERL/SAMPLING_BENCHMARKING/ENTRY191,,,,,ID1.48,48,1048
+SB_PBS_berry_wash_3,Lena Flörl,2021-10-13 00:00:00 +0200,PBS,Grenchen,berry_wash,Grenchen,7.408264,47.163233,/BOKULICH_LFLOERL/SAMPLING_BENCHMARKING/ENTRY191,,,,,ID1.49,49,1049
+SB_gylcerol_berry_wash_1,Lena Flörl,2021-10-13 00:00:00 +0200,gylcerol,Grenchen,berry_wash,Grenchen,7.4085074,47.1630425,/BOKULICH_LFLOERL/SAMPLING_BENCHMARKING/ENTRY191,,,,,ID1.50,50,1050
+SB_gylcerol_berry_wash_2,Lena Flörl,2021-10-13 00:00:00 +0200,gylcerol,Grenchen,berry_wash,Grenchen,7.408851,47.162828,/BOKULICH_LFLOERL/SAMPLING_BENCHMARKING/ENTRY191,,,,,ID1.51,51,1051
+SB_gylcerol_berry_wash_3,Lena Flörl,2021-10-13 00:00:00 +0200,gylcerol,Grenchen,berry_wash,Grenchen,7.408264,47.163233,/BOKULICH_LFLOERL/SAMPLING_BENCHMARKING/ENTRY191,,,,,ID1.52,52,1052
+SB_NaCl_sol_berry_wash_1,Lena Flörl,2021-10-13 00:00:00 +0200,NaCl_sol,Grenchen,berry_wash,Grenchen,7.4085074,47.1630425,/BOKULICH_LFLOERL/SAMPLING_BENCHMARKING/ENTRY191,,,,,ID1.53,53,1053
+SB_NaCl_sol_berry_wash_2,Lena Flörl,2021-10-13 00:00:00 +0200,NaCl_sol,Grenchen,berry_wash,Grenchen,7.408851,47.162828,/BOKULICH_LFLOERL/SAMPLING_BENCHMARKING/ENTRY191,,,,,ID1.54,54,1054
+SB_NaCl_sol_berry_wash_3,Lena Flörl,2021-10-13 00:00:00 +0200,NaCl_sol,Grenchen,berry_wash,Grenchen,7.408264,47.163233,/BOKULICH_LFLOERL/SAMPLING_BENCHMARKING/ENTRY191,,,,,ID1.55,55,1055
+SB_water_berry_sonication_1,Lena Flörl,2021-10-13 00:00:00 +0200,water,Grenchen,berry_sonication,Grenchen,7.4085074,47.1630425,/BOKULICH_LFLOERL/SAMPLING_BENCHMARKING/ENTRY191,,,,,ID1.56,56,1056
+SB_water_berry_sonication_2,Lena Flörl,2021-10-13 00:00:00 +0200,water,Grenchen,berry_sonication,Grenchen,7.408851,47.162828,/BOKULICH_LFLOERL/SAMPLING_BENCHMARKING/ENTRY191,,,,,ID1.57,57,1057
+SB_water_berry_sonication_3,Lena Flörl,2021-10-13 00:00:00 +0200,water,Grenchen,berry_sonication,Grenchen,7.408264,47.163233,/BOKULICH_LFLOERL/SAMPLING_BENCHMARKING/ENTRY191,,,,,ID1.58,58,1058
+SB_PBS_berry_sonication_1,Lena Flörl,2021-10-13 00:00:00 +0200,PBS,Grenchen,berry_sonication,Grenchen,7.4085074,47.1630425,/BOKULICH_LFLOERL/SAMPLING_BENCHMARKING/ENTRY191,,,,,ID1.59,59,1059
+SB_PBS_berry_sonication_2,Lena Flörl,2021-10-13 00:00:00 +0200,PBS,Grenchen,berry_sonication,Grenchen,7.408851,47.162828,/BOKULICH_LFLOERL/SAMPLING_BENCHMARKING/ENTRY191,,,,,ID1.60,60,1060
+SB_PBS_berry_sonication_3,Lena Flörl,2021-10-13 00:00:00 +0200,PBS,Grenchen,berry_sonication,Grenchen,7.408264,47.163233,/BOKULICH_LFLOERL/SAMPLING_BENCHMARKING/ENTRY191,,,,,ID1.61,61,1061
+SB_gylcerol_berry_sonication_1,Lena Flörl,2021-10-13 00:00:00 +0200,gylcerol,Grenchen,berry_sonication,Grenchen,7.4085074,47.1630425,/BOKULICH_LFLOERL/SAMPLING_BENCHMARKING/ENTRY191,,,,,ID1.62,62,1062
+SB_gylcerol_berry_sonication_2,Lena Flörl,2021-10-13 00:00:00 +0200,gylcerol,Grenchen,berry_sonication,Grenchen,7.408851,47.162828,/BOKULICH_LFLOERL/SAMPLING_BENCHMARKING/ENTRY191,,,,,ID1.63,63,1063
+SB_gylcerol_berry_sonication_3,Lena Flörl,2021-10-13 00:00:00 +0200,gylcerol,Grenchen,berry_sonication,Grenchen,7.408264,47.163233,/BOKULICH_LFLOERL/SAMPLING_BENCHMARKING/ENTRY191,,,,,ID1.64,64,1064
+SB_NaCl_sol_berry_sonication_1,Lena Flörl,2021-10-13 00:00:00 +0200,NaCl_sol,Grenchen,berry_sonication,Grenchen,7.4085074,47.1630425,/BOKULICH_LFLOERL/SAMPLING_BENCHMARKING/ENTRY191,,,,,ID1.65,65,1065
+SB_NaCl_sol_berry_sonication_2,Lena Flörl,2021-10-13 00:00:00 +0200,NaCl_sol,Grenchen,berry_sonication,Grenchen,7.408851,47.162828,/BOKULICH_LFLOERL/SAMPLING_BENCHMARKING/ENTRY191,,,,,ID1.66,66,1066
+SB_NaCl_sol_berry_sonication_3,Lena Flörl,2021-10-13 00:00:00 +0200,NaCl_sol,Grenchen,berry_sonication,Grenchen,7.408264,47.163233,/BOKULICH_LFLOERL/SAMPLING_BENCHMARKING/ENTRY191,,,,,ID1.67,67,1067
+SB_must_winery_Erlach,Fredi Marolf,,note. The sample has been frozen and then defrosted and stored in the fridge for 3 days,Erlach,must,Grenchen,,,/BOKULICH_LFLOERL/SAMPLING_BENCHMARKING/ENTRY191,,,,,ID1.68,68,1068
+added by SIRA: ,,,,,,,,,,,,,,,,
+cotton_tips_1,,2021-10-08 00:00:00 +0200,water,Grenchen,water,Grenchen,,,,,,,,,69,1069
+cotton_tips_2,,2021-10-08 00:00:00 +0200,water,Grenchen,water,Grenchen,,,,,,,,,70,1070
+cotton_tips_3,,2021-10-08 00:00:00 +0200,water,Grenchen,water,Grenchen,,,,,,,,,71,1071
+must_min20_1,,2021-10-13 00:00:00 +0200,must,Grenchen,must,Grenchen,,,,,,,,,72,1072
+must_min20_2,,2021-10-13 00:00:00 +0200,must,Grenchen,must,Grenchen,,,,,,,,,73,1073
+must_min20_3,,2021-10-13 00:00:00 +0200,must,Grenchen,must,Grenchen,,,,,,,,,74,1074
+must_4deg_1,,2021-10-13 00:00:00 +0200,must,Grenchen,must,Grenchen,,,,,,,,,75,1075
+must_4deg_2,,2021-10-13 00:00:00 +0200,must,Grenchen,must,Grenchen,,,,,,,,,76,1076
+must_4deg_3,,2021-10-13 00:00:00 +0200,water,Grenchen,water,Grenchen,,,,,,,,,77,1077
+cotton_blank1,,2021-10-13 00:00:00 +0200,water,Grenchen,water,Grenchen,,,,,,,,,78,1078
+cotton_blank2,,2021-10-13 00:00:00 +0200,water,Grenchen,water,Grenchen,,,,,,,,,79,1079
+cotton_blank3,,2021-10-13 00:00:00 +0200,,Grenchen,,Grenchen,,,,,,,,,80,1080
+visc_4deg_1,,2021-10-13 00:00:00 +0200,,Grenchen,,Grenchen,,,,,,,,,81,1081
+visc_4deg_2,,2021-10-13 00:00:00 +0200,,Grenchen,,Grenchen,,,,,,,,,82,1082
+visc_4deg_3,,2021-10-13 00:00:00 +0200,,Grenchen,,Grenchen,,,,,,,,,83,1083
+visc_min20_1,,2021-10-13 00:00:00 +0200,,Grenchen,,Grenchen,,,,,,,,,84,1084
+visc_min20_2,,2021-10-13 00:00:00 +0200,,Grenchen,,Grenchen,,,,,,,,,85,1085
+visc_min20_3,,2021-10-13 00:00:00 +0200,,Grenchen,,Grenchen,,,,,,,,,86,1086
+visc_blank_1,,2021-10-13 00:00:00 +0200,,Grenchen,,Grenchen,,,,,,,,,87,1087
+visc_blank_2,,2021-10-13 00:00:00 +0200,,Grenchen,,Grenchen,,,,,,,,,88,1088
+visc_blank_3,,2021-10-13 00:00:00 +0200,,Grenchen,,Grenchen,,,,,,,,,89,1089
