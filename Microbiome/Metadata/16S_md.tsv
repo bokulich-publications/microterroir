@@ -1,4 +1,4 @@
-Name	SAMPLE_NAME	CTRL	Project	DNA_extraction_plate	Plate	Bacterial conc. (ng/uL)
+id	SAMPLE_NAME	CTRL	Project	DNA_extraction_plate	Plate	Bacterial conc. (ng/uL)
 364528_534-LP3-16S-1110	DNA49_NegCtrl	NegCtrl	SoilColonialization	DNA49	P12	2.4
 364528_413-LP3-16S-0989	DNA24_posCtrl_2	PosCtrl	BotrytizedWine	DNA41	P11	6.1
 364528_292-LP3-16S-0868	Grenchen_2023-06-20_1A	Sample	SoilColonialization	DNA42	P10	4.2
