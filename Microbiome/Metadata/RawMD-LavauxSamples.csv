@@ -289,640 +289,328 @@ Lavaux_2021-08-31_soil_Plot18,Veraison_2021,soil,DNA15,E5,Lavaux_Plot_18,/BOKULI
 Lavaux_2021-08-31_soil_Plot19,Veraison_2021,soil,DNA15,B3,Lavaux_Plot_19,/BOKULICH_MATERIALS/SAMPLES/ENV72,Patrik Schönenberger,2021-08-31 00:00:00 +0200,,,19,,,,,
 Lavaux_2021-08-31_soil_Plot20,Veraison_2021,soil,DNA15,C2,Lavaux_Plot_20,/BOKULICH_MATERIALS/SAMPLES/ENV76,Patrik Schönenberger,2021-08-31 00:00:00 +0200,,,20,,,,,
 Lavaux_2021-08-31_soil_Plot17,Veraison_2021,soil,DNA15,D3 & C5,Lavaux_Plot_17,/BOKULICH_MATERIALS/SAMPLES/ENV80,Patrik Schönenberger,2021-08-31 00:00:00 +0200,,,17,,,,,
-Lavaux_2022-03-08_soil_Plot4,Spring_2022,soil,DNA15,F4,Lavaux_Plot_4,/BOKULICH_MATERIALS/SAMPLES/ENV4644,Lena Flörl,2022-03-08,,,4,,,,,
-Lavaux_2022-03-08_soil_Plot5,Spring_2022,soil,DNA15,C3,Lavaux_Plot_5,/BOKULICH_MATERIALS/SAMPLES/ENV4645,Lena Flörl,2022-03-08,,,5,,,,,
-Lavaux_2022-03-08_soil_Plot9,Spring_2022,soil,DNA15,D4,Lavaux_Plot_9,/BOKULICH_MATERIALS/SAMPLES/ENV4646,Lena Flörl,2022-03-08,,,9,,,,,
-Lavaux_2022-03-08_soil_Plot11,Spring_2022,soil,DNA15,H3,Lavaux_Plot_11,/BOKULICH_MATERIALS/SAMPLES/ENV4647,Lena Flörl,2022-03-08,,,11,,,,,
-Lavaux_2022-03-08_soil_Plot12,Spring_2022,soil,DNA15,G3,Lavaux_Plot_12,/BOKULICH_MATERIALS/SAMPLES/ENV4648,Lena Flörl,2022-03-08,,,12,,,,,
-Lavaux_2022-03-08_soil_Plot13,Spring_2022,soil,DNA15,E3,Lavaux_Plot_13,/BOKULICH_MATERIALS/SAMPLES/ENV4649,Lena Flörl,2022-03-08,,,13,,,,,
-Lavaux_2022-03-08_soil_Plot14,Spring_2022,soil,DNA15,H2,Lavaux_Plot_14,/BOKULICH_MATERIALS/SAMPLES/ENV4650,Lena Flörl,2022-03-08,,,14,,,,,
-Lavaux_2022-03-08_soil_Plot15,Spring_2022,soil,DNA15,A4,Lavaux_Plot_15,/BOKULICH_MATERIALS/SAMPLES/ENV4651,Lena Flörl,2022-03-08,,,15,,,,,
-Lavaux_2022-03-08_soil_Plot18,Spring_2022,soil,DNA15,B4,Lavaux_Plot_18,/BOKULICH_MATERIALS/SAMPLES/ENV4652,Lena Flörl,2022-03-08,,,18,,,,,
-Lavaux_2022-03-08_soil_Plot19,Spring_2022,soil,DNA15,D2,Lavaux_Plot_19,/BOKULICH_MATERIALS/SAMPLES/ENV4653,Lena Flörl,2022-03-08,,,19,,,,,
-Lavaux_2022-03-08_soil_Plot20,Spring_2022,soil,DNA15,E2,Lavaux_Plot_20,/BOKULICH_MATERIALS/SAMPLES/ENV4654,Lena Flörl,2022-03-08,,,20,,,,,
-Lavaux_2022-03-08_soil_Plot17,Spring_2022,soil,DNA15,A3,Lavaux_Plot_17,/BOKULICH_MATERIALS/SAMPLES/ENV4655,Lena Flörl,2022-03-08,,,17,,,,,
-Lavaux_2022-08-10_bark_Plot4,Veraison_2022,bark,DNA16,H4,Lavaux_Plot_4,/BOKULICH_MATERIALS/SAMPLES/ENV4656,Lena Flörl,2022-08-10,,,4,,,,,
-Lavaux_2022-08-10_bark_Plot5,Veraison_2022,bark,DNA16,A5,Lavaux_Plot_5,/BOKULICH_MATERIALS/SAMPLES/ENV4657,Lena Flörl,2022-08-10,,,5,,,,,
-Lavaux_2022-08-10_bark_Plot9,Veraison_2022,bark,DNA16,H3,Lavaux_Plot_9,/BOKULICH_MATERIALS/SAMPLES/ENV4658,Lena Flörl,2022-08-10,,,9,,,,,
-Lavaux_2022-08-10_bark_Plot11,Veraison_2022,bark,DNA16,C4,Lavaux_Plot_11,/BOKULICH_MATERIALS/SAMPLES/ENV4659,Lena Flörl,2022-08-10,,,11,,,,,
-Lavaux_2022-08-10_bark_Plot12,Veraison_2022,bark,DNA16,G4,Lavaux_Plot_12,/BOKULICH_MATERIALS/SAMPLES/ENV4660,Lena Flörl,2022-08-10,,,12,,,,,
-Lavaux_2022-08-10_bark_Plot13,Veraison_2022,bark,DNA16,C6,Lavaux_Plot_13,/BOKULICH_MATERIALS/SAMPLES/ENV4661,Lena Flörl,2022-08-10,,,13,,,,,
-Lavaux_2022-08-10_bark_Plot14,Veraison_2022,bark,DNA16,G3,Lavaux_Plot_14,/BOKULICH_MATERIALS/SAMPLES/ENV4662,Lena Flörl,2022-08-10,,,14,,,,,
-Lavaux_2022-08-10_bark_Plot15,Veraison_2022,bark,DNA16,A6,Lavaux_Plot_15,/BOKULICH_MATERIALS/SAMPLES/ENV4663,Lena Flörl,2022-08-10,,,15,,,,,
-Lavaux_2022-08-10_bark_Plot19,Veraison_2022,bark,DNA16,A4,Lavaux_Plot_19,/BOKULICH_MATERIALS/SAMPLES/ENV4664,Lena Flörl,2022-08-10,,,19,,,,,
-Lavaux_2022-08-10_bark_Plot20,Veraison_2022,bark,DNA16,C5,Lavaux_Plot_20,/BOKULICH_MATERIALS/SAMPLES/ENV4665,Lena Flörl,2022-08-10,,,20,,,,,
-Lavaux_2022-08-10_bark_Plot17,Veraison_2022,bark,DNA15,F5,Lavaux_Plot_17,/BOKULICH_MATERIALS/SAMPLES/ENV4666,Lena Flörl,2022-08-10,,,17,,,,,
-Lavaux_2022-08-10_leaf_Plot4,Veraison_2022,leaf,DNA49 (DNA16),F3 (E1),Lavaux_Plot_4,/BOKULICH_MATERIALS/SAMPLES/ENV4667,Lena Flörl,2022-08-10,Leaf DNA49 washed (see OpenBIS protocol),,4,,,,,
-Lavaux_2022-08-10_leaf_Plot5,Veraison_2022,leaf,DNA49 (DNA16),G4 (E3),Lavaux_Plot_5,/BOKULICH_MATERIALS/SAMPLES/ENV4668,Lena Flörl,2022-08-10,Leaf DNA49 washed (see OpenBIS protocol),,5,,,,,
-Lavaux_2022-08-10_leaf_Plot9,Veraison_2022,leaf,DNA49 (DNA16),A4 (A3),Lavaux_Plot_9,/BOKULICH_MATERIALS/SAMPLES/ENV4669,Lena Flörl,2022-08-10,Leaf DNA49 washed (see OpenBIS protocol),,9,,,,,
-Lavaux_2022-08-10_leaf_Plot11,Veraison_2022,leaf,DNA49 (DNA16),A3 (B3),Lavaux_Plot_11,/BOKULICH_MATERIALS/SAMPLES/ENV4670,Lena Flörl,2022-08-10,Leaf DNA49 washed (see OpenBIS protocol),,11,,,,,
-Lavaux_2022-08-10_leaf_Plot12,Veraison_2022,leaf,DNA49 (DNA16),F2 (C2),Lavaux_Plot_12,/BOKULICH_MATERIALS/SAMPLES/ENV4671,Lena Flörl,2022-08-10,Leaf DNA49 washed (see OpenBIS protocol),,12,,,,,
-Lavaux_2022-08-10_leaf_Plot13,Veraison_2022,leaf,DNA49 (DNA16),D3 (C3),Lavaux_Plot_13,/BOKULICH_MATERIALS/SAMPLES/ENV4672,Lena Flörl,2022-08-10,Leaf DNA49 washed (see OpenBIS protocol),,13,,,,,
-Lavaux_2022-08-10_leaf_Plot14,Veraison_2022,leaf,DNA49 (DNA16),H2 (B2),Lavaux_Plot_14,/BOKULICH_MATERIALS/SAMPLES/ENV4673,Lena Flörl,2022-08-10,Leaf DNA49 washed (see OpenBIS protocol),,14,,,,,
-Lavaux_2022-08-10_leaf_Plot15,Veraison_2022,leaf,DNA49 (DNA16),E4 (F3),Lavaux_Plot_15,/BOKULICH_MATERIALS/SAMPLES/ENV4674,Lena Flörl,2022-08-10,Leaf DNA49 washed (see OpenBIS protocol),,15,,,,,
-Lavaux_2022-08-10_leaf_Plot19,Veraison_2022,leaf,DNA49 (DNA16),E3 (H2),Lavaux_Plot_19,/BOKULICH_MATERIALS/SAMPLES/ENV4675,Lena Flörl,2022-08-10,Leaf DNA49 washed (see OpenBIS protocol),,19,,,,,
-Lavaux_2022-08-10_leaf_Plot20,Veraison_2022,leaf,DNA49 (DNA16),E2 (F2),Lavaux_Plot_20,/BOKULICH_MATERIALS/SAMPLES/ENV4676,Lena Flörl,2022-08-10,Leaf DNA49 washed (see OpenBIS protocol),,20,,,,,
-Lavaux_2022-08-10_leaf_Plot17,Veraison_2022,leaf,DNA49 (DNA16),F1 (G2),Lavaux_Plot_17,/BOKULICH_MATERIALS/SAMPLES/ENV4677,Lena Flörl,2022-08-10,Leaf DNA49 washed (see OpenBIS protocol),,17,,,,,
-Lavaux_2022-08-10_must_Plot4,Veraison_2022,must,DNA14,G08,Lavaux_Plot_4,/BOKULICH_MATERIALS/SAMPLES/ENV4678,Lena Flörl,2022-08-10,,,4,,,,,
-Lavaux_2022-08-10_must_Plot5,Veraison_2022,must,DNA14,G09,Lavaux_Plot_5,/BOKULICH_MATERIALS/SAMPLES/ENV4679,Lena Flörl,2022-08-10,,,5,,,,,
-Lavaux_2022-08-10_must_Plot9,Veraison_2022,must,DNA14,G10,Lavaux_Plot_9,/BOKULICH_MATERIALS/SAMPLES/ENV4680,Lena Flörl,2022-08-10,,,9,,,,,
-Lavaux_2022-08-10_must_Plot11,Veraison_2022,must,DNA14,G11,Lavaux_Plot_11,/BOKULICH_MATERIALS/SAMPLES/ENV4681,Lena Flörl,2022-08-10,,,11,,,,,
-Lavaux_2022-08-10_must_Plot12,Veraison_2022,must,DNA14,G12,Lavaux_Plot_12,/BOKULICH_MATERIALS/SAMPLES/ENV4682,Lena Flörl,2022-08-10,,,12,,,,,
-Lavaux_2022-08-10_must_Plot13,Veraison_2022,must,DNA14,H01,Lavaux_Plot_13,/BOKULICH_MATERIALS/SAMPLES/ENV4683,Lena Flörl,2022-08-10,,,13,,,,,
-Lavaux_2022-08-10_must_Plot14,Veraison_2022,must,DNA14,H02,Lavaux_Plot_14,/BOKULICH_MATERIALS/SAMPLES/ENV4684,Lena Flörl,2022-08-10,,,14,,,,,
-Lavaux_2022-08-10_must_Plot15,Veraison_2022,must,DNA14,H03,Lavaux_Plot_15,/BOKULICH_MATERIALS/SAMPLES/ENV4685,Lena Flörl,2022-08-10,,,15,,,,,
-Lavaux_2022-08-10_must_Plot19,Veraison_2022,must,DNA14,H07,Lavaux_Plot_19,/BOKULICH_MATERIALS/SAMPLES/ENV4686,Lena Flörl,2022-08-10,,,19,,,,,
-Lavaux_2022-08-10_must_Plot20,Veraison_2022,must,DNA14,H08,Lavaux_Plot_20,/BOKULICH_MATERIALS/SAMPLES/ENV4687,Lena Flörl,2022-08-10,,,20,,,,,
-Lavaux_2022-08-10_must_Plot17,Veraison_2022,must,DNA14,H04,Lavaux_Plot_17,/BOKULICH_MATERIALS/SAMPLES/ENV4688,Lena Flörl,2022-08-10,,,17,,,,,
-Lavaux_2022-08-10_soil_Plot4,Veraison_2022,soil,DNA15,H1,Lavaux_Plot_4,/BOKULICH_MATERIALS/SAMPLES/ENV4689,Lena Flörl,2022-08-10,,,4,,,,,
-Lavaux_2022-08-10_soil_Plot5,Veraison_2022,soil,DNA15,B1,Lavaux_Plot_5,/BOKULICH_MATERIALS/SAMPLES/ENV4690,Lena Flörl,2022-08-10,,,5,,,,,
-Lavaux_2022-08-10_soil_Plot9,Veraison_2022,soil,DNA15,F2,Lavaux_Plot_9,/BOKULICH_MATERIALS/SAMPLES/ENV4691,Lena Flörl,2022-08-10,,,9,,,,,
-Lavaux_2022-08-10_soil_Plot11,Veraison_2022,soil,DNA15,C1,Lavaux_Plot_11,/BOKULICH_MATERIALS/SAMPLES/ENV4692,Lena Flörl,2022-08-10,,,11,,,,,
-Lavaux_2022-08-10_soil_Plot12,Veraison_2022,soil,DNA15,B2,Lavaux_Plot_12,/BOKULICH_MATERIALS/SAMPLES/ENV4693,Lena Flörl,2022-08-10,,,12,,,,,
-Lavaux_2022-08-10_soil_Plot13,Veraison_2022,soil,DNA15,D1,Lavaux_Plot_13,/BOKULICH_MATERIALS/SAMPLES/ENV4694,Lena Flörl,2022-08-10,,,13,,,,,
-Lavaux_2022-08-10_soil_Plot14,Veraison_2022,soil,DNA15,E1,Lavaux_Plot_14,/BOKULICH_MATERIALS/SAMPLES/ENV4695,Lena Flörl,2022-08-10,,,14,,,,,
-Lavaux_2022-08-10_soil_Plot15,Veraison_2022,soil,DNA15,G1,Lavaux_Plot_15,/BOKULICH_MATERIALS/SAMPLES/ENV4696,Lena Flörl,2022-08-10,,,15,,,,,
-Lavaux_2022-08-10_soil_Plot19,Veraison_2022,soil,DNA15,A2,Lavaux_Plot_19,/BOKULICH_MATERIALS/SAMPLES/ENV4697,Lena Flörl,2022-08-10,,,19,,,,,
-Lavaux_2022-08-10_soil_Plot20,Veraison_2022,soil,DNA15,F1,Lavaux_Plot_20,/BOKULICH_MATERIALS/SAMPLES/ENV4698,Lena Flörl,2022-08-10,,,20,,,,,
-Lavaux_2022-08-10_soil_Plot17,Veraison_2022,soil,DNA15,A1,Lavaux_Plot_17,/BOKULICH_MATERIALS/SAMPLES/ENV4699,Lena Flörl,2022-08-10,,,17,,,,,
-Lavaux_2022-09-09_must_Plot4_RepA,Harvest_2022,must,DNA14,C03,Lavaux_Plot_4,/BOKULICH_MATERIALS/SAMPLES/ENV4700,Lena Flörl,2022-09-09,,,4,,,,,A
-Lavaux_2022-09-09_must_Plot4_RepB,Harvest_2022,must,DNA14,C04,Lavaux_Plot_4,/BOKULICH_MATERIALS/SAMPLES/ENV4701,Lena Flörl,2022-09-09,,,4,,,,,B
-Lavaux_2022-09-09_must_Plot4_RepC,Harvest_2022,must,DNA14,C05,Lavaux_Plot_4,/BOKULICH_MATERIALS/SAMPLES/ENV4702,Lena Flörl,2022-09-09,,,4,,,,,C
-Lavaux_2022-09-09_must_Plot4_RepD,Harvest_2022,must,DNA14,C06,Lavaux_Plot_4,/BOKULICH_MATERIALS/SAMPLES/ENV4703,Lena Flörl,2022-09-09,,,4,,,,,D
-Lavaux_2022-09-09_must_Plot4_RepE,Harvest_2022,must,DNA14,C07,Lavaux_Plot_4,/BOKULICH_MATERIALS/SAMPLES/ENV4704,Lena Flörl,2022-09-09,,,4,,,,,E
-Lavaux_2022-09-09_must_Plot5_RepA,Harvest_2022,must,DNA14,C08,Lavaux_Plot_5,/BOKULICH_MATERIALS/SAMPLES/ENV4705,Lena Flörl,2022-09-09,,,5,,,,,A
-Lavaux_2022-09-09_must_Plot5_RepB,Harvest_2022,must,DNA14,C09,Lavaux_Plot_5,/BOKULICH_MATERIALS/SAMPLES/ENV4706,Lena Flörl,2022-09-09,,,5,,,,,B
-Lavaux_2022-09-09_must_Plot5_RepC,Harvest_2022,must,DNA14,C10,Lavaux_Plot_5,/BOKULICH_MATERIALS/SAMPLES/ENV4707,Lena Flörl,2022-09-09,,,5,,,,,C
-Lavaux_2022-09-09_must_Plot5_RepD,Harvest_2022,must,DNA14,C11,Lavaux_Plot_5,/BOKULICH_MATERIALS/SAMPLES/ENV4708,Lena Flörl,2022-09-09,,,5,,,,,D
-Lavaux_2022-09-09_must_Plot5_RepE,Harvest_2022,must,DNA14,C12,Lavaux_Plot_5,/BOKULICH_MATERIALS/SAMPLES/ENV4709,Lena Flörl,2022-09-09,,,5,,,,,E
-Lavaux_2022-09-09_must_Plot9_RepA,Harvest_2022,must,DNA14,D01,Lavaux_Plot_9,/BOKULICH_MATERIALS/SAMPLES/ENV4710,Lena Flörl,2022-09-09,,,9,,,,,A
-Lavaux_2022-09-09_must_Plot9_RepB,Harvest_2022,must,DNA14,D02,Lavaux_Plot_9,/BOKULICH_MATERIALS/SAMPLES/ENV4711,Lena Flörl,2022-09-09,,,9,,,,,B
-Lavaux_2022-09-09_must_Plot9_RepC,Harvest_2022,must,DNA14,D03,Lavaux_Plot_9,/BOKULICH_MATERIALS/SAMPLES/ENV4712,Lena Flörl,2022-09-09,,,9,,,,,C
-Lavaux_2022-09-09_must_Plot9_RepD,Harvest_2022,must,DNA14,D04,Lavaux_Plot_9,/BOKULICH_MATERIALS/SAMPLES/ENV4713,Lena Flörl,2022-09-09,,,9,,,,,D
-Lavaux_2022-09-09_must_Plot9_RepE,Harvest_2022,must,DNA14,D05,Lavaux_Plot_9,/BOKULICH_MATERIALS/SAMPLES/ENV4714,Lena Flörl,2022-09-09,,,9,,,,,E
-Lavaux_2022-09-09_must_Plot12_RepA,Harvest_2022,must,DNA14,D06,Lavaux_Plot_12,/BOKULICH_MATERIALS/SAMPLES/ENV4715,Lena Flörl,2022-09-09,,,12,,,,,A
-Lavaux_2022-09-09_must_Plot12_RepB,Harvest_2022,must,DNA14,D07,Lavaux_Plot_12,/BOKULICH_MATERIALS/SAMPLES/ENV4716,Lena Flörl,2022-09-09,,,12,,,,,B
-Lavaux_2022-09-09_must_Plot12_RepC,Harvest_2022,must,DNA14,D08,Lavaux_Plot_12,/BOKULICH_MATERIALS/SAMPLES/ENV4717,Lena Flörl,2022-09-09,,,12,,,,,C
-Lavaux_2022-09-09_must_Plot12_RepD,Harvest_2022,must,DNA14,D09,Lavaux_Plot_12,/BOKULICH_MATERIALS/SAMPLES/ENV4718,Lena Flörl,2022-09-09,,,12,,,,,D
-Lavaux_2022-09-09_must_Plot12_RepE,Harvest_2022,must,DNA14,D10,Lavaux_Plot_12,/BOKULICH_MATERIALS/SAMPLES/ENV4719,Lena Flörl,2022-09-09,,,12,,,,,E
-Lavaux_2022-09-09_must_Plot13_RepA,Harvest_2022,must,DNA14,D11,Lavaux_Plot_13,/BOKULICH_MATERIALS/SAMPLES/ENV4720,Lena Flörl,2022-09-09,,,13,,,,,A
-Lavaux_2022-09-09_must_Plot13_RepB,Harvest_2022,must,DNA14,D12,Lavaux_Plot_13,/BOKULICH_MATERIALS/SAMPLES/ENV4721,Lena Flörl,2022-09-09,,,13,,,,,B
-Lavaux_2022-09-09_must_Plot13_RepC,Harvest_2022,must,DNA14,E01,Lavaux_Plot_13,/BOKULICH_MATERIALS/SAMPLES/ENV4722,Lena Flörl,2022-09-09,,,13,,,,,C
-Lavaux_2022-09-09_must_Plot13_RepD,Harvest_2022,must,DNA14,E02,Lavaux_Plot_13,/BOKULICH_MATERIALS/SAMPLES/ENV4723,Lena Flörl,2022-09-09,,,13,,,,,D
-Lavaux_2022-09-09_must_Plot13_RepE,Harvest_2022,must,DNA14,E03,Lavaux_Plot_13,/BOKULICH_MATERIALS/SAMPLES/ENV4724,Lena Flörl,2022-09-09,,,13,,,,,E
-Lavaux_2022-09-09_must_Plot14_RepA,Harvest_2022,must,DNA14,E04,Lavaux_Plot_14,/BOKULICH_MATERIALS/SAMPLES/ENV4725,Lena Flörl,2022-09-09,,,14,,,,,A
-Lavaux_2022-09-09_must_Plot14_RepB,Harvest_2022,must,DNA14,E05,Lavaux_Plot_14,/BOKULICH_MATERIALS/SAMPLES/ENV4726,Lena Flörl,2022-09-09,,,14,,,,,B
-Lavaux_2022-09-09_must_Plot14_RepC,Harvest_2022,must,DNA14,E06,Lavaux_Plot_14,/BOKULICH_MATERIALS/SAMPLES/ENV4727,Lena Flörl,2022-09-09,,,14,,,,,C
-Lavaux_2022-09-09_must_Plot14_RepD,Harvest_2022,must,DNA14,E07,Lavaux_Plot_14,/BOKULICH_MATERIALS/SAMPLES/ENV4728,Lena Flörl,2022-09-09,,,14,,,,,D
-Lavaux_2022-09-09_must_Plot14_RepE,Harvest_2022,must,DNA14,E08,Lavaux_Plot_14,/BOKULICH_MATERIALS/SAMPLES/ENV4729,Lena Flörl,2022-09-09,,,14,,,,,E
-Lavaux_2022-09-09_must_Plot15_RepA,Harvest_2022,must,DNA14,E09,Lavaux_Plot_15,/BOKULICH_MATERIALS/SAMPLES/ENV4730,Lena Flörl,2022-09-09,,,15,,,,,A
-Lavaux_2022-09-09_must_Plot15_RepB,Harvest_2022,must,DNA14,E11,Lavaux_Plot_15,/BOKULICH_MATERIALS/SAMPLES/ENV4731,Lena Flörl,2022-09-09,,,15,,,,,B
-Lavaux_2022-09-09_must_Plot15_RepC,Harvest_2022,must,DNA14,E12,Lavaux_Plot_15,/BOKULICH_MATERIALS/SAMPLES/ENV4732,Lena Flörl,2022-09-09,,,15,,,,,C
-Lavaux_2022-09-09_must_Plot15_RepD,Harvest_2022,must,DNA14,F01,Lavaux_Plot_15,/BOKULICH_MATERIALS/SAMPLES/ENV4733,Lena Flörl,2022-09-09,,,15,,,,,D
-Lavaux_2022-09-09_must_Plot15_RepE,Harvest_2022,must,DNA14,F02,Lavaux_Plot_15,/BOKULICH_MATERIALS/SAMPLES/ENV4734,Lena Flörl,2022-09-09,,,15,,,,,E
-Lavaux_2022-09-09_must_Plot19_RepA,Harvest_2022,must,DNA14,F09,Lavaux_Plot_19,/BOKULICH_MATERIALS/SAMPLES/ENV4735,Lena Flörl,2022-09-09,,,19,,,,,A
-Lavaux_2022-09-09_must_Plot19_RepB,Harvest_2022,must,DNA14,F10,Lavaux_Plot_19,/BOKULICH_MATERIALS/SAMPLES/ENV4736,Lena Flörl,2022-09-09,,,19,,,,,B
-Lavaux_2022-09-09_must_Plot19_RepC,Harvest_2022,must,DNA14,F11,Lavaux_Plot_19,/BOKULICH_MATERIALS/SAMPLES/ENV4737,Lena Flörl,2022-09-09,,,19,,,,,C
-Lavaux_2022-09-09_must_Plot19_RepD,Harvest_2022,must,DNA14,F12,Lavaux_Plot_19,/BOKULICH_MATERIALS/SAMPLES/ENV4738,Lena Flörl,2022-09-09,,,19,,,,,D
-Lavaux_2022-09-09_must_Plot19_RepE,Harvest_2022,must,DNA14,G01,Lavaux_Plot_19,/BOKULICH_MATERIALS/SAMPLES/ENV4739,Lena Flörl,2022-09-09,,,19,,,,,E
-Lavaux_2022-09-09_must_Plot20_RepA,Harvest_2022,must,DNA14,G02,Lavaux_Plot_20,/BOKULICH_MATERIALS/SAMPLES/ENV4740,Lena Flörl,2022-09-09,,,20,,,,,A
-Lavaux_2022-09-09_must_Plot20_RepB,Harvest_2022,must,DNA14,G03,Lavaux_Plot_20,/BOKULICH_MATERIALS/SAMPLES/ENV4741,Lena Flörl,2022-09-09,,,20,,,,,B
-Lavaux_2022-09-09_must_Plot20_RepC,Harvest_2022,must,DNA14,G04,Lavaux_Plot_20,/BOKULICH_MATERIALS/SAMPLES/ENV4742,Lena Flörl,2022-09-09,,,20,,,,,C
-Lavaux_2022-09-09_must_Plot20_RepD,Harvest_2022,must,DNA14,G05,Lavaux_Plot_20,/BOKULICH_MATERIALS/SAMPLES/ENV4743,Lena Flörl,2022-09-09,,,20,,,,,D
-Lavaux_2022-09-09_must_Plot20_RepE,Harvest_2022,must,DNA14,G06,Lavaux_Plot_20,/BOKULICH_MATERIALS/SAMPLES/ENV4744,Lena Flörl,2022-09-09,,,20,,,,,E
-Lavaux_2022-09-09_must_Plot17_RepA,Harvest_2022,must,DNA14,F04,Lavaux_Plot_17,/BOKULICH_MATERIALS/SAMPLES/ENV4745,Lena Flörl,2022-09-09,,,17,,,,,A
-Lavaux_2022-09-09_must_Plot17_RepB,Harvest_2022,must,DNA14,F05,Lavaux_Plot_17,/BOKULICH_MATERIALS/SAMPLES/ENV4746,Lena Flörl,2022-09-09,,,17,,,,,B
-Lavaux_2022-09-09_must_Plot17_RepC,Harvest_2022,must,DNA14,F06,Lavaux_Plot_17,/BOKULICH_MATERIALS/SAMPLES/ENV4747,Lena Flörl,2022-09-09,,,17,,,,,C
-Lavaux_2022-09-09_must_Plot17_RepD,Harvest_2022,must,DNA14,F07,Lavaux_Plot_17,/BOKULICH_MATERIALS/SAMPLES/ENV4748,Lena Flörl,2022-09-09,,,17,,,,,D
-Lavaux_2022-09-09_must_Plot17_RepE,Harvest_2022,must,DNA14,F08,Lavaux_Plot_17,/BOKULICH_MATERIALS/SAMPLES/ENV4749,Lena Flörl,2022-09-09,,,17,,,,,E
-Lavaux_2023-05-10_soil_Plot4,Spring_2023,soil,DNA31,G3,Lavaux_Plot_4,/BOKULICH_MATERIALS/SAMPLES/ENV4750,Lena Flörl,2023-05-10,,,4,,,,,
-Lavaux_2023-05-10_soil_Plot5,Spring_2023,soil,DNA31,A3,Lavaux_Plot_5,/BOKULICH_MATERIALS/SAMPLES/ENV4751,Lena Flörl,2023-05-10,,,5,,,,,
-Lavaux_2023-05-10_soil_Plot9,Spring_2023,soil,DNA31,C3,Lavaux_Plot_9,/BOKULICH_MATERIALS/SAMPLES/ENV4752,Lena Flörl,2023-05-10,,,9,,,,,
-Lavaux_2023-05-10_soil_Plot12,Spring_2023,soil,DNA31,H3,Lavaux_Plot_12,/BOKULICH_MATERIALS/SAMPLES/ENV4753,Lena Flörl,2023-05-10,,,12,,,,,
-Lavaux_2023-05-10_soil_Plot13,Spring_2023,soil,DNA31,E3,Lavaux_Plot_13,/BOKULICH_MATERIALS/SAMPLES/ENV4754,Lena Flörl,2023-05-10,,,13,,,,,
-Lavaux_2023-05-10_soil_Plot14,Spring_2023,soil,DNA31,F3,Lavaux_Plot_14,/BOKULICH_MATERIALS/SAMPLES/ENV4755,Lena Flörl,2023-05-10,,,14,,,,,
-Lavaux_2023-05-10_soil_Plot15,Spring_2023,soil,DNA31,B3,Lavaux_Plot_15,/BOKULICH_MATERIALS/SAMPLES/ENV4756,Lena Flörl,2023-05-10,,,15,,,,,
-Lavaux_2023-05-10_soil_Plot19,Spring_2023,soil,DNA31,D3,Lavaux_Plot_19,/BOKULICH_MATERIALS/SAMPLES/ENV4757,Lena Flörl,2023-05-10,,,19,,,,,
-Lavaux_2023-05-10_soil_Plot20,Spring_2023,soil,DNA31,B4,Lavaux_Plot_20,/BOKULICH_MATERIALS/SAMPLES/ENV4758,Lena Flörl,2023-05-10,,,20,,,,,
-Lavaux_2023-05-10_soil_Plot17,Spring_2023,soil,DNA31,A4,Lavaux_Plot_17,/BOKULICH_MATERIALS/SAMPLES/ENV4759,Lena Flörl,2023-05-10,,,17,,,,,
-MV_Post-MLF_Plot4_2022-01-24,Microvinification_2021,Post-MLF,DNA23,D09,Lavaux_Plot_4,/BOKULICH_MATERIALS/SAMPLES/ENV4760,Patrik Schönenberger,2022-01-24,,,,,,,,
-MV_Post-MLF_Plot5_2022-01-24,Microvinification_2021,Post-MLF,DNA23,A10,Lavaux_Plot_5,/BOKULICH_MATERIALS/SAMPLES/ENV4761,Patrik Schönenberger,2022-01-24,,,,,,,,
-MV_Post-MLF_Plot9_2022-01-24,Microvinification_2021,Post-MLF,DNA23,C06,Lavaux_Plot_9,/BOKULICH_MATERIALS/SAMPLES/ENV4762,Patrik Schönenberger,2022-01-24,,,,,,,,
-MV_Post-MLF_Plot11_2022-01-24,Microvinification_2021,Post-MLF,DNA23,C10,Lavaux_Plot_11,/BOKULICH_MATERIALS/SAMPLES/ENV4763,Patrik Schönenberger,2022-01-24,,,,,,,,
-MV_Post-MLF_Plot12_2022-01-24,Microvinification_2021,Post-MLF,DNA23,B05,Lavaux_Plot_12,/BOKULICH_MATERIALS/SAMPLES/ENV4764,Patrik Schönenberger,2022-01-24,,,,,,,,
-MV_Post-MLF_Plot13_2022-01-24,Microvinification_2021,Post-MLF,DNA23,B10,Lavaux_Plot_13,/BOKULICH_MATERIALS/SAMPLES/ENV4765,Patrik Schönenberger,2022-01-24,,,,,,,,
-MV_Post-MLF_Plot14_2022-01-24,Microvinification_2021,Post-MLF,DNA23,H10,Lavaux_Plot_14,/BOKULICH_MATERIALS/SAMPLES/ENV4766,Patrik Schönenberger,2022-01-24,,,,,,,,
-MV_Post-MLF_Plot15_2022-01-24,Microvinification_2021,Post-MLF,DNA23,E06,Lavaux_Plot_15,/BOKULICH_MATERIALS/SAMPLES/ENV4767,Patrik Schönenberger,2022-01-24,,,,,,,,
-MV_Post-MLF_Plot17_2022-01-24,Microvinification_2021,Post-MLF,DNA23,D05,Lavaux_Plot_17,/BOKULICH_MATERIALS/SAMPLES/ENV4768,Patrik Schönenberger,2022-01-24,,,,,,,,
-MV_Post-MLF_Plot18_2022-01-24,Microvinification_2021,Post-MLF,DNA23,G05,Lavaux_Plot_18,/BOKULICH_MATERIALS/SAMPLES/ENV4769,Patrik Schönenberger,2022-01-24,,,,,,,,
-MV_Post-MLF_Plot19_2022-01-24,Microvinification_2021,Post-MLF,DNA23,F10,Lavaux_Plot_19,/BOKULICH_MATERIALS/SAMPLES/ENV4770,Patrik Schönenberger,2022-01-24,,,,,,,,
-MV_Post-MLF_Plot20_2022-01-24,Microvinification_2021,Post-MLF,DNA23,E09,Lavaux_Plot_20,/BOKULICH_MATERIALS/SAMPLES/ENV4771,Patrik Schönenberger,2022-01-24,,,,,,,,
-MV_Post-AF_Plot11_Rep1_2021-10-16,Microvinification_2021,Post-AF,DNA23,D08,Lavaux_Plot_11,/BOKULICH_MATERIALS/SAMPLES/ENV4772,Patrik Schönenberger,2021-10-16,,,,,,,,1
-MV_Post-AF_Plot11_Rep2_2021-10-16,Microvinification_2021,Post-AF,DNA23,E07,Lavaux_Plot_11,/BOKULICH_MATERIALS/SAMPLES/ENV4773,Patrik Schönenberger,2021-10-16,,,,,,,,2
-MV_Post-AF_Plot11_Rep3_2021-10-16,Microvinification_2021,Post-AF,DNA23,E10,Lavaux_Plot_11,/BOKULICH_MATERIALS/SAMPLES/ENV4774,Patrik Schönenberger,2021-10-16,,,,,,,,3
-MV_Post-AF_Plot12_Rep1_2021-10-16,Microvinification_2021,Post-AF,DNA23,G06,Lavaux_Plot_12,/BOKULICH_MATERIALS/SAMPLES/ENV4775,Patrik Schönenberger,2021-10-16,,,,,,,,1
-MV_Post-AF_Plot12_Rep2_2021-10-16,Microvinification_2021,Post-AF,DNA23,B09,Lavaux_Plot_12,/BOKULICH_MATERIALS/SAMPLES/ENV4776,Patrik Schönenberger,2021-10-16,,,,,,,,2
-MV_Post-AF_Plot12_Rep3_2021-10-16,Microvinification_2021,Post-AF,DNA23,G10,Lavaux_Plot_12,/BOKULICH_MATERIALS/SAMPLES/ENV4777,Patrik Schönenberger,2021-10-16,,,,,,,,3
-MV_Post-AF_Plot13_Rep1_2021-10-16,Microvinification_2021,Post-AF,DNA23,H08,Lavaux_Plot_13,/BOKULICH_MATERIALS/SAMPLES/ENV4778,Patrik Schönenberger,2021-10-16,,,,,,,,1
-MV_Post-AF_Plot13_Rep2_2021-10-16,Microvinification_2021,Post-AF,DNA23,C08,Lavaux_Plot_13,/BOKULICH_MATERIALS/SAMPLES/ENV4779,Patrik Schönenberger,2021-10-16,,,,,,,,2
-MV_Post-AF_Plot13_Rep3_2021-10-16,Microvinification_2021,Post-AF,DNA23,A07,Lavaux_Plot_13,/BOKULICH_MATERIALS/SAMPLES/ENV4780,Patrik Schönenberger,2021-10-16,,,,,,,,3
-MV_Post-AF_Plot14_Rep1_2021-10-16,Microvinification_2021,Post-AF,DNA23,D10,Lavaux_Plot_14,/BOKULICH_MATERIALS/SAMPLES/ENV4781,Patrik Schönenberger,2021-10-16,,,,,,,,1
-MV_Post-AF_Plot14_Rep2_2021-10-16,Microvinification_2021,Post-AF,DNA23,H07,Lavaux_Plot_14,/BOKULICH_MATERIALS/SAMPLES/ENV4782,Patrik Schönenberger,2021-10-16,,,,,,,,2
-MV_Post-AF_Plot14_Rep3_2021-10-16,Microvinification_2021,Post-AF,DNA23,C07,Lavaux_Plot_14,/BOKULICH_MATERIALS/SAMPLES/ENV4783,Patrik Schönenberger,2021-10-16,,,,,,,,3
-MV_Post-AF_Plot15_Rep1_2021-10-16,Microvinification_2021,Post-AF,DNA23,G08,Lavaux_Plot_15,/BOKULICH_MATERIALS/SAMPLES/ENV4784,Patrik Schönenberger,2021-10-16,,,,,,,,1
-MV_Post-AF_Plot15_Rep2_2021-10-16,Microvinification_2021,Post-AF,DNA23,F07,Lavaux_Plot_15,/BOKULICH_MATERIALS/SAMPLES/ENV4785,Patrik Schönenberger,2021-10-16,,,,,,,,2
-MV_Post-AF_Plot15_Rep3_2021-10-16,Microvinification_2021,Post-AF,DNA23,F05,Lavaux_Plot_15,/BOKULICH_MATERIALS/SAMPLES/ENV4786,Patrik Schönenberger,2021-10-16,,,,,,,,3
-MV_Post-AF_Plot17_Rep1_2021-10-16,Microvinification_2021,Post-AF,DNA23,F08,Lavaux_Plot_17,/BOKULICH_MATERIALS/SAMPLES/ENV4787,Patrik Schönenberger,2021-10-16,,,,,,,,1
-MV_Post-AF_Plot17_Rep2_2021-10-16,Microvinification_2021,Post-AF,DNA23,B08,Lavaux_Plot_17,/BOKULICH_MATERIALS/SAMPLES/ENV4788,Patrik Schönenberger,2021-10-16,,,,,,,,2
-MV_Post-AF_Plot17_Rep3_2021-10-16,Microvinification_2021,Post-AF,DNA23,H06,Lavaux_Plot_17,/BOKULICH_MATERIALS/SAMPLES/ENV4789,Patrik Schönenberger,2021-10-16,,,,,,,,3
-MV_Post-AF_Plot18_Rep1_2021-10-16,Microvinification_2021,Post-AF,DNA23,C05,Lavaux_Plot_18,/BOKULICH_MATERIALS/SAMPLES/ENV4790,Patrik Schönenberger,2021-10-16,,,,,,,,1
-MV_Post-AF_Plot18_Rep2_2021-10-16,Microvinification_2021,Post-AF,DNA23,H09,Lavaux_Plot_18,/BOKULICH_MATERIALS/SAMPLES/ENV4791,Patrik Schönenberger,2021-10-16,,,,,,,,2
-MV_Post-AF_Plot18_Rep3_2021-10-16,Microvinification_2021,Post-AF,DNA23,A06,Lavaux_Plot_18,/BOKULICH_MATERIALS/SAMPLES/ENV4792,Patrik Schönenberger,2021-10-16,,,,,,,,3
-MV_Post-AF_Plot19_Rep1_2021-10-16,Microvinification_2021,Post-AF,DNA23,H05,Lavaux_Plot_19,/BOKULICH_MATERIALS/SAMPLES/ENV4793,Patrik Schönenberger,2021-10-16,,,,,,,,1
-MV_Post-AF_Plot19_Rep2_2021-10-16,Microvinification_2021,Post-AF,DNA23,A09,Lavaux_Plot_19,/BOKULICH_MATERIALS/SAMPLES/ENV4794,Patrik Schönenberger,2021-10-16,,,,,,,,2
-MV_Post-AF_Plot19_Rep3_2021-10-16,Microvinification_2021,Post-AF,DNA23,D07,Lavaux_Plot_19,/BOKULICH_MATERIALS/SAMPLES/ENV4795,Patrik Schönenberger,2021-10-16,,,,,,,,3
-MV_Post-AF_Plot20_Rep1_2021-10-16,Microvinification_2021,Post-AF,DNA23,E05,Lavaux_Plot_20,/BOKULICH_MATERIALS/SAMPLES/ENV4796,Patrik Schönenberger,2021-10-16,,,,,,,,1
-MV_Post-AF_Plot20_Rep2_2021-10-16,Microvinification_2021,Post-AF,DNA23,A08,Lavaux_Plot_20,/BOKULICH_MATERIALS/SAMPLES/ENV4797,Patrik Schönenberger,2021-10-16,,,,,,,,2
-MV_Post-AF_Plot20_Rep3_2021-10-16,Microvinification_2021,Post-AF,DNA23,B07,Lavaux_Plot_20,/BOKULICH_MATERIALS/SAMPLES/ENV4798,Patrik Schönenberger,2021-10-16,,,,,,,,3
-MV_Post-AF_Plot4_Rep1_2021-10-16,Microvinification_2021,Post-AF,DNA23,E08,Lavaux_Plot_4,/BOKULICH_MATERIALS/SAMPLES/ENV4799,Patrik Schönenberger,2021-10-16,,,,,,,,1
-MV_Post-AF_Plot4_Rep2_2021-10-16,Microvinification_2021,Post-AF,DNA23,G07,Lavaux_Plot_4,/BOKULICH_MATERIALS/SAMPLES/ENV4800,Patrik Schönenberger,2021-10-16,,,,,,,,2
-MV_Post-AF_Plot4_Rep3_2021-10-16,Microvinification_2021,Post-AF,DNA23,A05,Lavaux_Plot_4,/BOKULICH_MATERIALS/SAMPLES/ENV4801,Patrik Schönenberger,2021-10-16,,,,,,,,3
-MV_Post-AF_Plot5_Rep1_2021-10-16,Microvinification_2021,Post-AF,DNA23,D06,Lavaux_Plot_5,/BOKULICH_MATERIALS/SAMPLES/ENV4802,Patrik Schönenberger,2021-10-16,,,,,,,,1
-MV_Post-AF_Plot5_Rep2_2021-10-16,Microvinification_2021,Post-AF,DNA23,F09,Lavaux_Plot_5,/BOKULICH_MATERIALS/SAMPLES/ENV4803,Patrik Schönenberger,2021-10-16,,,,,,,,2
-MV_Post-AF_Plot5_Rep3_2021-10-16,Microvinification_2021,Post-AF,DNA23,B06,Lavaux_Plot_5,/BOKULICH_MATERIALS/SAMPLES/ENV4804,Patrik Schönenberger,2021-10-16,,,,,,,,3
-MV_Post-AF_Plot9_Rep1_2021-10-16,Microvinification_2021,Post-AF,DNA23,G09,Lavaux_Plot_9,/BOKULICH_MATERIALS/SAMPLES/ENV4805,Patrik Schönenberger,2021-10-16,,,,,,,,1
-MV_Post-AF_Plot9_Rep2_2021-10-16,Microvinification_2021,Post-AF,DNA23,F06,Lavaux_Plot_9,/BOKULICH_MATERIALS/SAMPLES/ENV4806,Patrik Schönenberger,2021-10-16,,,,,,,,2
-MV_Post-AF_Plot9_Rep3_2021-10-16,Microvinification_2021,Post-AF,DNA23,C09,Lavaux_Plot_9,/BOKULICH_MATERIALS/SAMPLES/ENV4807,Patrik Schönenberger,2021-10-16,,,,,,,,3
-Lavaux_2023-08-24_bark_Plot4,Veraison_2023,bark,DNA39,E4,Lavaux_Plot_4,/BOKULICH_MATERIALS/SAMPLES/ENV4808,Lena Flörl,2023-08-24,,,4,,,,,
-Lavaux_2023-08-24_bark_Plot5,Veraison_2023,bark,DNA39,F4,Lavaux_Plot_5,/BOKULICH_MATERIALS/SAMPLES/ENV4809,Lena Flörl,2023-08-24,,,5,,,,,
-Lavaux_2023-08-24_bark_Plot9,Veraison_2023,bark,DNA39,G3,Lavaux_Plot_9,/BOKULICH_MATERIALS/SAMPLES/ENV4810,Lena Flörl,2023-08-24,,,9,,,,,
-Lavaux_2023-08-24_bark_Plot12,Veraison_2023,bark,DNA39,A4,Lavaux_Plot_12,/BOKULICH_MATERIALS/SAMPLES/ENV4812,Lena Flörl,2023-08-24,,,12,,,,,
-Lavaux_2023-08-24_bark_Plot13,Veraison_2023,bark,DNA39,D4,Lavaux_Plot_13,/BOKULICH_MATERIALS/SAMPLES/ENV4813,Lena Flörl,2023-08-24,,,13,,,,,
-Lavaux_2023-08-24_bark_Plot14,Veraison_2023,bark,DNA39,H4,Lavaux_Plot_14,/BOKULICH_MATERIALS/SAMPLES/ENV4814,Lena Flörl,2023-08-24,,,14,,,,,
-Lavaux_2023-08-24_bark_Plot15,Veraison_2023,bark,DNA39,G4,Lavaux_Plot_15,/BOKULICH_MATERIALS/SAMPLES/ENV4815,Lena Flörl,2023-08-24,,,15,,,,,
-Lavaux_2023-08-24_bark_Plot19,Veraison_2023,bark,DNA39,B4,Lavaux_Plot_19,/BOKULICH_MATERIALS/SAMPLES/ENV4816,Lena Flörl,2023-08-24,,,19,,,,,
-Lavaux_2023-08-24_bark_Plot20,Veraison_2023,bark,DNA39,H3,Lavaux_Plot_20,/BOKULICH_MATERIALS/SAMPLES/ENV4817,Lena Flörl,2023-08-24,,,20,,,,,
-Lavaux_2023-08-24_bark_Plot17,Veraison_2023,bark,DNA39,C4,Lavaux_Plot_17,/BOKULICH_MATERIALS/SAMPLES/ENV4818,Lena Flörl,2023-08-24,,,17,,,,,
-Lavaux_2023-08-24_leaf_Plot4,Veraison_2023,leaf,DNA49 (DNA39),C4 (B6),Lavaux_Plot_4,/BOKULICH_MATERIALS/SAMPLES/ENV4819,Lena Flörl,2023-08-24,,,4,,,,,
-Lavaux_2023-08-24_leaf_Plot5,Veraison_2023,leaf,DNA49 (DNA39),H3 (G6),Lavaux_Plot_5,/BOKULICH_MATERIALS/SAMPLES/ENV4820,Lena Flörl,2023-08-24,,,5,,,,,
-Lavaux_2023-08-24_leaf_Plot9,Veraison_2023,leaf,DNA49 (DNA39),C1 (A6),Lavaux_Plot_9,/BOKULICH_MATERIALS/SAMPLES/ENV4821,Lena Flörl,2023-08-24,,,9,,,,,
-Lavaux_2023-08-24_leaf_Plot12,Veraison_2023,leaf,DNA49 (DNA39),G2 (C6),Lavaux_Plot_12,/BOKULICH_MATERIALS/SAMPLES/ENV4823,Lena Flörl,2023-08-24,,,12,,,,,
-Lavaux_2023-08-24_leaf_Plot13,Veraison_2023,leaf,DNA49 (DNA39),E1 (A7),Lavaux_Plot_13,/BOKULICH_MATERIALS/SAMPLES/ENV4824,Lena Flörl,2023-08-24,,,13,,,,,
-Lavaux_2023-08-24_leaf_Plot14,Veraison_2023,leaf,DNA49 (DNA39),A2 (B7),Lavaux_Plot_14,/BOKULICH_MATERIALS/SAMPLES/ENV4825,Lena Flörl,2023-08-24,,,14,,,,,
-Lavaux_2023-08-24_leaf_Plot15,Veraison_2023,leaf,DNA49 (DNA39),C2 (H5),Lavaux_Plot_15,/BOKULICH_MATERIALS/SAMPLES/ENV4826,Lena Flörl,2023-08-24,,,15,,,,,
-Lavaux_2023-08-24_leaf_Plot19,Veraison_2023,leaf,DNA49 (DNA39),F4 (H6),Lavaux_Plot_19,/BOKULICH_MATERIALS/SAMPLES/ENV4827,Lena Flörl,2023-08-24,,,19,,,,,
-Lavaux_2023-08-24_leaf_Plot20,Veraison_2023,leaf,DNA49 (DNA39),H1 (F5),Lavaux_Plot_20,/BOKULICH_MATERIALS/SAMPLES/ENV4828,Lena Flörl,2023-08-24,,,20,,,,,
-Lavaux_2023-08-24_leaf_Plot17,Veraison_2023,leaf,DNA49 (DNA39),G1 (F6),Lavaux_Plot_17,/BOKULICH_MATERIALS/SAMPLES/ENV4829,Lena Flörl,2023-08-24,,,17,,,,,
-Lavaux_2023-08-24_must_Plot4,Veraison_2023,must,DNA40,B7,Lavaux_Plot_4,/BOKULICH_MATERIALS/SAMPLES/ENV4830,Lena Flörl,2023-08-24,,,4,,,,,
-Lavaux_2023-08-24_must_Plot5,Veraison_2023,must,DNA40,D7,Lavaux_Plot_5,/BOKULICH_MATERIALS/SAMPLES/ENV4831,Lena Flörl,2023-08-24,,,5,,,,,
-Lavaux_2023-08-24_must_Plot9,Veraison_2023,must,DNA40,H7,Lavaux_Plot_9,/BOKULICH_MATERIALS/SAMPLES/ENV4832,Lena Flörl,2023-08-24,,,9,,,,,
-Lavaux_2023-08-24_must_Plot12,Veraison_2023,must,DNA40,E6,Lavaux_Plot_12,/BOKULICH_MATERIALS/SAMPLES/ENV4834,Lena Flörl,2023-08-24,,,12,,,,,
-Lavaux_2023-08-24_must_Plot13,Veraison_2023,must,DNA40,B8,Lavaux_Plot_13,/BOKULICH_MATERIALS/SAMPLES/ENV4835,Lena Flörl,2023-08-24,,,13,,,,,
-Lavaux_2023-08-24_must_Plot14,Veraison_2023,must,DNA40,E7,Lavaux_Plot_14,/BOKULICH_MATERIALS/SAMPLES/ENV4836,Lena Flörl,2023-08-24,,,14,,,,,
-Lavaux_2023-08-24_must_Plot15,Veraison_2023,must,DNA40,A6,Lavaux_Plot_15,/BOKULICH_MATERIALS/SAMPLES/ENV4837,Lena Flörl,2023-08-24,,,15,,,,,
-Lavaux_2023-08-24_must_Plot19,Veraison_2023,must,DNA40,E5,Lavaux_Plot_19,/BOKULICH_MATERIALS/SAMPLES/ENV4838,Lena Flörl,2023-08-24,,,19,,,,,
-Lavaux_2023-08-24_must_Plot20,Veraison_2023,must,DNA40,G6,Lavaux_Plot_20,/BOKULICH_MATERIALS/SAMPLES/ENV4839,Lena Flörl,2023-08-24,,,20,,,,,
-Lavaux_2023-08-24_must_Plot17,Veraison_2023,must,DNA40,B5,Lavaux_Plot_17,/BOKULICH_MATERIALS/SAMPLES/ENV4840,Lena Flörl,2023-08-24,,,17,,,,,
-Lavaux_2023-08-24_soil_Plot4,Veraison_2023,soil,DNA31,F4,Lavaux_Plot_4,/BOKULICH_MATERIALS/SAMPLES/ENV4841,Lena Flörl,2023-08-24,,,4,,,,,
-Lavaux_2023-08-24_soil_Plot5,Veraison_2023,soil,DNA31,A5,Lavaux_Plot_5,/BOKULICH_MATERIALS/SAMPLES/ENV4842,Lena Flörl,2023-08-24,,,5,,,,,
-Lavaux_2023-08-24_soil_Plot9,Veraison_2023,soil,DNA31,E4,Lavaux_Plot_9,/BOKULICH_MATERIALS/SAMPLES/ENV4843,Lena Flörl,2023-08-24,,,9,,,,,
-Lavaux_2023-08-24_soil_Plot12,Veraison_2023,soil,DNA31,C4,Lavaux_Plot_12,/BOKULICH_MATERIALS/SAMPLES/ENV4845,Lena Flörl,2023-08-24,,,12,,,,,
-Lavaux_2023-08-24_soil_Plot13,Veraison_2023,soil,DNA31,H4,Lavaux_Plot_13,/BOKULICH_MATERIALS/SAMPLES/ENV4846,Lena Flörl,2023-08-24,,,13,,,,,
-Lavaux_2023-08-24_soil_Plot14,Veraison_2023,soil,DNA31,D4,Lavaux_Plot_14,/BOKULICH_MATERIALS/SAMPLES/ENV4847,Lena Flörl,2023-08-24,,,14,,,,,
-Lavaux_2023-08-24_soil_Plot15,Veraison_2023,soil,DNA31,G5,Lavaux_Plot_15,/BOKULICH_MATERIALS/SAMPLES/ENV4848,Lena Flörl,2023-08-24,,,15,,,,,
-Lavaux_2023-08-24_soil_Plot19,Veraison_2023,soil,DNA31,D5,Lavaux_Plot_19,/BOKULICH_MATERIALS/SAMPLES/ENV4849,Lena Flörl,2023-08-24,,,19,,,,,
-Lavaux_2023-08-24_soil_Plot20,Veraison_2023,soil,DNA31,C5,Lavaux_Plot_20,/BOKULICH_MATERIALS/SAMPLES/ENV4850,Lena Flörl,2023-08-24,,,20,,,,,
-Lavaux_2023-08-24_soil_Plot17,Veraison_2023,soil,DNA31,B5,Lavaux_Plot_17,/BOKULICH_MATERIALS/SAMPLES/ENV4851,Lena Flörl,2023-08-24,,,17,,,,,
-Lavaux_2023-09-20_must_Plot4_RepA,Harvest_2023,must,DNA40,E3,Lavaux_Plot_4,/BOKULICH_MATERIALS/SAMPLES/ENV4852,Lena Flörl,2023-09-20,,,4,,,,,A
-Lavaux_2023-09-20_must_Plot4_RepB,Harvest_2023,must,DNA40,D4,Lavaux_Plot_4,/BOKULICH_MATERIALS/SAMPLES/ENV4853,Lena Flörl,2023-09-20,,,4,,,,,B
-Lavaux_2023-09-20_must_Plot4_RepC,Harvest_2023,must,DNA40,B3,Lavaux_Plot_4,/BOKULICH_MATERIALS/SAMPLES/ENV4854,Lena Flörl,2023-09-20,,,4,,,,,C
-Lavaux_2023-09-20_must_Plot4_RepD,Harvest_2023,must,DNA40,D1,Lavaux_Plot_4,/BOKULICH_MATERIALS/SAMPLES/ENV4855,Lena Flörl,2023-09-20,,,4,,,,,D
-Lavaux_2023-09-20_must_Plot4_RepE,Harvest_2023,must,DNA40,C1,Lavaux_Plot_4,/BOKULICH_MATERIALS/SAMPLES/ENV4856,Lena Flörl,2023-09-20,,,4,,,,,E
-Lavaux_2023-09-20_must_Plot5_RepA,Harvest_2023,must,DNA40,B6,Lavaux_Plot_5,/BOKULICH_MATERIALS/SAMPLES/ENV4857,Lena Flörl,2023-09-20,,,5,,,,,A
-Lavaux_2023-09-20_must_Plot5_RepB,Harvest_2023,must,DNA40,H6,Lavaux_Plot_5,/BOKULICH_MATERIALS/SAMPLES/ENV4858,Lena Flörl,2023-09-20,,,5,,,,,B
-Lavaux_2023-09-20_must_Plot5_RepC,Harvest_2023,must,DNA40,C7,Lavaux_Plot_5,/BOKULICH_MATERIALS/SAMPLES/ENV4859,Lena Flörl,2023-09-20,,,5,,,,,C
-Lavaux_2023-09-20_must_Plot5_RepD,Harvest_2023,must,DNA40,F6,Lavaux_Plot_5,/BOKULICH_MATERIALS/SAMPLES/ENV4860,Lena Flörl,2023-09-20,,,5,,,,,D
-Lavaux_2023-09-20_must_Plot5_RepE,Harvest_2023,must,DNA40,D8,Lavaux_Plot_5,/BOKULICH_MATERIALS/SAMPLES/ENV4861,Lena Flörl,2023-09-20,,,5,,,,,E
-Lavaux_2023-09-20_must_Plot9_RepA,Harvest_2023,must,DNA40,D5,Lavaux_Plot_9,/BOKULICH_MATERIALS/SAMPLES/ENV4862,Lena Flörl,2023-09-20,,,9,,,,,A
-Lavaux_2023-09-20_must_Plot9_RepB,Harvest_2023,must,DNA40,C6,Lavaux_Plot_9,/BOKULICH_MATERIALS/SAMPLES/ENV4863,Lena Flörl,2023-09-20,,,9,,,,,B
-Lavaux_2023-09-20_must_Plot9_RepC,Harvest_2023,must,DNA40,F7,Lavaux_Plot_9,/BOKULICH_MATERIALS/SAMPLES/ENV4864,Lena Flörl,2023-09-20,,,9,,,,,C
-Lavaux_2023-09-20_must_Plot9_RepD,Harvest_2023,must,DNA40,F8,Lavaux_Plot_9,/BOKULICH_MATERIALS/SAMPLES/ENV4865,Lena Flörl,2023-09-20,,,9,,,,,D
-Lavaux_2023-09-20_must_Plot9_RepE,Harvest_2023,must,DNA40,H5,Lavaux_Plot_9,/BOKULICH_MATERIALS/SAMPLES/ENV4866,Lena Flörl,2023-09-20,,,9,,,,,E
-Lavaux_2023-09-20_must_Plot12_RepA,Harvest_2023,must,DNA40,B2,Lavaux_Plot_12,/BOKULICH_MATERIALS/SAMPLES/ENV4867,Lena Flörl,2023-09-20,,,12,,,,,A
-Lavaux_2023-09-20_must_Plot12_RepB,Harvest_2023,must,DNA40,H4,Lavaux_Plot_12,/BOKULICH_MATERIALS/SAMPLES/ENV4868,Lena Flörl,2023-09-20,,,12,,,,,B
-Lavaux_2023-09-20_must_Plot12_RepC,Harvest_2023,must,DNA40,B4,Lavaux_Plot_12,/BOKULICH_MATERIALS/SAMPLES/ENV4869,Lena Flörl,2023-09-20,,,12,,,,,C
-Lavaux_2023-09-20_must_Plot12_RepD,Harvest_2023,must,DNA40,A3,Lavaux_Plot_12,/BOKULICH_MATERIALS/SAMPLES/ENV4870,Lena Flörl,2023-09-20,,,12,,,,,D
-Lavaux_2023-09-20_must_Plot12_RepE,Harvest_2023,must,DNA40,G2,Lavaux_Plot_12,/BOKULICH_MATERIALS/SAMPLES/ENV4871,Lena Flörl,2023-09-20,,,12,,,,,E
-Lavaux_2023-09-20_must_Plot13_RepA,Harvest_2023,must,DNA40,A1,Lavaux_Plot_13,/BOKULICH_MATERIALS/SAMPLES/ENV4872,Lena Flörl,2023-09-20,,,13,,,,,A
-Lavaux_2023-09-20_must_Plot13_RepB,Harvest_2023,must,DNA40,C2,Lavaux_Plot_13,/BOKULICH_MATERIALS/SAMPLES/ENV4873,Lena Flörl,2023-09-20,,,13,,,,,B
-Lavaux_2023-09-20_must_Plot13_RepC,Harvest_2023,must,DNA40,H1,Lavaux_Plot_13,/BOKULICH_MATERIALS/SAMPLES/ENV4874,Lena Flörl,2023-09-20,,,13,,,,,C
-Lavaux_2023-09-20_must_Plot13_RepD,Harvest_2023,must,DNA40,D3,Lavaux_Plot_13,/BOKULICH_MATERIALS/SAMPLES/ENV4875,Lena Flörl,2023-09-20,,,13,,,,,D
-Lavaux_2023-09-20_must_Plot13_RepE,Harvest_2023,must,DNA40,E4,Lavaux_Plot_13,/BOKULICH_MATERIALS/SAMPLES/ENV4876,Lena Flörl,2023-09-20,,,13,,,,,E
-Lavaux_2023-09-20_must_Plot14_RepA,Harvest_2023,must,DNA40,G5,Lavaux_Plot_14,/BOKULICH_MATERIALS/SAMPLES/ENV4877,Lena Flörl,2023-09-20,,,14,,,,,A
-Lavaux_2023-09-20_must_Plot14_RepB,Harvest_2023,must,DNA40,A7,Lavaux_Plot_14,/BOKULICH_MATERIALS/SAMPLES/ENV4878,Lena Flörl,2023-09-20,,,14,,,,,B
-Lavaux_2023-09-20_must_Plot14_RepC,Harvest_2023,must,DNA40,E8,Lavaux_Plot_14,/BOKULICH_MATERIALS/SAMPLES/ENV4879,Lena Flörl,2023-09-20,,,14,,,,,C
-Lavaux_2023-09-20_must_Plot14_RepD,Harvest_2023,must,DNA40,C8,Lavaux_Plot_14,/BOKULICH_MATERIALS/SAMPLES/ENV4880,Lena Flörl,2023-09-20,,,14,,,,,D
-Lavaux_2023-09-20_must_Plot14_RepE,Harvest_2023,must,DNA40,D6,Lavaux_Plot_14,/BOKULICH_MATERIALS/SAMPLES/ENV4881,Lena Flörl,2023-09-20,,,14,,,,,E
-Lavaux_2023-09-20_must_Plot15_RepA,Harvest_2023,must,DNA40,B1,Lavaux_Plot_15,/BOKULICH_MATERIALS/SAMPLES/ENV4882,Lena Flörl,2023-09-20,,,15,,,,,A
-Lavaux_2023-09-20_must_Plot15_RepB,Harvest_2023,must,DNA40,F4,Lavaux_Plot_15,/BOKULICH_MATERIALS/SAMPLES/ENV4883,Lena Flörl,2023-09-20,,,15,,,,,B
-Lavaux_2023-09-20_must_Plot15_RepC,Harvest_2023,must,DNA40,G1,Lavaux_Plot_15,/BOKULICH_MATERIALS/SAMPLES/ENV4884,Lena Flörl,2023-09-20,,,15,,,,,C
-Lavaux_2023-09-20_must_Plot15_RepD,Harvest_2023,must,DNA40,F3,Lavaux_Plot_15,/BOKULICH_MATERIALS/SAMPLES/ENV4885,Lena Flörl,2023-09-20,,,15,,,,,D
-Lavaux_2023-09-20_must_Plot15_RepE,Harvest_2023,must,DNA40,H2,Lavaux_Plot_15,/BOKULICH_MATERIALS/SAMPLES/ENV4886,Lena Flörl,2023-09-20,,,15,,,,,E
-Lavaux_2023-09-20_must_Plot19_RepA,Harvest_2023,must,DNA40,F2,Lavaux_Plot_19,/BOKULICH_MATERIALS/SAMPLES/ENV4887,Lena Flörl,2023-09-20,,,19,,,,,A
-Lavaux_2023-09-20_must_Plot19_RepB,Harvest_2023,must,DNA40,F1,Lavaux_Plot_19,/BOKULICH_MATERIALS/SAMPLES/ENV4888,Lena Flörl,2023-09-20,,,19,,,,,B
-Lavaux_2023-09-20_must_Plot19_RepC,Harvest_2023,must,DNA40,A4,Lavaux_Plot_19,/BOKULICH_MATERIALS/SAMPLES/ENV4889,Lena Flörl,2023-09-20,,,19,,,,,C
-Lavaux_2023-09-20_must_Plot19_RepD,Harvest_2023,must,DNA40,G3,Lavaux_Plot_19,/BOKULICH_MATERIALS/SAMPLES/ENV4890,Lena Flörl,2023-09-20,,,19,,,,,D
-Lavaux_2023-09-20_must_Plot19_RepE,Harvest_2023,must,DNA40,A2,Lavaux_Plot_19,/BOKULICH_MATERIALS/SAMPLES/ENV4891,Lena Flörl,2023-09-20,,,19,,,,,E
-Lavaux_2023-09-20_must_Plot20_RepA,Harvest_2023,must,DNA40,E1,Lavaux_Plot_20,/BOKULICH_MATERIALS/SAMPLES/ENV4892,Lena Flörl,2023-09-20,,,20,,,,,A
-Lavaux_2023-09-20_must_Plot20_RepB,Harvest_2023,must,DNA40,C3,Lavaux_Plot_20,/BOKULICH_MATERIALS/SAMPLES/ENV4893,Lena Flörl,2023-09-20,,,20,,,,,B
-Lavaux_2023-09-20_must_Plot20_RepC,Harvest_2023,must,DNA40,C4,Lavaux_Plot_20,/BOKULICH_MATERIALS/SAMPLES/ENV4894,Lena Flörl,2023-09-20,,,20,,,,,C
-Lavaux_2023-09-20_must_Plot20_RepD,Harvest_2023,must,DNA40,D2,Lavaux_Plot_20,/BOKULICH_MATERIALS/SAMPLES/ENV4895,Lena Flörl,2023-09-20,,,20,,,,,D
-Lavaux_2023-09-20_must_Plot20_RepE,Harvest_2023,must,DNA40,H3,Lavaux_Plot_20,/BOKULICH_MATERIALS/SAMPLES/ENV4896,Lena Flörl,2023-09-20,,,20,,,,,E
-Lavaux_2023-09-20_must_Plot17_RepA,Harvest_2023,must,DNA40,A8,Lavaux_Plot_17,/BOKULICH_MATERIALS/SAMPLES/ENV4897,Lena Flörl,2023-09-20,,,17,,,,,A
-Lavaux_2023-09-20_must_Plot17_RepB,Harvest_2023,must,DNA40,F5,Lavaux_Plot_17,/BOKULICH_MATERIALS/SAMPLES/ENV4898,Lena Flörl,2023-09-20,,,17,,,,,B
-Lavaux_2023-09-20_must_Plot17_RepC,Harvest_2023,must,DNA40,A5,Lavaux_Plot_17,/BOKULICH_MATERIALS/SAMPLES/ENV4899,Lena Flörl,2023-09-20,,,17,,,,,C
-Lavaux_2023-09-20_must_Plot17_RepD,Harvest_2023,must,DNA40,C5,Lavaux_Plot_17,/BOKULICH_MATERIALS/SAMPLES/ENV4900,Lena Flörl,2023-09-20,,,17,,,,,D
-Lavaux_2023-09-20_must_Plot17_RepE,Harvest_2023,must,DNA40,G7,Lavaux_Plot_17,/BOKULICH_MATERIALS/SAMPLES/ENV4901,Lena Flörl,2023-09-20,,,17,,,,,E
-MV_Must_Plot12_2022-09-13,Microvinification_2022,MV-must,DNA28,E3,Lavaux_Plot_12,/BOKULICH_MATERIALS/SAMPLES/ENV4902,Patrik Schönenberger,2022-09-13,,,,,,,,
-MV_Must_Plot13_2022-09-13,Microvinification_2022,MV-must,DNA28,C3,Lavaux_Plot_13,/BOKULICH_MATERIALS/SAMPLES/ENV4903,Patrik Schönenberger,2022-09-13,,,,,,,,
-MV_Must_Plot14_2022-09-13,Microvinification_2022,MV-must,DNA28,E1,Lavaux_Plot_14,/BOKULICH_MATERIALS/SAMPLES/ENV4904,Patrik Schönenberger,2022-09-13,,,,,,,,
-MV_Must_Plot15_2022-09-13,Microvinification_2022,MV-must,DNA28,A2,Lavaux_Plot_15,/BOKULICH_MATERIALS/SAMPLES/ENV4905,Patrik Schönenberger,2022-09-13,,,,,,,,
-MV_Must_Plot17_2022-09-13,Microvinification_2022,MV-must,DNA28,C1,Lavaux_Plot_17,/BOKULICH_MATERIALS/SAMPLES/ENV4906,Patrik Schönenberger,2022-09-13,,,,,,,,
-MV_Must_Plot19_2022-09-13,Microvinification_2022,MV-must,DNA28,H1,Lavaux_Plot_19,/BOKULICH_MATERIALS/SAMPLES/ENV4907,Patrik Schönenberger,2022-09-13,,,,,,,,
-MV_Must_Plot20_2022-09-13,Microvinification_2022,MV-must,DNA28,C2,Lavaux_Plot_20,/BOKULICH_MATERIALS/SAMPLES/ENV4908,Patrik Schönenberger,2022-09-13,,,,,,,,
-MV_Must_Plot4_2022-09-13,Microvinification_2022,MV-must,DNA28,A3,Lavaux_Plot_4,/BOKULICH_MATERIALS/SAMPLES/ENV4909,Patrik Schönenberger,2022-09-13,,,,,,,,
-MV_Must_Plot5_2022-09-13,Microvinification_2022,MV-must,DNA28,F1,Lavaux_Plot_5,/BOKULICH_MATERIALS/SAMPLES/ENV4910,Patrik Schönenberger,2022-09-13,,,,,,,,
-MV_Must_Plot9_2022-09-13,Microvinification_2022,MV-must,DNA28,D2,Lavaux_Plot_9,/BOKULICH_MATERIALS/SAMPLES/ENV4911,Patrik Schönenberger,2022-09-13,,,,,,,,
-MV_Post-AF_Plot12_2022-09-30,Microvinification_2022,Post-AF,DNA28,B3,Lavaux_Plot_12,/BOKULICH_MATERIALS/SAMPLES/ENV4912,Patrik Schönenberger,2022-09-30,,,,,,,,
-MV_Post-AF_Plot13_2022-09-30,Microvinification_2022,Post-AF,DNA28,A1,Lavaux_Plot_13,/BOKULICH_MATERIALS/SAMPLES/ENV4913,Patrik Schönenberger,2022-09-30,,,,,,,,
-MV_Post-AF_Plot14_2022-09-30,Microvinification_2022,Post-AF,DNA28,F3,Lavaux_Plot_14,/BOKULICH_MATERIALS/SAMPLES/ENV4914,Patrik Schönenberger,2022-09-30,,,,,,,,
-MV_Post-AF_Plot15_2022-09-30,Microvinification_2022,Post-AF,DNA28,B1,Lavaux_Plot_15,/BOKULICH_MATERIALS/SAMPLES/ENV4915,Patrik Schönenberger,2022-09-30,,,,,,,,
-MV_Post-AF_Plot17_2022-09-30,Microvinification_2022,Post-AF,DNA28,F2,Lavaux_Plot_17,/BOKULICH_MATERIALS/SAMPLES/ENV4916,Patrik Schönenberger,2022-09-30,,,,,,,,
-MV_Post-AF_Plot19_2022-09-30,Microvinification_2022,Post-AF,DNA28,D3,Lavaux_Plot_19,/BOKULICH_MATERIALS/SAMPLES/ENV4917,Patrik Schönenberger,2022-09-30,,,,,,,,
-MV_Post-AF_Plot20_2022-09-30,Microvinification_2022,Post-AF,DNA28,E2,Lavaux_Plot_20,/BOKULICH_MATERIALS/SAMPLES/ENV4918,Patrik Schönenberger,2022-09-30,,,,,,,,
-MV_Post-AF_Plot4_2022-09-30,Microvinification_2022,Post-AF,DNA28,H2,Lavaux_Plot_4,/BOKULICH_MATERIALS/SAMPLES/ENV4919,Patrik Schönenberger,2022-09-30,,,,,,,,
-MV_Post-AF_Plot5_2022-09-30,Microvinification_2022,Post-AF,DNA28,B2,Lavaux_Plot_5,/BOKULICH_MATERIALS/SAMPLES/ENV4920,Patrik Schönenberger,2022-09-30,,,,,,,,
-MV_Post-AF_Plot9_2022-09-30,Microvinification_2022,Post-AF,DNA28,G1,Lavaux_Plot_9,/BOKULICH_MATERIALS/SAMPLES/ENV4921,Patrik Schönenberger,2022-09-30,,,,,,,,
-MV_Must_Plot12_2023-09-23,Microvinification_2023,MV-must,DNA42,A10,Lavaux_Plot_12,/BOKULICH_MATERIALS/SAMPLES/ENV4922,Patrik Schönenberger,2023-09-23,,,,,,,,
-MV_Must_Plot13_2023-09-23,Microvinification_2023,MV-must,DNA38,A12,Lavaux_Plot_13,/BOKULICH_MATERIALS/SAMPLES/ENV4923,Patrik Schönenberger,2023-09-23,,,,,,,,
-MV_Must_Plot14_2023-09-23,Microvinification_2023,MV-must,DNA38,G12,Lavaux_Plot_14,/BOKULICH_MATERIALS/SAMPLES/ENV4924,Patrik Schönenberger,2023-09-23,,,,,,,,
-MV_Must_Plot15_2023-09-23,Microvinification_2023,MV-must,DNA42,E8,Lavaux_Plot_15,/BOKULICH_MATERIALS/SAMPLES/ENV4925,Patrik Schönenberger,2023-09-23,,,,,,,,
-MV_Must_Plot17_2023-09-23,Microvinification_2023,MV-must,DNA42,B9,Lavaux_Plot_17,/BOKULICH_MATERIALS/SAMPLES/ENV4926,Patrik Schönenberger,2023-09-23,,,,,,,,
-MV_Must_Plot19_2023-09-23,Microvinification_2023,MV-must,DNA38,E12,Lavaux_Plot_19,/BOKULICH_MATERIALS/SAMPLES/ENV4927,Patrik Schönenberger,2023-09-23,,,,,,,,
-MV_Must_Plot20_2023-09-23,Microvinification_2023,MV-must,DNA42,A8,Lavaux_Plot_20,/BOKULICH_MATERIALS/SAMPLES/ENV4928,Patrik Schönenberger,2023-09-23,,,,,,,,
-MV_Must_Plot4_2023-09-23,Microvinification_2023,MV-must,DNA42,C8,Lavaux_Plot_4,/BOKULICH_MATERIALS/SAMPLES/ENV4929,Patrik Schönenberger,2023-09-23,,,,,,,,
-MV_Must_Plot5_2023-09-23,Microvinification_2023,MV-must,DNA42,G7,Lavaux_Plot_5,/BOKULICH_MATERIALS/SAMPLES/ENV4930,Patrik Schönenberger,2023-09-23,,,,,,,,
-MV_Must_Plot9_2023-09-23,Microvinification_2023,MV-must,DNA42,F9,Lavaux_Plot_9,/BOKULICH_MATERIALS/SAMPLES/ENV4931,Patrik Schönenberger,2023-09-23,,,,,,,,
-MV_Post-AF_Plot12_2023-10-11,Microvinification_2023,Post-AF,DNA38,F12,Lavaux_Plot_12,/BOKULICH_MATERIALS/SAMPLES/ENV4932,Patrik Schönenberger,2023-10-11,,,,,,,,
-MV_Post-AF_Plot13_2023-10-11,Microvinification_2023,Post-AF,DNA38,H11,Lavaux_Plot_13,/BOKULICH_MATERIALS/SAMPLES/ENV4933,Patrik Schönenberger,2023-10-11,,,,,,,,
-MV_Post-AF_Plot14_2023-10-11,Microvinification_2023,Post-AF,DNA42,D9,Lavaux_Plot_14,/BOKULICH_MATERIALS/SAMPLES/ENV4934,Patrik Schönenberger,2023-10-11,,,,,,,,
-MV_Post-AF_Plot15_2023-10-11,Microvinification_2023,Post-AF,DNA42,G8,Lavaux_Plot_15,/BOKULICH_MATERIALS/SAMPLES/ENV4935,Patrik Schönenberger,2023-10-11,,,,,,,,
-MV_Post-AF_Plot17_2023-10-11,Microvinification_2023,Post-AF,DNA42,F8,Lavaux_Plot_17,/BOKULICH_MATERIALS/SAMPLES/ENV4936,Patrik Schönenberger,2023-10-11,,,,,,,,
-MV_Post-AF_Plot19_2023-10-11,Microvinification_2023,Post-AF,DNA42,B8,Lavaux_Plot_19,/BOKULICH_MATERIALS/SAMPLES/ENV4937,Patrik Schönenberger,2023-10-11,,,,,,,,
-MV_Post-AF_Plot20_2023-10-11,Microvinification_2023,Post-AF,DNA42,B10,Lavaux_Plot_20,/BOKULICH_MATERIALS/SAMPLES/ENV4938,Patrik Schönenberger,2023-10-11,,,,,,,,
-MV_Post-AF_Plot4_2023-10-11,Microvinification_2023,Post-AF,DNA42,E9,Lavaux_Plot_4,/BOKULICH_MATERIALS/SAMPLES/ENV4939,Patrik Schönenberger,2023-10-11,,,,,,,,
-MV_Post-AF_Plot5_2023-10-11,Microvinification_2023,Post-AF,DNA42,H7,Lavaux_Plot_5,/BOKULICH_MATERIALS/SAMPLES/ENV4940,Patrik Schönenberger,2023-10-11,,,,,,,,
-MV_Post-AF_Plot9_2023-10-11,Microvinification_2023,Post-AF,DNA42,H8,Lavaux_Plot_9,/BOKULICH_MATERIALS/SAMPLES/ENV4941,Patrik Schönenberger,2023-10-11,,,,,,,,
-MV_Post-MLF_Plot12_2023-12-11,Microvinification_2023,Post-MLF,DNA42,D8,Lavaux_Plot_12,/BOKULICH_MATERIALS/SAMPLES/ENV4942,Patrik Schönenberger,2023-12-11,,,,,,,,
-MV_Post-MLF_Plot13_2023-12-11,Microvinification_2023,Post-MLF,DNA38,B12,Lavaux_Plot_13,/BOKULICH_MATERIALS/SAMPLES/ENV4943,Patrik Schönenberger,2023-12-11,,,,,,,,
-MV_Post-MLF_Plot14_2023-12-11,Microvinification_2023,Post-MLF,DNA42,H9,Lavaux_Plot_14,/BOKULICH_MATERIALS/SAMPLES/ENV4944,Patrik Schönenberger,2023-12-11,,,,,,,,
-MV_Post-MLF_Plot15_2023-12-11,Microvinification_2023,Post-MLF,DNA42,G9,Lavaux_Plot_15,/BOKULICH_MATERIALS/SAMPLES/ENV4945,Patrik Schönenberger,2023-12-11,,,,,,,,
-MV_Post-MLF_Plot17_2023-12-11,Microvinification_2023,Post-MLF,DNA42,C9,Lavaux_Plot_17,/BOKULICH_MATERIALS/SAMPLES/ENV4946,Patrik Schönenberger,2023-12-11,,,,,,,,
-MV_Post-MLF_Plot19_2023-12-11,Microvinification_2023,Post-MLF,DNA42,F7,Lavaux_Plot_19,/BOKULICH_MATERIALS/SAMPLES/ENV4947,Patrik Schönenberger,2023-12-11,,,,,,,,
-MV_Post-MLF_Plot20_2023-12-11,Microvinification_2023,Post-MLF,DNA42,A9,Lavaux_Plot_20,/BOKULICH_MATERIALS/SAMPLES/ENV4948,Patrik Schönenberger,2023-12-11,,,,,,,,
-MV_Post-MLF_Plot4_2023-12-11,Microvinification_2023,Post-MLF,DNA38,G11,Lavaux_Plot_4,/BOKULICH_MATERIALS/SAMPLES/ENV4949,Patrik Schönenberger,2023-12-11,,,,,,,,
-MV_Post-MLF_Plot5_2023-12-11,Microvinification_2023,Post-MLF,DNA38,D12,Lavaux_Plot_5,/BOKULICH_MATERIALS/SAMPLES/ENV4950,Patrik Schönenberger,2023-12-11,,,,,,,,
-MV_Post-MLF_Plot9_2023-12-11,Microvinification_2023,Post-MLF,DNA38,C12,Lavaux_Plot_9,/BOKULICH_MATERIALS/SAMPLES/ENV4951,Patrik Schönenberger,2023-12-11,,,,,,,,
-,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,
+Lavaux_2022-03-08_soil_Plot4,Spring_2022,soil,DNA15,F4,Lavaux_Plot_4,/BOKULICH_MATERIALS/SAMPLES/ENV4644,Lena Flörl,08.03.2022,,,4,,,,,
+Lavaux_2022-03-08_soil_Plot5,Spring_2022,soil,DNA15,C3,Lavaux_Plot_5,/BOKULICH_MATERIALS/SAMPLES/ENV4645,Lena Flörl,08.03.2022,,,5,,,,,
+Lavaux_2022-03-08_soil_Plot9,Spring_2022,soil,DNA15,D4,Lavaux_Plot_9,/BOKULICH_MATERIALS/SAMPLES/ENV4646,Lena Flörl,08.03.2022,,,9,,,,,
+Lavaux_2022-03-08_soil_Plot11,Spring_2022,soil,DNA15,H3,Lavaux_Plot_11,/BOKULICH_MATERIALS/SAMPLES/ENV4647,Lena Flörl,08.03.2022,,,11,,,,,
+Lavaux_2022-03-08_soil_Plot12,Spring_2022,soil,DNA15,G3,Lavaux_Plot_12,/BOKULICH_MATERIALS/SAMPLES/ENV4648,Lena Flörl,08.03.2022,,,12,,,,,
+Lavaux_2022-03-08_soil_Plot13,Spring_2022,soil,DNA15,E3,Lavaux_Plot_13,/BOKULICH_MATERIALS/SAMPLES/ENV4649,Lena Flörl,08.03.2022,,,13,,,,,
+Lavaux_2022-03-08_soil_Plot14,Spring_2022,soil,DNA15,H2,Lavaux_Plot_14,/BOKULICH_MATERIALS/SAMPLES/ENV4650,Lena Flörl,08.03.2022,,,14,,,,,
+Lavaux_2022-03-08_soil_Plot15,Spring_2022,soil,DNA15,A4,Lavaux_Plot_15,/BOKULICH_MATERIALS/SAMPLES/ENV4651,Lena Flörl,08.03.2022,,,15,,,,,
+Lavaux_2022-03-08_soil_Plot18,Spring_2022,soil,DNA15,B4,Lavaux_Plot_18,/BOKULICH_MATERIALS/SAMPLES/ENV4652,Lena Flörl,08.03.2022,,,18,,,,,
+Lavaux_2022-03-08_soil_Plot19,Spring_2022,soil,DNA15,D2,Lavaux_Plot_19,/BOKULICH_MATERIALS/SAMPLES/ENV4653,Lena Flörl,08.03.2022,,,19,,,,,
+Lavaux_2022-03-08_soil_Plot20,Spring_2022,soil,DNA15,E2,Lavaux_Plot_20,/BOKULICH_MATERIALS/SAMPLES/ENV4654,Lena Flörl,08.03.2022,,,20,,,,,
+Lavaux_2022-03-08_soil_Plot17,Spring_2022,soil,DNA15,A3,Lavaux_Plot_17,/BOKULICH_MATERIALS/SAMPLES/ENV4655,Lena Flörl,08.03.2022,,,17,,,,,
+Lavaux_2022-08-10_bark_Plot4,Veraison_2022,bark,DNA16,H4,Lavaux_Plot_4,/BOKULICH_MATERIALS/SAMPLES/ENV4656,Lena Flörl,10.08.2022,,,4,,,,,
+Lavaux_2022-08-10_bark_Plot5,Veraison_2022,bark,DNA16,A5,Lavaux_Plot_5,/BOKULICH_MATERIALS/SAMPLES/ENV4657,Lena Flörl,10.08.2022,,,5,,,,,
+Lavaux_2022-08-10_bark_Plot9,Veraison_2022,bark,DNA16,H3,Lavaux_Plot_9,/BOKULICH_MATERIALS/SAMPLES/ENV4658,Lena Flörl,10.08.2022,,,9,,,,,
+Lavaux_2022-08-10_bark_Plot11,Veraison_2022,bark,DNA16,C4,Lavaux_Plot_11,/BOKULICH_MATERIALS/SAMPLES/ENV4659,Lena Flörl,10.08.2022,,,11,,,,,
+Lavaux_2022-08-10_bark_Plot12,Veraison_2022,bark,DNA16,G4,Lavaux_Plot_12,/BOKULICH_MATERIALS/SAMPLES/ENV4660,Lena Flörl,10.08.2022,,,12,,,,,
+Lavaux_2022-08-10_bark_Plot13,Veraison_2022,bark,DNA16,C6,Lavaux_Plot_13,/BOKULICH_MATERIALS/SAMPLES/ENV4661,Lena Flörl,10.08.2022,,,13,,,,,
+Lavaux_2022-08-10_bark_Plot14,Veraison_2022,bark,DNA16,G3,Lavaux_Plot_14,/BOKULICH_MATERIALS/SAMPLES/ENV4662,Lena Flörl,10.08.2022,,,14,,,,,
+Lavaux_2022-08-10_bark_Plot15,Veraison_2022,bark,DNA16,A6,Lavaux_Plot_15,/BOKULICH_MATERIALS/SAMPLES/ENV4663,Lena Flörl,10.08.2022,,,15,,,,,
+Lavaux_2022-08-10_bark_Plot19,Veraison_2022,bark,DNA16,A4,Lavaux_Plot_19,/BOKULICH_MATERIALS/SAMPLES/ENV4664,Lena Flörl,10.08.2022,,,19,,,,,
+Lavaux_2022-08-10_bark_Plot20,Veraison_2022,bark,DNA16,C5,Lavaux_Plot_20,/BOKULICH_MATERIALS/SAMPLES/ENV4665,Lena Flörl,10.08.2022,,,20,,,,,
+Lavaux_2022-08-10_bark_Plot17,Veraison_2022,bark,DNA15,F5,Lavaux_Plot_17,/BOKULICH_MATERIALS/SAMPLES/ENV4666,Lena Flörl,10.08.2022,,,17,,,,,
+Lavaux_2022-08-10_leaf_Plot4,Veraison_2022,leaf,DNA49 (DNA16),F3 (E1),Lavaux_Plot_4,/BOKULICH_MATERIALS/SAMPLES/ENV4667,Lena Flörl,10.08.2022,Leaf DNA49 washed (see OpenBIS protocol),,4,,,,,
+Lavaux_2022-08-10_leaf_Plot5,Veraison_2022,leaf,DNA49 (DNA16),G4 (E3),Lavaux_Plot_5,/BOKULICH_MATERIALS/SAMPLES/ENV4668,Lena Flörl,10.08.2022,Leaf DNA49 washed (see OpenBIS protocol),,5,,,,,
+Lavaux_2022-08-10_leaf_Plot9,Veraison_2022,leaf,DNA49 (DNA16),A4 (A3),Lavaux_Plot_9,/BOKULICH_MATERIALS/SAMPLES/ENV4669,Lena Flörl,10.08.2022,Leaf DNA49 washed (see OpenBIS protocol),,9,,,,,
+Lavaux_2022-08-10_leaf_Plot11,Veraison_2022,leaf,DNA49 (DNA16),A3 (B3),Lavaux_Plot_11,/BOKULICH_MATERIALS/SAMPLES/ENV4670,Lena Flörl,10.08.2022,Leaf DNA49 washed (see OpenBIS protocol),,11,,,,,
+Lavaux_2022-08-10_leaf_Plot12,Veraison_2022,leaf,DNA49 (DNA16),F2 (C2),Lavaux_Plot_12,/BOKULICH_MATERIALS/SAMPLES/ENV4671,Lena Flörl,10.08.2022,Leaf DNA49 washed (see OpenBIS protocol),,12,,,,,
+Lavaux_2022-08-10_leaf_Plot13,Veraison_2022,leaf,DNA49 (DNA16),D3 (C3),Lavaux_Plot_13,/BOKULICH_MATERIALS/SAMPLES/ENV4672,Lena Flörl,10.08.2022,Leaf DNA49 washed (see OpenBIS protocol),,13,,,,,
+Lavaux_2022-08-10_leaf_Plot14,Veraison_2022,leaf,DNA49 (DNA16),H2 (B2),Lavaux_Plot_14,/BOKULICH_MATERIALS/SAMPLES/ENV4673,Lena Flörl,10.08.2022,Leaf DNA49 washed (see OpenBIS protocol),,14,,,,,
+Lavaux_2022-08-10_leaf_Plot15,Veraison_2022,leaf,DNA49 (DNA16),E4 (F3),Lavaux_Plot_15,/BOKULICH_MATERIALS/SAMPLES/ENV4674,Lena Flörl,10.08.2022,Leaf DNA49 washed (see OpenBIS protocol),,15,,,,,
+Lavaux_2022-08-10_leaf_Plot19,Veraison_2022,leaf,DNA49 (DNA16),E3 (H2),Lavaux_Plot_19,/BOKULICH_MATERIALS/SAMPLES/ENV4675,Lena Flörl,10.08.2022,Leaf DNA49 washed (see OpenBIS protocol),,19,,,,,
+Lavaux_2022-08-10_leaf_Plot20,Veraison_2022,leaf,DNA49 (DNA16),E2 (F2),Lavaux_Plot_20,/BOKULICH_MATERIALS/SAMPLES/ENV4676,Lena Flörl,10.08.2022,Leaf DNA49 washed (see OpenBIS protocol),,20,,,,,
+Lavaux_2022-08-10_leaf_Plot17,Veraison_2022,leaf,DNA49 (DNA16),F1 (G2),Lavaux_Plot_17,/BOKULICH_MATERIALS/SAMPLES/ENV4677,Lena Flörl,10.08.2022,Leaf DNA49 washed (see OpenBIS protocol),,17,,,,,
+Lavaux_2022-08-10_must_Plot4,Veraison_2022,must,DNA14,G08,Lavaux_Plot_4,/BOKULICH_MATERIALS/SAMPLES/ENV4678,Lena Flörl,10.08.2022,,,4,,,,,
+Lavaux_2022-08-10_must_Plot5,Veraison_2022,must,DNA14,G09,Lavaux_Plot_5,/BOKULICH_MATERIALS/SAMPLES/ENV4679,Lena Flörl,10.08.2022,,,5,,,,,
+Lavaux_2022-08-10_must_Plot9,Veraison_2022,must,DNA14,G10,Lavaux_Plot_9,/BOKULICH_MATERIALS/SAMPLES/ENV4680,Lena Flörl,10.08.2022,,,9,,,,,
+Lavaux_2022-08-10_must_Plot11,Veraison_2022,must,DNA14,G11,Lavaux_Plot_11,/BOKULICH_MATERIALS/SAMPLES/ENV4681,Lena Flörl,10.08.2022,,,11,,,,,
+Lavaux_2022-08-10_must_Plot12,Veraison_2022,must,DNA14,G12,Lavaux_Plot_12,/BOKULICH_MATERIALS/SAMPLES/ENV4682,Lena Flörl,10.08.2022,,,12,,,,,
+Lavaux_2022-08-10_must_Plot13,Veraison_2022,must,DNA14,H01,Lavaux_Plot_13,/BOKULICH_MATERIALS/SAMPLES/ENV4683,Lena Flörl,10.08.2022,,,13,,,,,
+Lavaux_2022-08-10_must_Plot14,Veraison_2022,must,DNA14,H02,Lavaux_Plot_14,/BOKULICH_MATERIALS/SAMPLES/ENV4684,Lena Flörl,10.08.2022,,,14,,,,,
+Lavaux_2022-08-10_must_Plot15,Veraison_2022,must,DNA14,H03,Lavaux_Plot_15,/BOKULICH_MATERIALS/SAMPLES/ENV4685,Lena Flörl,10.08.2022,,,15,,,,,
+Lavaux_2022-08-10_must_Plot19,Veraison_2022,must,DNA14,H07,Lavaux_Plot_19,/BOKULICH_MATERIALS/SAMPLES/ENV4686,Lena Flörl,10.08.2022,,,19,,,,,
+Lavaux_2022-08-10_must_Plot20,Veraison_2022,must,DNA14,H08,Lavaux_Plot_20,/BOKULICH_MATERIALS/SAMPLES/ENV4687,Lena Flörl,10.08.2022,,,20,,,,,
+Lavaux_2022-08-10_must_Plot17,Veraison_2022,must,DNA14,H04,Lavaux_Plot_17,/BOKULICH_MATERIALS/SAMPLES/ENV4688,Lena Flörl,10.08.2022,,,17,,,,,
+Lavaux_2022-08-10_soil_Plot4,Veraison_2022,soil,DNA15,H1,Lavaux_Plot_4,/BOKULICH_MATERIALS/SAMPLES/ENV4689,Lena Flörl,10.08.2022,,,4,,,,,
+Lavaux_2022-08-10_soil_Plot5,Veraison_2022,soil,DNA15,B1,Lavaux_Plot_5,/BOKULICH_MATERIALS/SAMPLES/ENV4690,Lena Flörl,10.08.2022,,,5,,,,,
+Lavaux_2022-08-10_soil_Plot9,Veraison_2022,soil,DNA15,F2,Lavaux_Plot_9,/BOKULICH_MATERIALS/SAMPLES/ENV4691,Lena Flörl,10.08.2022,,,9,,,,,
+Lavaux_2022-08-10_soil_Plot11,Veraison_2022,soil,DNA15,C1,Lavaux_Plot_11,/BOKULICH_MATERIALS/SAMPLES/ENV4692,Lena Flörl,10.08.2022,,,11,,,,,
+Lavaux_2022-08-10_soil_Plot12,Veraison_2022,soil,DNA15,B2,Lavaux_Plot_12,/BOKULICH_MATERIALS/SAMPLES/ENV4693,Lena Flörl,10.08.2022,,,12,,,,,
+Lavaux_2022-08-10_soil_Plot13,Veraison_2022,soil,DNA15,D1,Lavaux_Plot_13,/BOKULICH_MATERIALS/SAMPLES/ENV4694,Lena Flörl,10.08.2022,,,13,,,,,
+Lavaux_2022-08-10_soil_Plot14,Veraison_2022,soil,DNA15,E1,Lavaux_Plot_14,/BOKULICH_MATERIALS/SAMPLES/ENV4695,Lena Flörl,10.08.2022,,,14,,,,,
+Lavaux_2022-08-10_soil_Plot15,Veraison_2022,soil,DNA15,G1,Lavaux_Plot_15,/BOKULICH_MATERIALS/SAMPLES/ENV4696,Lena Flörl,10.08.2022,,,15,,,,,
+Lavaux_2022-08-10_soil_Plot19,Veraison_2022,soil,DNA15,A2,Lavaux_Plot_19,/BOKULICH_MATERIALS/SAMPLES/ENV4697,Lena Flörl,10.08.2022,,,19,,,,,
+Lavaux_2022-08-10_soil_Plot20,Veraison_2022,soil,DNA15,F1,Lavaux_Plot_20,/BOKULICH_MATERIALS/SAMPLES/ENV4698,Lena Flörl,10.08.2022,,,20,,,,,
+Lavaux_2022-08-10_soil_Plot17,Veraison_2022,soil,DNA15,A1,Lavaux_Plot_17,/BOKULICH_MATERIALS/SAMPLES/ENV4699,Lena Flörl,10.08.2022,,,17,,,,,
+Lavaux_2022-09-09_must_Plot4_RepA,Harvest_2022,must,DNA14,C03,Lavaux_Plot_4,/BOKULICH_MATERIALS/SAMPLES/ENV4700,Lena Flörl,09.09.2022,,,4,,,,,A
+Lavaux_2022-09-09_must_Plot4_RepB,Harvest_2022,must,DNA14,C04,Lavaux_Plot_4,/BOKULICH_MATERIALS/SAMPLES/ENV4701,Lena Flörl,09.09.2022,,,4,,,,,B
+Lavaux_2022-09-09_must_Plot4_RepC,Harvest_2022,must,DNA14,C05,Lavaux_Plot_4,/BOKULICH_MATERIALS/SAMPLES/ENV4702,Lena Flörl,09.09.2022,,,4,,,,,C
+Lavaux_2022-09-09_must_Plot4_RepD,Harvest_2022,must,DNA14,C06,Lavaux_Plot_4,/BOKULICH_MATERIALS/SAMPLES/ENV4703,Lena Flörl,09.09.2022,,,4,,,,,D
+Lavaux_2022-09-09_must_Plot4_RepE,Harvest_2022,must,DNA14,C07,Lavaux_Plot_4,/BOKULICH_MATERIALS/SAMPLES/ENV4704,Lena Flörl,09.09.2022,,,4,,,,,E
+Lavaux_2022-09-09_must_Plot5_RepA,Harvest_2022,must,DNA14,C08,Lavaux_Plot_5,/BOKULICH_MATERIALS/SAMPLES/ENV4705,Lena Flörl,09.09.2022,,,5,,,,,A
+Lavaux_2022-09-09_must_Plot5_RepB,Harvest_2022,must,DNA14,C09,Lavaux_Plot_5,/BOKULICH_MATERIALS/SAMPLES/ENV4706,Lena Flörl,09.09.2022,,,5,,,,,B
+Lavaux_2022-09-09_must_Plot5_RepC,Harvest_2022,must,DNA14,C10,Lavaux_Plot_5,/BOKULICH_MATERIALS/SAMPLES/ENV4707,Lena Flörl,09.09.2022,,,5,,,,,C
+Lavaux_2022-09-09_must_Plot5_RepD,Harvest_2022,must,DNA14,C11,Lavaux_Plot_5,/BOKULICH_MATERIALS/SAMPLES/ENV4708,Lena Flörl,09.09.2022,,,5,,,,,D
+Lavaux_2022-09-09_must_Plot5_RepE,Harvest_2022,must,DNA14,C12,Lavaux_Plot_5,/BOKULICH_MATERIALS/SAMPLES/ENV4709,Lena Flörl,09.09.2022,,,5,,,,,E
+Lavaux_2022-09-09_must_Plot9_RepA,Harvest_2022,must,DNA14,D01,Lavaux_Plot_9,/BOKULICH_MATERIALS/SAMPLES/ENV4710,Lena Flörl,09.09.2022,,,9,,,,,A
+Lavaux_2022-09-09_must_Plot9_RepB,Harvest_2022,must,DNA14,D02,Lavaux_Plot_9,/BOKULICH_MATERIALS/SAMPLES/ENV4711,Lena Flörl,09.09.2022,,,9,,,,,B
+Lavaux_2022-09-09_must_Plot9_RepC,Harvest_2022,must,DNA14,D03,Lavaux_Plot_9,/BOKULICH_MATERIALS/SAMPLES/ENV4712,Lena Flörl,09.09.2022,,,9,,,,,C
+Lavaux_2022-09-09_must_Plot9_RepD,Harvest_2022,must,DNA14,D04,Lavaux_Plot_9,/BOKULICH_MATERIALS/SAMPLES/ENV4713,Lena Flörl,09.09.2022,,,9,,,,,D
+Lavaux_2022-09-09_must_Plot9_RepE,Harvest_2022,must,DNA14,D05,Lavaux_Plot_9,/BOKULICH_MATERIALS/SAMPLES/ENV4714,Lena Flörl,09.09.2022,,,9,,,,,E
+Lavaux_2022-09-09_must_Plot12_RepA,Harvest_2022,must,DNA14,D06,Lavaux_Plot_12,/BOKULICH_MATERIALS/SAMPLES/ENV4715,Lena Flörl,09.09.2022,,,12,,,,,A
+Lavaux_2022-09-09_must_Plot12_RepB,Harvest_2022,must,DNA14,D07,Lavaux_Plot_12,/BOKULICH_MATERIALS/SAMPLES/ENV4716,Lena Flörl,09.09.2022,,,12,,,,,B
+Lavaux_2022-09-09_must_Plot12_RepC,Harvest_2022,must,DNA14,D08,Lavaux_Plot_12,/BOKULICH_MATERIALS/SAMPLES/ENV4717,Lena Flörl,09.09.2022,,,12,,,,,C
+Lavaux_2022-09-09_must_Plot12_RepD,Harvest_2022,must,DNA14,D09,Lavaux_Plot_12,/BOKULICH_MATERIALS/SAMPLES/ENV4718,Lena Flörl,09.09.2022,,,12,,,,,D
+Lavaux_2022-09-09_must_Plot12_RepE,Harvest_2022,must,DNA14,D10,Lavaux_Plot_12,/BOKULICH_MATERIALS/SAMPLES/ENV4719,Lena Flörl,09.09.2022,,,12,,,,,E
+Lavaux_2022-09-09_must_Plot13_RepA,Harvest_2022,must,DNA14,D11,Lavaux_Plot_13,/BOKULICH_MATERIALS/SAMPLES/ENV4720,Lena Flörl,09.09.2022,,,13,,,,,A
+Lavaux_2022-09-09_must_Plot13_RepB,Harvest_2022,must,DNA14,D12,Lavaux_Plot_13,/BOKULICH_MATERIALS/SAMPLES/ENV4721,Lena Flörl,09.09.2022,,,13,,,,,B
+Lavaux_2022-09-09_must_Plot13_RepC,Harvest_2022,must,DNA14,E01,Lavaux_Plot_13,/BOKULICH_MATERIALS/SAMPLES/ENV4722,Lena Flörl,09.09.2022,,,13,,,,,C
+Lavaux_2022-09-09_must_Plot13_RepD,Harvest_2022,must,DNA14,E02,Lavaux_Plot_13,/BOKULICH_MATERIALS/SAMPLES/ENV4723,Lena Flörl,09.09.2022,,,13,,,,,D
+Lavaux_2022-09-09_must_Plot13_RepE,Harvest_2022,must,DNA14,E03,Lavaux_Plot_13,/BOKULICH_MATERIALS/SAMPLES/ENV4724,Lena Flörl,09.09.2022,,,13,,,,,E
+Lavaux_2022-09-09_must_Plot14_RepA,Harvest_2022,must,DNA14,E04,Lavaux_Plot_14,/BOKULICH_MATERIALS/SAMPLES/ENV4725,Lena Flörl,09.09.2022,,,14,,,,,A
+Lavaux_2022-09-09_must_Plot14_RepB,Harvest_2022,must,DNA14,E05,Lavaux_Plot_14,/BOKULICH_MATERIALS/SAMPLES/ENV4726,Lena Flörl,09.09.2022,,,14,,,,,B
+Lavaux_2022-09-09_must_Plot14_RepC,Harvest_2022,must,DNA14,E06,Lavaux_Plot_14,/BOKULICH_MATERIALS/SAMPLES/ENV4727,Lena Flörl,09.09.2022,,,14,,,,,C
+Lavaux_2022-09-09_must_Plot14_RepD,Harvest_2022,must,DNA14,E07,Lavaux_Plot_14,/BOKULICH_MATERIALS/SAMPLES/ENV4728,Lena Flörl,09.09.2022,,,14,,,,,D
+Lavaux_2022-09-09_must_Plot14_RepE,Harvest_2022,must,DNA14,E08,Lavaux_Plot_14,/BOKULICH_MATERIALS/SAMPLES/ENV4729,Lena Flörl,09.09.2022,,,14,,,,,E
+Lavaux_2022-09-09_must_Plot15_RepA,Harvest_2022,must,DNA14,E09,Lavaux_Plot_15,/BOKULICH_MATERIALS/SAMPLES/ENV4730,Lena Flörl,09.09.2022,,,15,,,,,A
+Lavaux_2022-09-09_must_Plot15_RepB,Harvest_2022,must,DNA14,E11,Lavaux_Plot_15,/BOKULICH_MATERIALS/SAMPLES/ENV4731,Lena Flörl,09.09.2022,,,15,,,,,B
+Lavaux_2022-09-09_must_Plot15_RepC,Harvest_2022,must,DNA14,E12,Lavaux_Plot_15,/BOKULICH_MATERIALS/SAMPLES/ENV4732,Lena Flörl,09.09.2022,,,15,,,,,C
+Lavaux_2022-09-09_must_Plot15_RepD,Harvest_2022,must,DNA14,F01,Lavaux_Plot_15,/BOKULICH_MATERIALS/SAMPLES/ENV4733,Lena Flörl,09.09.2022,,,15,,,,,D
+Lavaux_2022-09-09_must_Plot15_RepE,Harvest_2022,must,DNA14,F02,Lavaux_Plot_15,/BOKULICH_MATERIALS/SAMPLES/ENV4734,Lena Flörl,09.09.2022,,,15,,,,,E
+Lavaux_2022-09-09_must_Plot19_RepA,Harvest_2022,must,DNA14,F09,Lavaux_Plot_19,/BOKULICH_MATERIALS/SAMPLES/ENV4735,Lena Flörl,09.09.2022,,,19,,,,,A
+Lavaux_2022-09-09_must_Plot19_RepB,Harvest_2022,must,DNA14,F10,Lavaux_Plot_19,/BOKULICH_MATERIALS/SAMPLES/ENV4736,Lena Flörl,09.09.2022,,,19,,,,,B
+Lavaux_2022-09-09_must_Plot19_RepC,Harvest_2022,must,DNA14,F11,Lavaux_Plot_19,/BOKULICH_MATERIALS/SAMPLES/ENV4737,Lena Flörl,09.09.2022,,,19,,,,,C
+Lavaux_2022-09-09_must_Plot19_RepD,Harvest_2022,must,DNA14,F12,Lavaux_Plot_19,/BOKULICH_MATERIALS/SAMPLES/ENV4738,Lena Flörl,09.09.2022,,,19,,,,,D
+Lavaux_2022-09-09_must_Plot19_RepE,Harvest_2022,must,DNA14,G01,Lavaux_Plot_19,/BOKULICH_MATERIALS/SAMPLES/ENV4739,Lena Flörl,09.09.2022,,,19,,,,,E
+Lavaux_2022-09-09_must_Plot20_RepA,Harvest_2022,must,DNA14,G02,Lavaux_Plot_20,/BOKULICH_MATERIALS/SAMPLES/ENV4740,Lena Flörl,09.09.2022,,,20,,,,,A
+Lavaux_2022-09-09_must_Plot20_RepB,Harvest_2022,must,DNA14,G03,Lavaux_Plot_20,/BOKULICH_MATERIALS/SAMPLES/ENV4741,Lena Flörl,09.09.2022,,,20,,,,,B
+Lavaux_2022-09-09_must_Plot20_RepC,Harvest_2022,must,DNA14,G04,Lavaux_Plot_20,/BOKULICH_MATERIALS/SAMPLES/ENV4742,Lena Flörl,09.09.2022,,,20,,,,,C
+Lavaux_2022-09-09_must_Plot20_RepD,Harvest_2022,must,DNA14,G05,Lavaux_Plot_20,/BOKULICH_MATERIALS/SAMPLES/ENV4743,Lena Flörl,09.09.2022,,,20,,,,,D
+Lavaux_2022-09-09_must_Plot20_RepE,Harvest_2022,must,DNA14,G06,Lavaux_Plot_20,/BOKULICH_MATERIALS/SAMPLES/ENV4744,Lena Flörl,09.09.2022,,,20,,,,,E
+Lavaux_2022-09-09_must_Plot17_RepA,Harvest_2022,must,DNA14,F04,Lavaux_Plot_17,/BOKULICH_MATERIALS/SAMPLES/ENV4745,Lena Flörl,09.09.2022,,,17,,,,,A
+Lavaux_2022-09-09_must_Plot17_RepB,Harvest_2022,must,DNA14,F05,Lavaux_Plot_17,/BOKULICH_MATERIALS/SAMPLES/ENV4746,Lena Flörl,09.09.2022,,,17,,,,,B
+Lavaux_2022-09-09_must_Plot17_RepC,Harvest_2022,must,DNA14,F06,Lavaux_Plot_17,/BOKULICH_MATERIALS/SAMPLES/ENV4747,Lena Flörl,09.09.2022,,,17,,,,,C
+Lavaux_2022-09-09_must_Plot17_RepD,Harvest_2022,must,DNA14,F07,Lavaux_Plot_17,/BOKULICH_MATERIALS/SAMPLES/ENV4748,Lena Flörl,09.09.2022,,,17,,,,,D
+Lavaux_2022-09-09_must_Plot17_RepE,Harvest_2022,must,DNA14,F08,Lavaux_Plot_17,/BOKULICH_MATERIALS/SAMPLES/ENV4749,Lena Flörl,09.09.2022,,,17,,,,,E
+Lavaux_2023-05-10_soil_Plot4,Spring_2023,soil,DNA31,G3,Lavaux_Plot_4,/BOKULICH_MATERIALS/SAMPLES/ENV4750,Lena Flörl,10.05.2023,,,4,,,,,
+Lavaux_2023-05-10_soil_Plot5,Spring_2023,soil,DNA31,A3,Lavaux_Plot_5,/BOKULICH_MATERIALS/SAMPLES/ENV4751,Lena Flörl,10.05.2023,,,5,,,,,
+Lavaux_2023-05-10_soil_Plot9,Spring_2023,soil,DNA31,C3,Lavaux_Plot_9,/BOKULICH_MATERIALS/SAMPLES/ENV4752,Lena Flörl,10.05.2023,,,9,,,,,
+Lavaux_2023-05-10_soil_Plot12,Spring_2023,soil,DNA31,H3,Lavaux_Plot_12,/BOKULICH_MATERIALS/SAMPLES/ENV4753,Lena Flörl,10.05.2023,,,12,,,,,
+Lavaux_2023-05-10_soil_Plot13,Spring_2023,soil,DNA31,E3,Lavaux_Plot_13,/BOKULICH_MATERIALS/SAMPLES/ENV4754,Lena Flörl,10.05.2023,,,13,,,,,
+Lavaux_2023-05-10_soil_Plot14,Spring_2023,soil,DNA31,F3,Lavaux_Plot_14,/BOKULICH_MATERIALS/SAMPLES/ENV4755,Lena Flörl,10.05.2023,,,14,,,,,
+Lavaux_2023-05-10_soil_Plot15,Spring_2023,soil,DNA31,B3,Lavaux_Plot_15,/BOKULICH_MATERIALS/SAMPLES/ENV4756,Lena Flörl,10.05.2023,,,15,,,,,
+Lavaux_2023-05-10_soil_Plot19,Spring_2023,soil,DNA31,D3,Lavaux_Plot_19,/BOKULICH_MATERIALS/SAMPLES/ENV4757,Lena Flörl,10.05.2023,,,19,,,,,
+Lavaux_2023-05-10_soil_Plot20,Spring_2023,soil,DNA31,B4,Lavaux_Plot_20,/BOKULICH_MATERIALS/SAMPLES/ENV4758,Lena Flörl,10.05.2023,,,20,,,,,
+Lavaux_2023-05-10_soil_Plot17,Spring_2023,soil,DNA31,A4,Lavaux_Plot_17,/BOKULICH_MATERIALS/SAMPLES/ENV4759,Lena Flörl,10.05.2023,,,17,,,,,
+MV_Post-MLF_Plot4_2022-01-24,Microvinification_2021,Post-MLF,DNA23,D09,Lavaux_Plot_4,/BOKULICH_MATERIALS/SAMPLES/ENV4760,Patrik Schönenberger,24.01.2022,,,,,,,,
+MV_Post-MLF_Plot5_2022-01-24,Microvinification_2021,Post-MLF,DNA23,A10,Lavaux_Plot_5,/BOKULICH_MATERIALS/SAMPLES/ENV4761,Patrik Schönenberger,24.01.2022,,,,,,,,
+MV_Post-MLF_Plot9_2022-01-24,Microvinification_2021,Post-MLF,DNA23,C06,Lavaux_Plot_9,/BOKULICH_MATERIALS/SAMPLES/ENV4762,Patrik Schönenberger,24.01.2022,,,,,,,,
+MV_Post-MLF_Plot11_2022-01-24,Microvinification_2021,Post-MLF,DNA23,C10,Lavaux_Plot_11,/BOKULICH_MATERIALS/SAMPLES/ENV4763,Patrik Schönenberger,24.01.2022,,,,,,,,
+MV_Post-MLF_Plot12_2022-01-24,Microvinification_2021,Post-MLF,DNA23,B05,Lavaux_Plot_12,/BOKULICH_MATERIALS/SAMPLES/ENV4764,Patrik Schönenberger,24.01.2022,,,,,,,,
+MV_Post-MLF_Plot13_2022-01-24,Microvinification_2021,Post-MLF,DNA23,B10,Lavaux_Plot_13,/BOKULICH_MATERIALS/SAMPLES/ENV4765,Patrik Schönenberger,24.01.2022,,,,,,,,
+MV_Post-MLF_Plot14_2022-01-24,Microvinification_2021,Post-MLF,DNA23,H10,Lavaux_Plot_14,/BOKULICH_MATERIALS/SAMPLES/ENV4766,Patrik Schönenberger,24.01.2022,,,,,,,,
+MV_Post-MLF_Plot15_2022-01-24,Microvinification_2021,Post-MLF,DNA23,E06,Lavaux_Plot_15,/BOKULICH_MATERIALS/SAMPLES/ENV4767,Patrik Schönenberger,24.01.2022,,,,,,,,
+MV_Post-MLF_Plot17_2022-01-24,Microvinification_2021,Post-MLF,DNA23,D05,Lavaux_Plot_17,/BOKULICH_MATERIALS/SAMPLES/ENV4768,Patrik Schönenberger,24.01.2022,,,,,,,,
+MV_Post-MLF_Plot18_2022-01-24,Microvinification_2021,Post-MLF,DNA23,G05,Lavaux_Plot_18,/BOKULICH_MATERIALS/SAMPLES/ENV4769,Patrik Schönenberger,24.01.2022,,,,,,,,
+MV_Post-MLF_Plot19_2022-01-24,Microvinification_2021,Post-MLF,DNA23,F10,Lavaux_Plot_19,/BOKULICH_MATERIALS/SAMPLES/ENV4770,Patrik Schönenberger,24.01.2022,,,,,,,,
+MV_Post-MLF_Plot20_2022-01-24,Microvinification_2021,Post-MLF,DNA23,E09,Lavaux_Plot_20,/BOKULICH_MATERIALS/SAMPLES/ENV4771,Patrik Schönenberger,24.01.2022,,,,,,,,
+MV_Post-AF_Plot11_Rep1_2021-10-16,Microvinification_2021,Post-AF,DNA23,D08,Lavaux_Plot_11,/BOKULICH_MATERIALS/SAMPLES/ENV4772,Patrik Schönenberger,16.10.2021,,,,,,,,1
+MV_Post-AF_Plot11_Rep2_2021-10-16,Microvinification_2021,Post-AF,DNA23,E07,Lavaux_Plot_11,/BOKULICH_MATERIALS/SAMPLES/ENV4773,Patrik Schönenberger,16.10.2021,,,,,,,,2
+MV_Post-AF_Plot11_Rep3_2021-10-16,Microvinification_2021,Post-AF,DNA23,E10,Lavaux_Plot_11,/BOKULICH_MATERIALS/SAMPLES/ENV4774,Patrik Schönenberger,16.10.2021,,,,,,,,3
+MV_Post-AF_Plot12_Rep1_2021-10-16,Microvinification_2021,Post-AF,DNA23,G06,Lavaux_Plot_12,/BOKULICH_MATERIALS/SAMPLES/ENV4775,Patrik Schönenberger,16.10.2021,,,,,,,,1
+MV_Post-AF_Plot12_Rep2_2021-10-16,Microvinification_2021,Post-AF,DNA23,B09,Lavaux_Plot_12,/BOKULICH_MATERIALS/SAMPLES/ENV4776,Patrik Schönenberger,16.10.2021,,,,,,,,2
+MV_Post-AF_Plot12_Rep3_2021-10-16,Microvinification_2021,Post-AF,DNA23,G10,Lavaux_Plot_12,/BOKULICH_MATERIALS/SAMPLES/ENV4777,Patrik Schönenberger,16.10.2021,,,,,,,,3
+MV_Post-AF_Plot13_Rep1_2021-10-16,Microvinification_2021,Post-AF,DNA23,H08,Lavaux_Plot_13,/BOKULICH_MATERIALS/SAMPLES/ENV4778,Patrik Schönenberger,16.10.2021,,,,,,,,1
+MV_Post-AF_Plot13_Rep2_2021-10-16,Microvinification_2021,Post-AF,DNA23,C08,Lavaux_Plot_13,/BOKULICH_MATERIALS/SAMPLES/ENV4779,Patrik Schönenberger,16.10.2021,,,,,,,,2
+MV_Post-AF_Plot13_Rep3_2021-10-16,Microvinification_2021,Post-AF,DNA23,A07,Lavaux_Plot_13,/BOKULICH_MATERIALS/SAMPLES/ENV4780,Patrik Schönenberger,16.10.2021,,,,,,,,3
+MV_Post-AF_Plot14_Rep1_2021-10-16,Microvinification_2021,Post-AF,DNA23,D10,Lavaux_Plot_14,/BOKULICH_MATERIALS/SAMPLES/ENV4781,Patrik Schönenberger,16.10.2021,,,,,,,,1
+MV_Post-AF_Plot14_Rep2_2021-10-16,Microvinification_2021,Post-AF,DNA23,H07,Lavaux_Plot_14,/BOKULICH_MATERIALS/SAMPLES/ENV4782,Patrik Schönenberger,16.10.2021,,,,,,,,2
+MV_Post-AF_Plot14_Rep3_2021-10-16,Microvinification_2021,Post-AF,DNA23,C07,Lavaux_Plot_14,/BOKULICH_MATERIALS/SAMPLES/ENV4783,Patrik Schönenberger,16.10.2021,,,,,,,,3
+MV_Post-AF_Plot15_Rep1_2021-10-16,Microvinification_2021,Post-AF,DNA23,G08,Lavaux_Plot_15,/BOKULICH_MATERIALS/SAMPLES/ENV4784,Patrik Schönenberger,16.10.2021,,,,,,,,1
+MV_Post-AF_Plot15_Rep2_2021-10-16,Microvinification_2021,Post-AF,DNA23,F07,Lavaux_Plot_15,/BOKULICH_MATERIALS/SAMPLES/ENV4785,Patrik Schönenberger,16.10.2021,,,,,,,,2
+MV_Post-AF_Plot15_Rep3_2021-10-16,Microvinification_2021,Post-AF,DNA23,F05,Lavaux_Plot_15,/BOKULICH_MATERIALS/SAMPLES/ENV4786,Patrik Schönenberger,16.10.2021,,,,,,,,3
+MV_Post-AF_Plot17_Rep1_2021-10-16,Microvinification_2021,Post-AF,DNA23,F08,Lavaux_Plot_17,/BOKULICH_MATERIALS/SAMPLES/ENV4787,Patrik Schönenberger,16.10.2021,,,,,,,,1
+MV_Post-AF_Plot17_Rep2_2021-10-16,Microvinification_2021,Post-AF,DNA23,B08,Lavaux_Plot_17,/BOKULICH_MATERIALS/SAMPLES/ENV4788,Patrik Schönenberger,16.10.2021,,,,,,,,2
+MV_Post-AF_Plot17_Rep3_2021-10-16,Microvinification_2021,Post-AF,DNA23,H06,Lavaux_Plot_17,/BOKULICH_MATERIALS/SAMPLES/ENV4789,Patrik Schönenberger,16.10.2021,,,,,,,,3
+MV_Post-AF_Plot18_Rep1_2021-10-16,Microvinification_2021,Post-AF,DNA23,C05,Lavaux_Plot_18,/BOKULICH_MATERIALS/SAMPLES/ENV4790,Patrik Schönenberger,16.10.2021,,,,,,,,1
+MV_Post-AF_Plot18_Rep2_2021-10-16,Microvinification_2021,Post-AF,DNA23,H09,Lavaux_Plot_18,/BOKULICH_MATERIALS/SAMPLES/ENV4791,Patrik Schönenberger,16.10.2021,,,,,,,,2
+MV_Post-AF_Plot18_Rep3_2021-10-16,Microvinification_2021,Post-AF,DNA23,A06,Lavaux_Plot_18,/BOKULICH_MATERIALS/SAMPLES/ENV4792,Patrik Schönenberger,16.10.2021,,,,,,,,3
+MV_Post-AF_Plot19_Rep1_2021-10-16,Microvinification_2021,Post-AF,DNA23,H05,Lavaux_Plot_19,/BOKULICH_MATERIALS/SAMPLES/ENV4793,Patrik Schönenberger,16.10.2021,,,,,,,,1
+MV_Post-AF_Plot19_Rep2_2021-10-16,Microvinification_2021,Post-AF,DNA23,A09,Lavaux_Plot_19,/BOKULICH_MATERIALS/SAMPLES/ENV4794,Patrik Schönenberger,16.10.2021,,,,,,,,2
+MV_Post-AF_Plot19_Rep3_2021-10-16,Microvinification_2021,Post-AF,DNA23,D07,Lavaux_Plot_19,/BOKULICH_MATERIALS/SAMPLES/ENV4795,Patrik Schönenberger,16.10.2021,,,,,,,,3
+MV_Post-AF_Plot20_Rep1_2021-10-16,Microvinification_2021,Post-AF,DNA23,E05,Lavaux_Plot_20,/BOKULICH_MATERIALS/SAMPLES/ENV4796,Patrik Schönenberger,16.10.2021,,,,,,,,1
+MV_Post-AF_Plot20_Rep2_2021-10-16,Microvinification_2021,Post-AF,DNA23,A08,Lavaux_Plot_20,/BOKULICH_MATERIALS/SAMPLES/ENV4797,Patrik Schönenberger,16.10.2021,,,,,,,,2
+MV_Post-AF_Plot20_Rep3_2021-10-16,Microvinification_2021,Post-AF,DNA23,B07,Lavaux_Plot_20,/BOKULICH_MATERIALS/SAMPLES/ENV4798,Patrik Schönenberger,16.10.2021,,,,,,,,3
+MV_Post-AF_Plot4_Rep1_2021-10-16,Microvinification_2021,Post-AF,DNA23,E08,Lavaux_Plot_4,/BOKULICH_MATERIALS/SAMPLES/ENV4799,Patrik Schönenberger,16.10.2021,,,,,,,,1
+MV_Post-AF_Plot4_Rep2_2021-10-16,Microvinification_2021,Post-AF,DNA23,G07,Lavaux_Plot_4,/BOKULICH_MATERIALS/SAMPLES/ENV4800,Patrik Schönenberger,16.10.2021,,,,,,,,2
+MV_Post-AF_Plot4_Rep3_2021-10-16,Microvinification_2021,Post-AF,DNA23,A05,Lavaux_Plot_4,/BOKULICH_MATERIALS/SAMPLES/ENV4801,Patrik Schönenberger,16.10.2021,,,,,,,,3
+MV_Post-AF_Plot5_Rep1_2021-10-16,Microvinification_2021,Post-AF,DNA23,D06,Lavaux_Plot_5,/BOKULICH_MATERIALS/SAMPLES/ENV4802,Patrik Schönenberger,16.10.2021,,,,,,,,1
+MV_Post-AF_Plot5_Rep2_2021-10-16,Microvinification_2021,Post-AF,DNA23,F09,Lavaux_Plot_5,/BOKULICH_MATERIALS/SAMPLES/ENV4803,Patrik Schönenberger,16.10.2021,,,,,,,,2
+MV_Post-AF_Plot5_Rep3_2021-10-16,Microvinification_2021,Post-AF,DNA23,B06,Lavaux_Plot_5,/BOKULICH_MATERIALS/SAMPLES/ENV4804,Patrik Schönenberger,16.10.2021,,,,,,,,3
+MV_Post-AF_Plot9_Rep1_2021-10-16,Microvinification_2021,Post-AF,DNA23,G09,Lavaux_Plot_9,/BOKULICH_MATERIALS/SAMPLES/ENV4805,Patrik Schönenberger,16.10.2021,,,,,,,,1
+MV_Post-AF_Plot9_Rep2_2021-10-16,Microvinification_2021,Post-AF,DNA23,F06,Lavaux_Plot_9,/BOKULICH_MATERIALS/SAMPLES/ENV4806,Patrik Schönenberger,16.10.2021,,,,,,,,2
+MV_Post-AF_Plot9_Rep3_2021-10-16,Microvinification_2021,Post-AF,DNA23,C09,Lavaux_Plot_9,/BOKULICH_MATERIALS/SAMPLES/ENV4807,Patrik Schönenberger,16.10.2021,,,,,,,,3
+Lavaux_2023-08-24_bark_Plot4,Veraison_2023,bark,DNA39,E4,Lavaux_Plot_4,/BOKULICH_MATERIALS/SAMPLES/ENV4808,Lena Flörl,24.08.2023,,,4,,,,,
+Lavaux_2023-08-24_bark_Plot5,Veraison_2023,bark,DNA39,F4,Lavaux_Plot_5,/BOKULICH_MATERIALS/SAMPLES/ENV4809,Lena Flörl,24.08.2023,,,5,,,,,
+Lavaux_2023-08-24_bark_Plot9,Veraison_2023,bark,DNA39,G3,Lavaux_Plot_9,/BOKULICH_MATERIALS/SAMPLES/ENV4810,Lena Flörl,24.08.2023,,,9,,,,,
+Lavaux_2023-08-24_bark_Plot12,Veraison_2023,bark,DNA39,A4,Lavaux_Plot_12,/BOKULICH_MATERIALS/SAMPLES/ENV4812,Lena Flörl,24.08.2023,,,12,,,,,
+Lavaux_2023-08-24_bark_Plot13,Veraison_2023,bark,DNA39,D4,Lavaux_Plot_13,/BOKULICH_MATERIALS/SAMPLES/ENV4813,Lena Flörl,24.08.2023,,,13,,,,,
+Lavaux_2023-08-24_bark_Plot14,Veraison_2023,bark,DNA39,H4,Lavaux_Plot_14,/BOKULICH_MATERIALS/SAMPLES/ENV4814,Lena Flörl,24.08.2023,,,14,,,,,
+Lavaux_2023-08-24_bark_Plot15,Veraison_2023,bark,DNA39,G4,Lavaux_Plot_15,/BOKULICH_MATERIALS/SAMPLES/ENV4815,Lena Flörl,24.08.2023,,,15,,,,,
+Lavaux_2023-08-24_bark_Plot19,Veraison_2023,bark,DNA39,B4,Lavaux_Plot_19,/BOKULICH_MATERIALS/SAMPLES/ENV4816,Lena Flörl,24.08.2023,,,19,,,,,
+Lavaux_2023-08-24_bark_Plot20,Veraison_2023,bark,DNA39,H3,Lavaux_Plot_20,/BOKULICH_MATERIALS/SAMPLES/ENV4817,Lena Flörl,24.08.2023,,,20,,,,,
+Lavaux_2023-08-24_bark_Plot17,Veraison_2023,bark,DNA39,C4,Lavaux_Plot_17,/BOKULICH_MATERIALS/SAMPLES/ENV4818,Lena Flörl,24.08.2023,,,17,,,,,
+Lavaux_2023-08-24_leaf_Plot4,Veraison_2023,leaf,DNA49 (DNA39),C4 (B6),Lavaux_Plot_4,/BOKULICH_MATERIALS/SAMPLES/ENV4819,Lena Flörl,24.08.2023,,,4,,,,,
+Lavaux_2023-08-24_leaf_Plot5,Veraison_2023,leaf,DNA49 (DNA39),H3 (G6),Lavaux_Plot_5,/BOKULICH_MATERIALS/SAMPLES/ENV4820,Lena Flörl,24.08.2023,,,5,,,,,
+Lavaux_2023-08-24_leaf_Plot9,Veraison_2023,leaf,DNA49 (DNA39),C1 (A6),Lavaux_Plot_9,/BOKULICH_MATERIALS/SAMPLES/ENV4821,Lena Flörl,24.08.2023,,,9,,,,,
+Lavaux_2023-08-24_leaf_Plot12,Veraison_2023,leaf,DNA49 (DNA39),G2 (C6),Lavaux_Plot_12,/BOKULICH_MATERIALS/SAMPLES/ENV4823,Lena Flörl,24.08.2023,,,12,,,,,
+Lavaux_2023-08-24_leaf_Plot13,Veraison_2023,leaf,DNA49 (DNA39),E1 (A7),Lavaux_Plot_13,/BOKULICH_MATERIALS/SAMPLES/ENV4824,Lena Flörl,24.08.2023,,,13,,,,,
+Lavaux_2023-08-24_leaf_Plot14,Veraison_2023,leaf,DNA49 (DNA39),A2 (B7),Lavaux_Plot_14,/BOKULICH_MATERIALS/SAMPLES/ENV4825,Lena Flörl,24.08.2023,,,14,,,,,
+Lavaux_2023-08-24_leaf_Plot15,Veraison_2023,leaf,DNA49 (DNA39),C2 (H5),Lavaux_Plot_15,/BOKULICH_MATERIALS/SAMPLES/ENV4826,Lena Flörl,24.08.2023,,,15,,,,,
+Lavaux_2023-08-24_leaf_Plot19,Veraison_2023,leaf,DNA49 (DNA39),F4 (H6),Lavaux_Plot_19,/BOKULICH_MATERIALS/SAMPLES/ENV4827,Lena Flörl,24.08.2023,,,19,,,,,
+Lavaux_2023-08-24_leaf_Plot20,Veraison_2023,leaf,DNA49 (DNA39),H1 (F5),Lavaux_Plot_20,/BOKULICH_MATERIALS/SAMPLES/ENV4828,Lena Flörl,24.08.2023,,,20,,,,,
+Lavaux_2023-08-24_leaf_Plot17,Veraison_2023,leaf,DNA49 (DNA39),G1 (F6),Lavaux_Plot_17,/BOKULICH_MATERIALS/SAMPLES/ENV4829,Lena Flörl,24.08.2023,,,17,,,,,
+Lavaux_2023-08-24_must_Plot4,Veraison_2023,must,DNA40,B7,Lavaux_Plot_4,/BOKULICH_MATERIALS/SAMPLES/ENV4830,Lena Flörl,24.08.2023,,,4,,,,,
+Lavaux_2023-08-24_must_Plot5,Veraison_2023,must,DNA40,D7,Lavaux_Plot_5,/BOKULICH_MATERIALS/SAMPLES/ENV4831,Lena Flörl,24.08.2023,,,5,,,,,
+Lavaux_2023-08-24_must_Plot9,Veraison_2023,must,DNA40,H7,Lavaux_Plot_9,/BOKULICH_MATERIALS/SAMPLES/ENV4832,Lena Flörl,24.08.2023,,,9,,,,,
+Lavaux_2023-08-24_must_Plot12,Veraison_2023,must,DNA40,E6,Lavaux_Plot_12,/BOKULICH_MATERIALS/SAMPLES/ENV4834,Lena Flörl,24.08.2023,,,12,,,,,
+Lavaux_2023-08-24_must_Plot13,Veraison_2023,must,DNA40,B8,Lavaux_Plot_13,/BOKULICH_MATERIALS/SAMPLES/ENV4835,Lena Flörl,24.08.2023,,,13,,,,,
+Lavaux_2023-08-24_must_Plot14,Veraison_2023,must,DNA40,E7,Lavaux_Plot_14,/BOKULICH_MATERIALS/SAMPLES/ENV4836,Lena Flörl,24.08.2023,,,14,,,,,
+Lavaux_2023-08-24_must_Plot15,Veraison_2023,must,DNA40,A6,Lavaux_Plot_15,/BOKULICH_MATERIALS/SAMPLES/ENV4837,Lena Flörl,24.08.2023,,,15,,,,,
+Lavaux_2023-08-24_must_Plot19,Veraison_2023,must,DNA40,E5,Lavaux_Plot_19,/BOKULICH_MATERIALS/SAMPLES/ENV4838,Lena Flörl,24.08.2023,,,19,,,,,
+Lavaux_2023-08-24_must_Plot20,Veraison_2023,must,DNA40,G6,Lavaux_Plot_20,/BOKULICH_MATERIALS/SAMPLES/ENV4839,Lena Flörl,24.08.2023,,,20,,,,,
+Lavaux_2023-08-24_must_Plot17,Veraison_2023,must,DNA40,B5,Lavaux_Plot_17,/BOKULICH_MATERIALS/SAMPLES/ENV4840,Lena Flörl,24.08.2023,,,17,,,,,
+Lavaux_2023-08-24_soil_Plot4,Veraison_2023,soil,DNA31,F4,Lavaux_Plot_4,/BOKULICH_MATERIALS/SAMPLES/ENV4841,Lena Flörl,24.08.2023,,,4,,,,,
+Lavaux_2023-08-24_soil_Plot5,Veraison_2023,soil,DNA31,A5,Lavaux_Plot_5,/BOKULICH_MATERIALS/SAMPLES/ENV4842,Lena Flörl,24.08.2023,,,5,,,,,
+Lavaux_2023-08-24_soil_Plot9,Veraison_2023,soil,DNA31,E4,Lavaux_Plot_9,/BOKULICH_MATERIALS/SAMPLES/ENV4843,Lena Flörl,24.08.2023,,,9,,,,,
+Lavaux_2023-08-24_soil_Plot12,Veraison_2023,soil,DNA31,C4,Lavaux_Plot_12,/BOKULICH_MATERIALS/SAMPLES/ENV4845,Lena Flörl,24.08.2023,,,12,,,,,
+Lavaux_2023-08-24_soil_Plot13,Veraison_2023,soil,DNA31,H4,Lavaux_Plot_13,/BOKULICH_MATERIALS/SAMPLES/ENV4846,Lena Flörl,24.08.2023,,,13,,,,,
+Lavaux_2023-08-24_soil_Plot14,Veraison_2023,soil,DNA31,D4,Lavaux_Plot_14,/BOKULICH_MATERIALS/SAMPLES/ENV4847,Lena Flörl,24.08.2023,,,14,,,,,
+Lavaux_2023-08-24_soil_Plot15,Veraison_2023,soil,DNA31,G5,Lavaux_Plot_15,/BOKULICH_MATERIALS/SAMPLES/ENV4848,Lena Flörl,24.08.2023,,,15,,,,,
+Lavaux_2023-08-24_soil_Plot19,Veraison_2023,soil,DNA31,D5,Lavaux_Plot_19,/BOKULICH_MATERIALS/SAMPLES/ENV4849,Lena Flörl,24.08.2023,,,19,,,,,
+Lavaux_2023-08-24_soil_Plot20,Veraison_2023,soil,DNA31,C5,Lavaux_Plot_20,/BOKULICH_MATERIALS/SAMPLES/ENV4850,Lena Flörl,24.08.2023,,,20,,,,,
+Lavaux_2023-08-24_soil_Plot17,Veraison_2023,soil,DNA31,B5,Lavaux_Plot_17,/BOKULICH_MATERIALS/SAMPLES/ENV4851,Lena Flörl,24.08.2023,,,17,,,,,
+Lavaux_2023-09-20_must_Plot4_RepA,Harvest_2023,must,DNA40,E3,Lavaux_Plot_4,/BOKULICH_MATERIALS/SAMPLES/ENV4852,Lena Flörl,20.09.2023,,,4,,,,,A
+Lavaux_2023-09-20_must_Plot4_RepB,Harvest_2023,must,DNA40,D4,Lavaux_Plot_4,/BOKULICH_MATERIALS/SAMPLES/ENV4853,Lena Flörl,20.09.2023,,,4,,,,,B
+Lavaux_2023-09-20_must_Plot4_RepC,Harvest_2023,must,DNA40,B3,Lavaux_Plot_4,/BOKULICH_MATERIALS/SAMPLES/ENV4854,Lena Flörl,20.09.2023,,,4,,,,,C
+Lavaux_2023-09-20_must_Plot4_RepD,Harvest_2023,must,DNA40,D1,Lavaux_Plot_4,/BOKULICH_MATERIALS/SAMPLES/ENV4855,Lena Flörl,20.09.2023,,,4,,,,,D
+Lavaux_2023-09-20_must_Plot4_RepE,Harvest_2023,must,DNA40,C1,Lavaux_Plot_4,/BOKULICH_MATERIALS/SAMPLES/ENV4856,Lena Flörl,20.09.2023,,,4,,,,,E
+Lavaux_2023-09-20_must_Plot5_RepA,Harvest_2023,must,DNA40,B6,Lavaux_Plot_5,/BOKULICH_MATERIALS/SAMPLES/ENV4857,Lena Flörl,20.09.2023,,,5,,,,,A
+Lavaux_2023-09-20_must_Plot5_RepB,Harvest_2023,must,DNA40,H6,Lavaux_Plot_5,/BOKULICH_MATERIALS/SAMPLES/ENV4858,Lena Flörl,20.09.2023,,,5,,,,,B
+Lavaux_2023-09-20_must_Plot5_RepC,Harvest_2023,must,DNA40,C7,Lavaux_Plot_5,/BOKULICH_MATERIALS/SAMPLES/ENV4859,Lena Flörl,20.09.2023,,,5,,,,,C
+Lavaux_2023-09-20_must_Plot5_RepD,Harvest_2023,must,DNA40,F6,Lavaux_Plot_5,/BOKULICH_MATERIALS/SAMPLES/ENV4860,Lena Flörl,20.09.2023,,,5,,,,,D
+Lavaux_2023-09-20_must_Plot5_RepE,Harvest_2023,must,DNA40,D8,Lavaux_Plot_5,/BOKULICH_MATERIALS/SAMPLES/ENV4861,Lena Flörl,20.09.2023,,,5,,,,,E
+Lavaux_2023-09-20_must_Plot9_RepA,Harvest_2023,must,DNA40,D5,Lavaux_Plot_9,/BOKULICH_MATERIALS/SAMPLES/ENV4862,Lena Flörl,20.09.2023,,,9,,,,,A
+Lavaux_2023-09-20_must_Plot9_RepB,Harvest_2023,must,DNA40,C6,Lavaux_Plot_9,/BOKULICH_MATERIALS/SAMPLES/ENV4863,Lena Flörl,20.09.2023,,,9,,,,,B
+Lavaux_2023-09-20_must_Plot9_RepC,Harvest_2023,must,DNA40,F7,Lavaux_Plot_9,/BOKULICH_MATERIALS/SAMPLES/ENV4864,Lena Flörl,20.09.2023,,,9,,,,,C
+Lavaux_2023-09-20_must_Plot9_RepD,Harvest_2023,must,DNA40,F8,Lavaux_Plot_9,/BOKULICH_MATERIALS/SAMPLES/ENV4865,Lena Flörl,20.09.2023,,,9,,,,,D
+Lavaux_2023-09-20_must_Plot9_RepE,Harvest_2023,must,DNA40,H5,Lavaux_Plot_9,/BOKULICH_MATERIALS/SAMPLES/ENV4866,Lena Flörl,20.09.2023,,,9,,,,,E
+Lavaux_2023-09-20_must_Plot12_RepA,Harvest_2023,must,DNA40,B2,Lavaux_Plot_12,/BOKULICH_MATERIALS/SAMPLES/ENV4867,Lena Flörl,20.09.2023,,,12,,,,,A
+Lavaux_2023-09-20_must_Plot12_RepB,Harvest_2023,must,DNA40,H4,Lavaux_Plot_12,/BOKULICH_MATERIALS/SAMPLES/ENV4868,Lena Flörl,20.09.2023,,,12,,,,,B
+Lavaux_2023-09-20_must_Plot12_RepC,Harvest_2023,must,DNA40,B4,Lavaux_Plot_12,/BOKULICH_MATERIALS/SAMPLES/ENV4869,Lena Flörl,20.09.2023,,,12,,,,,C
+Lavaux_2023-09-20_must_Plot12_RepD,Harvest_2023,must,DNA40,A3,Lavaux_Plot_12,/BOKULICH_MATERIALS/SAMPLES/ENV4870,Lena Flörl,20.09.2023,,,12,,,,,D
+Lavaux_2023-09-20_must_Plot12_RepE,Harvest_2023,must,DNA40,G2,Lavaux_Plot_12,/BOKULICH_MATERIALS/SAMPLES/ENV4871,Lena Flörl,20.09.2023,,,12,,,,,E
+Lavaux_2023-09-20_must_Plot13_RepA,Harvest_2023,must,DNA40,A1,Lavaux_Plot_13,/BOKULICH_MATERIALS/SAMPLES/ENV4872,Lena Flörl,20.09.2023,,,13,,,,,A
+Lavaux_2023-09-20_must_Plot13_RepB,Harvest_2023,must,DNA40,C2,Lavaux_Plot_13,/BOKULICH_MATERIALS/SAMPLES/ENV4873,Lena Flörl,20.09.2023,,,13,,,,,B
+Lavaux_2023-09-20_must_Plot13_RepC,Harvest_2023,must,DNA40,H1,Lavaux_Plot_13,/BOKULICH_MATERIALS/SAMPLES/ENV4874,Lena Flörl,20.09.2023,,,13,,,,,C
+Lavaux_2023-09-20_must_Plot13_RepD,Harvest_2023,must,DNA40,D3,Lavaux_Plot_13,/BOKULICH_MATERIALS/SAMPLES/ENV4875,Lena Flörl,20.09.2023,,,13,,,,,D
+Lavaux_2023-09-20_must_Plot13_RepE,Harvest_2023,must,DNA40,E4,Lavaux_Plot_13,/BOKULICH_MATERIALS/SAMPLES/ENV4876,Lena Flörl,20.09.2023,,,13,,,,,E
+Lavaux_2023-09-20_must_Plot14_RepA,Harvest_2023,must,DNA40,G5,Lavaux_Plot_14,/BOKULICH_MATERIALS/SAMPLES/ENV4877,Lena Flörl,20.09.2023,,,14,,,,,A
+Lavaux_2023-09-20_must_Plot14_RepB,Harvest_2023,must,DNA40,A7,Lavaux_Plot_14,/BOKULICH_MATERIALS/SAMPLES/ENV4878,Lena Flörl,20.09.2023,,,14,,,,,B
+Lavaux_2023-09-20_must_Plot14_RepC,Harvest_2023,must,DNA40,E8,Lavaux_Plot_14,/BOKULICH_MATERIALS/SAMPLES/ENV4879,Lena Flörl,20.09.2023,,,14,,,,,C
+Lavaux_2023-09-20_must_Plot14_RepD,Harvest_2023,must,DNA40,C8,Lavaux_Plot_14,/BOKULICH_MATERIALS/SAMPLES/ENV4880,Lena Flörl,20.09.2023,,,14,,,,,D
+Lavaux_2023-09-20_must_Plot14_RepE,Harvest_2023,must,DNA40,D6,Lavaux_Plot_14,/BOKULICH_MATERIALS/SAMPLES/ENV4881,Lena Flörl,20.09.2023,,,14,,,,,E
+Lavaux_2023-09-20_must_Plot15_RepA,Harvest_2023,must,DNA40,B1,Lavaux_Plot_15,/BOKULICH_MATERIALS/SAMPLES/ENV4882,Lena Flörl,20.09.2023,,,15,,,,,A
+Lavaux_2023-09-20_must_Plot15_RepB,Harvest_2023,must,DNA40,F4,Lavaux_Plot_15,/BOKULICH_MATERIALS/SAMPLES/ENV4883,Lena Flörl,20.09.2023,,,15,,,,,B
+Lavaux_2023-09-20_must_Plot15_RepC,Harvest_2023,must,DNA40,G1,Lavaux_Plot_15,/BOKULICH_MATERIALS/SAMPLES/ENV4884,Lena Flörl,20.09.2023,,,15,,,,,C
+Lavaux_2023-09-20_must_Plot15_RepD,Harvest_2023,must,DNA40,F3,Lavaux_Plot_15,/BOKULICH_MATERIALS/SAMPLES/ENV4885,Lena Flörl,20.09.2023,,,15,,,,,D
+Lavaux_2023-09-20_must_Plot15_RepE,Harvest_2023,must,DNA40,H2,Lavaux_Plot_15,/BOKULICH_MATERIALS/SAMPLES/ENV4886,Lena Flörl,20.09.2023,,,15,,,,,E
+Lavaux_2023-09-20_must_Plot19_RepA,Harvest_2023,must,DNA40,F2,Lavaux_Plot_19,/BOKULICH_MATERIALS/SAMPLES/ENV4887,Lena Flörl,20.09.2023,,,19,,,,,A
+Lavaux_2023-09-20_must_Plot19_RepB,Harvest_2023,must,DNA40,F1,Lavaux_Plot_19,/BOKULICH_MATERIALS/SAMPLES/ENV4888,Lena Flörl,20.09.2023,,,19,,,,,B
+Lavaux_2023-09-20_must_Plot19_RepC,Harvest_2023,must,DNA40,A4,Lavaux_Plot_19,/BOKULICH_MATERIALS/SAMPLES/ENV4889,Lena Flörl,20.09.2023,,,19,,,,,C
+Lavaux_2023-09-20_must_Plot19_RepD,Harvest_2023,must,DNA40,G3,Lavaux_Plot_19,/BOKULICH_MATERIALS/SAMPLES/ENV4890,Lena Flörl,20.09.2023,,,19,,,,,D
+Lavaux_2023-09-20_must_Plot19_RepE,Harvest_2023,must,DNA40,A2,Lavaux_Plot_19,/BOKULICH_MATERIALS/SAMPLES/ENV4891,Lena Flörl,20.09.2023,,,19,,,,,E
+Lavaux_2023-09-20_must_Plot20_RepA,Harvest_2023,must,DNA40,E1,Lavaux_Plot_20,/BOKULICH_MATERIALS/SAMPLES/ENV4892,Lena Flörl,20.09.2023,,,20,,,,,A
+Lavaux_2023-09-20_must_Plot20_RepB,Harvest_2023,must,DNA40,C3,Lavaux_Plot_20,/BOKULICH_MATERIALS/SAMPLES/ENV4893,Lena Flörl,20.09.2023,,,20,,,,,B
+Lavaux_2023-09-20_must_Plot20_RepC,Harvest_2023,must,DNA40,C4,Lavaux_Plot_20,/BOKULICH_MATERIALS/SAMPLES/ENV4894,Lena Flörl,20.09.2023,,,20,,,,,C
+Lavaux_2023-09-20_must_Plot20_RepD,Harvest_2023,must,DNA40,D2,Lavaux_Plot_20,/BOKULICH_MATERIALS/SAMPLES/ENV4895,Lena Flörl,20.09.2023,,,20,,,,,D
+Lavaux_2023-09-20_must_Plot20_RepE,Harvest_2023,must,DNA40,H3,Lavaux_Plot_20,/BOKULICH_MATERIALS/SAMPLES/ENV4896,Lena Flörl,20.09.2023,,,20,,,,,E
+Lavaux_2023-09-20_must_Plot17_RepA,Harvest_2023,must,DNA40,A8,Lavaux_Plot_17,/BOKULICH_MATERIALS/SAMPLES/ENV4897,Lena Flörl,20.09.2023,,,17,,,,,A
+Lavaux_2023-09-20_must_Plot17_RepB,Harvest_2023,must,DNA40,F5,Lavaux_Plot_17,/BOKULICH_MATERIALS/SAMPLES/ENV4898,Lena Flörl,20.09.2023,,,17,,,,,B
+Lavaux_2023-09-20_must_Plot17_RepC,Harvest_2023,must,DNA40,A5,Lavaux_Plot_17,/BOKULICH_MATERIALS/SAMPLES/ENV4899,Lena Flörl,20.09.2023,,,17,,,,,C
+Lavaux_2023-09-20_must_Plot17_RepD,Harvest_2023,must,DNA40,C5,Lavaux_Plot_17,/BOKULICH_MATERIALS/SAMPLES/ENV4900,Lena Flörl,20.09.2023,,,17,,,,,D
+Lavaux_2023-09-20_must_Plot17_RepE,Harvest_2023,must,DNA40,G7,Lavaux_Plot_17,/BOKULICH_MATERIALS/SAMPLES/ENV4901,Lena Flörl,20.09.2023,,,17,,,,,E
+MV_Must_Plot12_2022-09-13,Microvinification_2022,MV-must,DNA28,E3,Lavaux_Plot_12,/BOKULICH_MATERIALS/SAMPLES/ENV4902,Patrik Schönenberger,13.09.2022,,,,,,,,
+MV_Must_Plot13_2022-09-13,Microvinification_2022,MV-must,DNA28,C3,Lavaux_Plot_13,/BOKULICH_MATERIALS/SAMPLES/ENV4903,Patrik Schönenberger,13.09.2022,,,,,,,,
+MV_Must_Plot14_2022-09-13,Microvinification_2022,MV-must,DNA28,E1,Lavaux_Plot_14,/BOKULICH_MATERIALS/SAMPLES/ENV4904,Patrik Schönenberger,13.09.2022,,,,,,,,
+MV_Must_Plot15_2022-09-13,Microvinification_2022,MV-must,DNA28,A2,Lavaux_Plot_15,/BOKULICH_MATERIALS/SAMPLES/ENV4905,Patrik Schönenberger,13.09.2022,,,,,,,,
+MV_Must_Plot17_2022-09-13,Microvinification_2022,MV-must,DNA28,C1,Lavaux_Plot_17,/BOKULICH_MATERIALS/SAMPLES/ENV4906,Patrik Schönenberger,13.09.2022,,,,,,,,
+MV_Must_Plot19_2022-09-13,Microvinification_2022,MV-must,DNA28,H1,Lavaux_Plot_19,/BOKULICH_MATERIALS/SAMPLES/ENV4907,Patrik Schönenberger,13.09.2022,,,,,,,,
+MV_Must_Plot20_2022-09-13,Microvinification_2022,MV-must,DNA28,C2,Lavaux_Plot_20,/BOKULICH_MATERIALS/SAMPLES/ENV4908,Patrik Schönenberger,13.09.2022,,,,,,,,
+MV_Must_Plot4_2022-09-13,Microvinification_2022,MV-must,DNA28,A3,Lavaux_Plot_4,/BOKULICH_MATERIALS/SAMPLES/ENV4909,Patrik Schönenberger,13.09.2022,,,,,,,,
+MV_Must_Plot5_2022-09-13,Microvinification_2022,MV-must,DNA28,F1,Lavaux_Plot_5,/BOKULICH_MATERIALS/SAMPLES/ENV4910,Patrik Schönenberger,13.09.2022,,,,,,,,
+MV_Must_Plot9_2022-09-13,Microvinification_2022,MV-must,DNA28,D2,Lavaux_Plot_9,/BOKULICH_MATERIALS/SAMPLES/ENV4911,Patrik Schönenberger,13.09.2022,,,,,,,,
+MV_Post-AF_Plot12_2022-09-30,Microvinification_2022,Post-AF,DNA28,B3,Lavaux_Plot_12,/BOKULICH_MATERIALS/SAMPLES/ENV4912,Patrik Schönenberger,30.09.2022,,,,,,,,
+MV_Post-AF_Plot13_2022-09-30,Microvinification_2022,Post-AF,DNA28,A1,Lavaux_Plot_13,/BOKULICH_MATERIALS/SAMPLES/ENV4913,Patrik Schönenberger,30.09.2022,,,,,,,,
+MV_Post-AF_Plot14_2022-09-30,Microvinification_2022,Post-AF,DNA28,F3,Lavaux_Plot_14,/BOKULICH_MATERIALS/SAMPLES/ENV4914,Patrik Schönenberger,30.09.2022,,,,,,,,
+MV_Post-AF_Plot15_2022-09-30,Microvinification_2022,Post-AF,DNA28,B1,Lavaux_Plot_15,/BOKULICH_MATERIALS/SAMPLES/ENV4915,Patrik Schönenberger,30.09.2022,,,,,,,,
+MV_Post-AF_Plot17_2022-09-30,Microvinification_2022,Post-AF,DNA28,F2,Lavaux_Plot_17,/BOKULICH_MATERIALS/SAMPLES/ENV4916,Patrik Schönenberger,30.09.2022,,,,,,,,
+MV_Post-AF_Plot19_2022-09-30,Microvinification_2022,Post-AF,DNA28,D3,Lavaux_Plot_19,/BOKULICH_MATERIALS/SAMPLES/ENV4917,Patrik Schönenberger,30.09.2022,,,,,,,,
+MV_Post-AF_Plot20_2022-09-30,Microvinification_2022,Post-AF,DNA28,E2,Lavaux_Plot_20,/BOKULICH_MATERIALS/SAMPLES/ENV4918,Patrik Schönenberger,30.09.2022,,,,,,,,
+MV_Post-AF_Plot4_2022-09-30,Microvinification_2022,Post-AF,DNA28,H2,Lavaux_Plot_4,/BOKULICH_MATERIALS/SAMPLES/ENV4919,Patrik Schönenberger,30.09.2022,,,,,,,,
+MV_Post-AF_Plot5_2022-09-30,Microvinification_2022,Post-AF,DNA28,B2,Lavaux_Plot_5,/BOKULICH_MATERIALS/SAMPLES/ENV4920,Patrik Schönenberger,30.09.2022,,,,,,,,
+MV_Post-AF_Plot9_2022-09-30,Microvinification_2022,Post-AF,DNA28,G1,Lavaux_Plot_9,/BOKULICH_MATERIALS/SAMPLES/ENV4921,Patrik Schönenberger,30.09.2022,,,,,,,,
+MV_Must_Plot12_2023-09-23,Microvinification_2023,MV-must,DNA42,A10,Lavaux_Plot_12,/BOKULICH_MATERIALS/SAMPLES/ENV4922,Patrik Schönenberger,23.09.2023,,,,,,,,
+MV_Must_Plot13_2023-09-23,Microvinification_2023,MV-must,DNA38,A12,Lavaux_Plot_13,/BOKULICH_MATERIALS/SAMPLES/ENV4923,Patrik Schönenberger,23.09.2023,,,,,,,,
+MV_Must_Plot14_2023-09-23,Microvinification_2023,MV-must,DNA38,G12,Lavaux_Plot_14,/BOKULICH_MATERIALS/SAMPLES/ENV4924,Patrik Schönenberger,23.09.2023,,,,,,,,
+MV_Must_Plot15_2023-09-23,Microvinification_2023,MV-must,DNA42,E8,Lavaux_Plot_15,/BOKULICH_MATERIALS/SAMPLES/ENV4925,Patrik Schönenberger,23.09.2023,,,,,,,,
+MV_Must_Plot17_2023-09-23,Microvinification_2023,MV-must,DNA42,B9,Lavaux_Plot_17,/BOKULICH_MATERIALS/SAMPLES/ENV4926,Patrik Schönenberger,23.09.2023,,,,,,,,
+MV_Must_Plot19_2023-09-23,Microvinification_2023,MV-must,DNA38,E12,Lavaux_Plot_19,/BOKULICH_MATERIALS/SAMPLES/ENV4927,Patrik Schönenberger,23.09.2023,,,,,,,,
+MV_Must_Plot20_2023-09-23,Microvinification_2023,MV-must,DNA42,A8,Lavaux_Plot_20,/BOKULICH_MATERIALS/SAMPLES/ENV4928,Patrik Schönenberger,23.09.2023,,,,,,,,
+MV_Must_Plot4_2023-09-23,Microvinification_2023,MV-must,DNA42,C8,Lavaux_Plot_4,/BOKULICH_MATERIALS/SAMPLES/ENV4929,Patrik Schönenberger,23.09.2023,,,,,,,,
+MV_Must_Plot5_2023-09-23,Microvinification_2023,MV-must,DNA42,G7,Lavaux_Plot_5,/BOKULICH_MATERIALS/SAMPLES/ENV4930,Patrik Schönenberger,23.09.2023,,,,,,,,
+MV_Must_Plot9_2023-09-23,Microvinification_2023,MV-must,DNA42,F9,Lavaux_Plot_9,/BOKULICH_MATERIALS/SAMPLES/ENV4931,Patrik Schönenberger,23.09.2023,,,,,,,,
+MV_Post-AF_Plot12_2023-10-11,Microvinification_2023,Post-AF,DNA38,F12,Lavaux_Plot_12,/BOKULICH_MATERIALS/SAMPLES/ENV4932,Patrik Schönenberger,11.10.2023,,,,,,,,
+MV_Post-AF_Plot13_2023-10-11,Microvinification_2023,Post-AF,DNA38,H11,Lavaux_Plot_13,/BOKULICH_MATERIALS/SAMPLES/ENV4933,Patrik Schönenberger,11.10.2023,,,,,,,,
+MV_Post-AF_Plot14_2023-10-11,Microvinification_2023,Post-AF,DNA42,D9,Lavaux_Plot_14,/BOKULICH_MATERIALS/SAMPLES/ENV4934,Patrik Schönenberger,11.10.2023,,,,,,,,
+MV_Post-AF_Plot15_2023-10-11,Microvinification_2023,Post-AF,DNA42,G8,Lavaux_Plot_15,/BOKULICH_MATERIALS/SAMPLES/ENV4935,Patrik Schönenberger,11.10.2023,,,,,,,,
+MV_Post-AF_Plot17_2023-10-11,Microvinification_2023,Post-AF,DNA42,F8,Lavaux_Plot_17,/BOKULICH_MATERIALS/SAMPLES/ENV4936,Patrik Schönenberger,11.10.2023,,,,,,,,
+MV_Post-AF_Plot19_2023-10-11,Microvinification_2023,Post-AF,DNA42,B8,Lavaux_Plot_19,/BOKULICH_MATERIALS/SAMPLES/ENV4937,Patrik Schönenberger,11.10.2023,,,,,,,,
+MV_Post-AF_Plot20_2023-10-11,Microvinification_2023,Post-AF,DNA42,B10,Lavaux_Plot_20,/BOKULICH_MATERIALS/SAMPLES/ENV4938,Patrik Schönenberger,11.10.2023,,,,,,,,
+MV_Post-AF_Plot4_2023-10-11,Microvinification_2023,Post-AF,DNA42,E9,Lavaux_Plot_4,/BOKULICH_MATERIALS/SAMPLES/ENV4939,Patrik Schönenberger,11.10.2023,,,,,,,,
+MV_Post-AF_Plot5_2023-10-11,Microvinification_2023,Post-AF,DNA42,H7,Lavaux_Plot_5,/BOKULICH_MATERIALS/SAMPLES/ENV4940,Patrik Schönenberger,11.10.2023,,,,,,,,
+MV_Post-AF_Plot9_2023-10-11,Microvinification_2023,Post-AF,DNA42,H8,Lavaux_Plot_9,/BOKULICH_MATERIALS/SAMPLES/ENV4941,Patrik Schönenberger,11.10.2023,,,,,,,,
+MV_Post-MLF_Plot12_2023-12-11,Microvinification_2023,Post-MLF,DNA42,D8,Lavaux_Plot_12,/BOKULICH_MATERIALS/SAMPLES/ENV4942,Patrik Schönenberger,11.12.2023,,,,,,,,
+MV_Post-MLF_Plot13_2023-12-11,Microvinification_2023,Post-MLF,DNA38,B12,Lavaux_Plot_13,/BOKULICH_MATERIALS/SAMPLES/ENV4943,Patrik Schönenberger,11.12.2023,,,,,,,,
+MV_Post-MLF_Plot14_2023-12-11,Microvinification_2023,Post-MLF,DNA42,H9,Lavaux_Plot_14,/BOKULICH_MATERIALS/SAMPLES/ENV4944,Patrik Schönenberger,11.12.2023,,,,,,,,
+MV_Post-MLF_Plot15_2023-12-11,Microvinification_2023,Post-MLF,DNA42,G9,Lavaux_Plot_15,/BOKULICH_MATERIALS/SAMPLES/ENV4945,Patrik Schönenberger,11.12.2023,,,,,,,,
+MV_Post-MLF_Plot17_2023-12-11,Microvinification_2023,Post-MLF,DNA42,C9,Lavaux_Plot_17,/BOKULICH_MATERIALS/SAMPLES/ENV4946,Patrik Schönenberger,11.12.2023,,,,,,,,
+MV_Post-MLF_Plot19_2023-12-11,Microvinification_2023,Post-MLF,DNA42,F7,Lavaux_Plot_19,/BOKULICH_MATERIALS/SAMPLES/ENV4947,Patrik Schönenberger,11.12.2023,,,,,,,,
+MV_Post-MLF_Plot20_2023-12-11,Microvinification_2023,Post-MLF,DNA42,A9,Lavaux_Plot_20,/BOKULICH_MATERIALS/SAMPLES/ENV4948,Patrik Schönenberger,11.12.2023,,,,,,,,
+MV_Post-MLF_Plot4_2023-12-11,Microvinification_2023,Post-MLF,DNA38,G11,Lavaux_Plot_4,/BOKULICH_MATERIALS/SAMPLES/ENV4949,Patrik Schönenberger,11.12.2023,,,,,,,,
+MV_Post-MLF_Plot5_2023-12-11,Microvinification_2023,Post-MLF,DNA38,D12,Lavaux_Plot_5,/BOKULICH_MATERIALS/SAMPLES/ENV4950,Patrik Schönenberger,11.12.2023,,,,,,,,
+MV_Post-MLF_Plot9_2023-12-11,Microvinification_2023,Post-MLF,DNA38,C12,Lavaux_Plot_9,/BOKULICH_MATERIALS/SAMPLES/ENV4951,Patrik Schönenberger,11.12.2023,,,,,,,,
+Lavaux_2023-08-24_leaf_Plot15_washed,Veraison_2023,leaf,DNA49,,Lavaux_Plot_15,,Lena Flörl,24.08.2023,,,,,,,,
+Lavaux_2022-08-10_leaf_Plot20_washed,Veraison_2022,leaf,DNA49,,Lavaux_Plot_20,,Lena Flörl,10.08.2022,,,,,,,,
+Lavaux_2023-08-24_leaf_Plot17_washed,Veraison_2023,leaf,DNA49,,Lavaux_Plot_17,,Lena Flörl,24.08.2023,,,,,,,,
+Lavaux_2023-08-24_leaf_Plot20_washed,Veraison_2023,leaf,DNA49,,Lavaux_Plot_20,,Lena Flörl,24.08.2023,,,,,,,,
+Lavaux_2023-08-24_leaf_Plot14_washed,Veraison_2023,leaf,DNA49,,Lavaux_Plot_14,,Lena Flörl,24.08.2023,,,,,,,,
+Lavaux_2022-08-10_leaf_Plot12_washed,Veraison_2022,leaf,DNA49,,Lavaux_Plot_12,,Lena Flörl,10.08.2022,,,,,,,,
+Lavaux_2023-08-24_leaf_Plot9_washed,Veraison_2023,leaf,DNA49,,Lavaux_Plot_9,,Lena Flörl,24.08.2023,,,,,,,,
+Lavaux_2022-08-10_leaf_Plot14_washed,Veraison_2022,leaf,DNA49,,Lavaux_Plot_14,,Lena Flörl,10.08.2022,,,,,,,,
+Lavaux_2023-08-24_leaf_Plot13_washed,Veraison_2023,leaf,DNA49,,Lavaux_Plot_13,,Lena Flörl,24.08.2023,,,,,,,,
+Lavaux_2022-08-10_leaf_Plot17_washed,Veraison_2022,leaf,DNA49,,Lavaux_Plot_17,,Lena Flörl,10.08.2022,,,,,,,,
+Lavaux_2022-08-10_leaf_Plot15_washed,Veraison_2022,leaf,DNA49,,Lavaux_Plot_15,,Lena Flörl,10.08.2022,,,,,,,,
+Lavaux_2023-08-24_leaf_Plot19_washed,Veraison_2023,leaf,DNA49,,Lavaux_Plot_19,,Lena Flörl,24.08.2023,,,,,,,,
+Lavaux_2022-08-10_leaf_Plot5_washed,Veraison_2022,leaf,DNA49,,Lavaux_Plot_5,,Lena Flörl,10.08.2022,,,,,,,,
+Lavaux_2022-08-10_leaf_Plot19_washed,Veraison_2022,leaf,DNA49,,Lavaux_Plot_19,,Lena Flörl,10.08.2022,,,,,,,,
+Lavaux_2022-08-10_leaf_Plot4_washed,Veraison_2022,leaf,DNA49,,Lavaux_Plot_4,,Lena Flörl,10.08.2022,,,,,,,,
+Lavaux_2023-08-24_leaf_Plot5_washed,Veraison_2023,leaf,DNA49,,Lavaux_Plot_5,,Lena Flörl,24.08.2023,,,,,,,,
+Lavaux_2022-08-10_leaf_Plot11_washed,Veraison_2022,leaf,DNA49,,Lavaux_Plot_11,,Lena Flörl,10.08.2022,,,,,,,,
+Lavaux_2022-08-10_leaf_Plot13_washed,Veraison_2022,leaf,DNA49,,Lavaux_Plot_13,,Lena Flörl,10.08.2022,,,,,,,,
+Lavaux_2022-08-10_leaf_Plot9_washed,Veraison_2022,leaf,DNA49,,Lavaux_Plot_9,,Lena Flörl,10.08.2022,,,,,,,,
+Lavaux_2023-08-24_leaf_Plot4_washed,Veraison_2023,leaf,DNA49,,Lavaux_Plot_4,,Lena Flörl,24.08.2023,,,,,,,,
+Lavaux_2021-09-30_must_Plot5_Row6/Vine30_ID37,Harvest_2021,must,DNA14,A11,Lavaux_Plot_5,/BOKULICH_MATERIALS/SAMPLES/ENV117,Lena Flörl,2021-09-30 00:00:00 +0200,,37,5,6,30,46.495735,6.708925,
