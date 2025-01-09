@@ -1,0 +1,13 @@
+﻿Plot,Altitude,Average_slope,Exposition,Min_radiation,Max_radiation,Average_radiation,Soil_thickness,Soil_type,Soil_depth,Hydromorphie,Hydromorphie_code,Geology,Coordinates,Latitude,Longitude
+4,450,30,South-West,925,950,937.5,calcosol,Calcaire,100-180,Slightly_redox,1,Molasse,46°29′55.815″N 6°42′29.007″E,46.49885705482890,6.70807175575627
+5,400,30,South-West,900,925,912.5,calcosol,Calcaire,100-180,no_redox,0,Molasse,46°29′47.037″N 6°42′31.353″E,46.49640659037410,6.70871201397826
+9,520,35,South-West,875,900,887.5,calcosol,Calcaire,100-180,no_redox,0,Molasse,46°29′57.936″N 6°42′44.103″E,46.49946826810650,6.71224196270189
+11,490,20,South,925,950,937.5,calcosol,Calcaire,100-180,Slightly_redox,1,Gravel_moraine,46°30′00.818″N 6°42′23.968″E,46.50024369757760,6.70665543730247
+12,520,15,South-West,925,950,937.5,colluviosol,Calcique,above_150,Slightly_redox,1,Colluvium,46°30′09.426″N 6°42′17.825″E,46.50262828355030,6.70495171985618
+13,580,30,South-West,925,950,937.5,calcosol,Calcaire,100-180,Slightly_redox,1,Molasse,46°29′59.656″N 6°42′21.944″E,46.49999215066730,6.70610909063848
+14,440,25,South,900,925,912.5,calcosol,Calcaire,100-180,Slightly_redox,1,Bottom_moraine,46°29′50.529″N 6°42′25.467″E,46.49749375727410,6.70710403923947
+15,520,30,South-West,900,925,912.5,calcosol,Calcique,100-180,no_redox,0,Gravel_moraine,46°30′21.494″N 6°42′08.609″E,46.50606653991510,6.70239140408832
+17,390,20,South-West,900,925,912.5,calcosol,Calcaire,40-100,Slightly_redox,1,Molasse,46°29′17.306″N 6°43′16.790″E,46.48822179767170,6.72133060338618
+18,470,25,South-West,900,925,912.5,calcosol,Calcaire,100-180,no_redox,0,Gravel_moraine,46°29′40.584″N 6°42′47.642″E,46.49471004549950,6.71325536221430
+19,510,50,South-West,900,925,912.5,calcosol,Calcaire,100-180,no_redox,0,Gravel_moraine,46°29′45.020″N 6°42′57.758″E,46.49592747249470,6.71602244597640
+20,470,20,South,925,950,937.5,calcosol,Calcaire,100-180,no_redox,0,Bottom_moraine,46°29′37.675″N 6°43′14.058″E,46.49388717579640,6.72055024597156
