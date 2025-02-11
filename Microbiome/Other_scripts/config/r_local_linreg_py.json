@@ -1,0 +1,15 @@
+{
+  "experiment_tag": "r_local_models_py",
+  "feature_prefix": "F",
+  "ls_model_types": [
+    "linreg", "rf"
+  ],
+  "max_cuncurrent_trials": 5,
+  "num_trials": 100,
+  "seed_data": 12,
+  "seed_model": 12,
+  "stratify_by_column": "Plot_ID",
+  "target": "average_temperature",
+  "test_mode": true,
+  "tracking_uri": "mlruns"
+}
