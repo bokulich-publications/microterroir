@@ -1,4 +1,4 @@
-# MixOmics Diablo with all PostMLF Microbiome and LC-MS data 
+# MixOmics Diablo with all PostMLF Microbiome and LC-MS, GC-MS data 
 
 
 ### 0. SETUP 
@@ -6,11 +6,26 @@
 #BiocManager::install("mixOmics")
 
 library(mixOmics)
+library(caret)
+library(BiocParallel)
+library(ggplot2)
+library(dplyr)
+library(ggrepel)
+library(scales)
+
 
 setwd('/Users/lfloerl/Desktop/MICROTERROIR/Data/Metabolomics/Multiomics_preparedData/PostMLF_MicrobiomeMetabolome/')
 
 # Define custom colors 
 custom_colors_3 <- c("#440154FF", "#238A8DFF", "#FDE725FF")  
+
+block_colors <- c(
+  'LCMS_Pos' = '#94D840FF',
+  'LCMS_Neg' = '#1F968BFF',
+  'GCMS' = '#2D718EFF',
+  'Fungi' = '#453781FF',
+  'Bacteria' = '#440154FF'
+  )
 
 
 ### 1. LOAD DATA 
@@ -31,12 +46,13 @@ group_info <- data.frame(Variable = variables, Group = groups)
 data_list <- split.default(df_clean, groups)
 
 # Split the data into separate data frames for each group
-groups <- c("Metabolites_Pos", "Metabolites_Neg", "Wine Chemistry", "Plots", "Climate", "Fungi", "Bacteria", "Metadata")
+groups <- c("LCMS_Pos", "LCMS_Neg","GCMS", "Wine Chemistry", "Plots", "Climate", "Fungi", "Bacteria", "Metadata")
 
 # Combine metabolomics data
 metabolomics <- list(
-  LCMS_Pos = data_list[["Metabolites_Pos"]],
-  LCMS_Neg = data_list[["Metabolites_Neg"]])
+  LCMS_Pos = data_list[["LCMS_Pos"]],
+  LCMS_Neg = data_list[["LCMS_Neg"]], 
+  GCMS = data_list[["GCMS"]] )
 
 # Combine microbiome data
 microbiome <- list(
@@ -60,8 +76,9 @@ convert_to_numeric <- function(df) {
 
 # Convert metabolomics data
 metabolomics <- list(
-  LCMS_Pos = convert_to_numeric(data_list[["Metabolites_Pos"]]),
-  LCMS_Neg = convert_to_numeric(data_list[["Metabolites_Neg"]]))
+  LCMS_Pos = convert_to_numeric(data_list[["LCMS_Pos"]]),
+  LCMS_Neg = convert_to_numeric(data_list[["LCMS_Neg"]]),
+  GCMS = convert_to_numeric(data_list[["GCMS"]]))
 
 # Convert microbiome data
 microbiome <- list( Fungi = convert_to_numeric(data_list[["Fungi"]]),
@@ -70,17 +87,24 @@ microbiome <- list( Fungi = convert_to_numeric(data_list[["Fungi"]]),
 # Combine all blocks into X
 X <- c(metabolomics, microbiome)
 sapply(X, ncol)
-# LCMS_Pos LCMS_Neg    Fungi Bacteria 
-# 191      170       88       91 
+# LCMS_Pos LCMS_Neg     GCMS    Fungi Bacteria 
+# 191      170      151       88       92 
 # identify and remove features with zero or near-zero variance
+# note: the LC-MS dataframes have very little variance so we just keep them 
 X <- lapply(X, function(block) {
   nzv <- nearZeroVar(block)
   if(length(nzv) > 0) {return(block[, -nzv, drop = FALSE])
   } else {return(block) }})
-# how many left? 
+# also remove columns with high colinearity 
+X <- lapply(X, function(block) {
+  correlations <- cor(block)
+  highCorr <- findCorrelation(correlations, cutoff = 0.95) # Relaxed cutoff
+  block[, -highCorr]
+})
+# how many left?
 sapply(X, ncol)
-# LCMS_Pos LCMS_Neg    Fungi Bacteria 
-# 191      170       33       21 
+# LCMS_Pos LCMS_Neg     GCMS    Fungi Bacteria 
+# 152      164       92       19       19 
 # must be a matrix 
 X <- lapply(X, as.matrix)
 
@@ -92,50 +116,68 @@ X <- lapply(X, as.matrix)
 # Define outcome variable (Y) : let's try 'year' 
 Y <- factor(metadata$Metadata$year)
 
-
 # Design matrix (1 indicates connection between datasets)
 design <- matrix(1, ncol = length(X), nrow = length(X), 
                  dimnames = list(names(X), names(X)))
 diag(design) <- 0
 
+#########################################################
 
 ### 3. TEST NUMBER OF FEATURES TO USE
 # Test what keepX values we should use! 
 # note, Complex data structure!! there are some linear dependencies, plus the sample size is too small relative to the number of variables! 
 set.seed(42)
-# Adjust test.keepX
+# Define range of components to test
+ncomp_range <- 1:5
+# Adjust test.keepX ( #nb. reduce this otherwise it won't run)
 test.keepX <- lapply(X, function(block) {
-  n <- ncol(block)
-  c(5, 10, 20, 30, 50, min(100, n))})
-# Run tune.block.splsda with adjusted parameters
-tune_result <- tune.block.splsda(X, Y, 
-                                 ncomp = 3,  # Reduced number of components
-                                 test.keepX = test.keepX,
-                                 design = design,
-                                 validation = "Mfold", 
-                                 folds = 5, 
-                                 nrepeat = 10,  # Increased number of repeats
-                                 dist = "max.dist", 
-                                 measure = "BER",
-                                 near.zero.var = TRUE,
-                                 max.iter = 200)  # Increased max iterations
-# how much does it suggest we use? 
-print(tune_result$choice.keepX)
-# LCMS_Pos: 3  3 10
-# LCMS_Neg: 15  3  5
-# Fungi: 3 3 3
-# Bacteria: 3 3 3
+  c(1, min(5, ncol(block)), min(10, ncol(block)), min(20, ncol(block)))})
+# Run tune.block.splsda with adjusted parameters 
+tune_results <- lapply(ncomp_range, function(ncomp) {
+  tune.block.splsda(X, Y, 
+                    ncomp = ncomp,
+                    test.keepX = test.keepX,
+                    design = design,
+                    validation = "Mfold", 
+                    folds = 5, 
+                    nrepeat = 5,  # Reduce repeats for testing
+                    near.zero.var = TRUE,
+                    dist = "centroids.dist", 
+                    measure = "BER", progressBar=TRUE)
+})
 
+# Extract optimal values for each ncomp
+optimal_keepX <- lapply(tune_results, function(res) res$choice.keepX)
+ber_values <- sapply(tune_results, function(res) min(res$error.rate)) # Extract BER
+optimal_ncomp <- ncomp_range[which.min(ber_values)] # Select best ncomp
+
+# Print suggested number of components and keepX
+list(optimal_ncomp = optimal_ncomp, optimal_keepX = optimal_keepX[[which.min(ber_values)]])
+
+# Optimal Number of Components: 2
+
+# Block	      Component 1	  Component 2
+# LCMS_Pos	  20	          1
+# LCMS_Neg	  1	            5
+# GCMS	      20	          1
+# Fungi	      10	          1
+# Bacteria	   5          	1
+
+#########################################################
 
 ### 4. RUN DIABLO
 # tuned model
-diablo_tuned <- block.splsda(X = X, Y = Y, design = design,  near.zero.var = TRUE, 
-                             ncomp = 3,  # Using 3 components as in the tuning
-                             keepX = list(LCMS_Pos = c(3, 3, 10),
-                                          LCMS_Neg = c(15, 3, 5),
-                                          Fungi = c(3, 3, 3),
-                                          Bacteria = c(3, 3, 3)))
+diablo_tuned <- block.splsda(X = X, Y = Y, design = design, near.zero.var = TRUE, 
+                             ncomp = 2, 
+                             keepX = list(LCMS_Pos = c(20,1),
+                                          LCMS_Neg = c(1,5),
+                                          GCMS = c(20,1),
+                                          Fungi = c(10,1),
+                                          Bacteria = c(5,1)))
 
+
+
+### 5. VISUALIZATION 
 # Plot sample plot
 plotIndiv(diablo_tuned, group = Y, ind.names = FALSE, 
           legend = TRUE, title = 'DIABLO: samples for plot',  col.per.group = custom_colors_3)
@@ -148,112 +190,79 @@ plotIndiv(diablo_tuned,
           ind.names = FALSE, 
           legend = FALSE, 
           col.per.group = custom_colors_3,
-          title = '',
-          ellipse = TRUE,
+          title = '',  ellipse = TRUE,
           style = "graphics",
           pch = 16)
 # Add a single legend to the side
 legend("topright", 
-       legend = levels(Y), 
-       col = custom_colors_3, 
-       pch = 16, 
-       title = "Plots",
-       inset = c(-0.8, 0),
-       bty = "n")
+       legend = levels(Y),  col = custom_colors_3, 
+       pch = 16, title = "Year",
+       inset = c(-0.8, 0), bty = "n")
 # Reset the plotting parameters
 par(mar = c(5, 4, 4, 2) + 0.1, xpd = FALSE)
 
+
+### GROUP REPRESENTATION 
+# Extract sample scores (latent variables) for each block
+block_scores <- lapply(names(X), function(block) {
+  data.frame(diablo_tuned$variates[[block]], Block = block)  # Add block name
+})
+# Combine all blocks into one dataframe
+df_scores <- bind_rows(block_scores)
+# Compute group means (centroids) per block
+group_means <- df_scores %>%
+  group_by(Block) %>%
+  summarise(across(starts_with("comp"), mean))
+# Plot using ggplot2 with custom colors
+png("diablo_group_representation_plot.png", width = 6, height = 5, units = "in", res = 1000)  # Adjust resolution
+ggplot(group_means, aes(x = comp1, y = comp2, color = Block)) +
+  geom_point(size = 5) +   # Plot group centroids
+  geom_text_repel(aes(label = Block), box.padding = 0.5, max.overlaps = Inf) +  # Prevent overlap
+  theme_minimal() +
+  labs(title = "",
+       x = "Component 1",
+       y = "Component 2") +
+  scale_x_continuous(labels = scientific_format(digits = 2)) +  # Keep scientific notation
+  scale_y_continuous(labels = scientific_format(digits = 2)) +  # Keep scientific notation
+  scale_color_manual(values = block_colors) +  # Apply custom colors
+  theme(legend.position = "right")  # Keep legend for clarity
+dev.off()
 
 # Plot variable selection
-plotVar(diablo_tuned, var.names = TRUE, 
-        pch = list(rep(4, 191), rep(4, 170), rep(4, 33), rep(4, 21)),
-        cex = list(rep(2, 191), rep(2, 170), rep(2, 33), rep(2, 21)),
+png("diablo_variable_plot.png", width = 6, height = 6, units = "in", res = 1000)  # Adjust resolution
+plotVar(diablo_tuned, var.names = TRUE,
+        pch = list(rep(4, 152), rep(4, 164), rep(4, 92), rep(4, 19), rep(4, 19)),  
+        cex = list(rep(2, 152), rep(2, 164), rep(2, 92), rep(2, 19), rep(2, 19)),  
+        col = list(rep(block_colors["LCMS_Pos"], 152),  
+                   rep(block_colors["LCMS_Neg"], 164),  
+                   rep(block_colors["GCMS"], 92),  
+                   rep(block_colors["Fungi"], 19),  
+                   rep(block_colors["Bacteria"], 19)),  
         title = 'DIABLO Variable Plot')
+dev.off()
 
 
-# Define the color palette
-color_palette <- c("#440154FF", "#238A8DFF", "#B8DE29FF", "#39558CFF")
-# Set up the plotting area
-par(mar = c(5, 4, 4, 8), xpd = TRUE)
-# Create the plot
-plotVar(diablo_tuned, var.names = TRUE, 
-        pch = list(rep(16, 191), rep(16, 170), rep(16, 33), rep(16, 21)),
-        cex = list(rep(1.5, 191), rep(1.5, 170), rep(1.5, 33), rep(1.5, 21)),
-        col = list(rep(color_palette[1], 191), 
-                   rep(color_palette[2], 170), 
-                   rep(color_palette[3], 33), 
-                   rep(color_palette[4], 21)),
-        title = 'DIABLO Variable Plot',
-        legend = FALSE)
-# Add a custom legend
-legend("topright", 
-       legend = c("LCMS_Pos", "LCMS_Neg", "Fungi", "Bacteria"),
-       col = color_palette,
-       pch = 16,
-       pt.cex = 1.5,
-       title = "Data Types",
-       inset = c(-0.2, 0),
-       bty = "n")
 
-# Reset the plotting parameters
-par(mar = c(5, 4, 4, 2) + 0.1, xpd = FALSE)
-
-
+# Perform cross-validation
 # Get selected variables
 selected_vars <- selectVar(diablo_tuned, block = 1:5)
 selected_vars
-
-# Perform cross-validation
 diablo_perf <- perf(diablo_tuned, validation = "Mfold", folds = 3, nrepeat = 5)
 # Plot performance
 plot(diablo_perf)
 
 
+
 # Create the Circos plot
+png("diablo_circos_plot_corr85.png", width = 7, height = 7, units = "in", res = 1000)  # Adjust resolution
 circosPlot(diablo_tuned, 
-           cutoff = 0.7,  # Correlation cutoff for displaying links
+           cutoff = 0.85,  # Correlation cutoff for displaying links
            line = TRUE,   # Show lines between correlated variables
-           size.variables = 0.5,  # Size of variable names
-           size.labels = 0.7,     # Size of block labels
-           color.blocks = c("#440154FF", "#238A8DFF", "#B8DE29FF", "#39558CFF"),  # Colors for each block
+           size.variables = 0.45,  # Size of variable names
+           size.labels = 0.8,     # Size of block labels
+           color.blocks = block_colors,  # Colors for each block
            color.cor = c("red", "blue"),  # Colors for positive and negative correlations
-           var.adj = 1.2,  # Adjust variable label positions
+           var.adj = -0.5,  # Adjust variable label positions
            title = "DIABLO Circos Plot")
+dev.off()
 
-
-
-
-#########################################################
-# OLD TESTING 
-## larger model 
-keepX <- list(
-  LCMS_Pos = c(20, 30, 40),
-  LCMS_Neg = c(20, 30, 40),
-  Fungi = c(10, 15, 20),
-  Bacteria = c(5, 10, 15))
-# Ensure we're not selecting more features than available
-min_features <- sapply(X, ncol)
-keepX <- lapply(names(keepX), function(name) {
-  pmin(keepX[[name]], min_features[name])})
-names(keepX) <- names(X)
-# downstream there are issues with the variance in the bacteria block 
-nzv_bacteria <- caret::nearZeroVar(X$Bacteria, saveMetrics = TRUE)
-zero_var_features <- rownames(nzv_bacteria)[nzv_bacteria$zeroVar]
-X$Bacteria <- X$Bacteria[, !colnames(X$Bacteria) %in% zero_var_features]
-keepX$Bacteria <- pmin(keepX$Bacteria, ncol(X$Bacteria))
-
-diablo_tuned_large <- block.splsda(X = X, Y = Y, design = design, 
-                                   ncomp = 3, near.zero.var = TRUE,
-                                   keepX = keepX)
-
-
-## compare the model performance - small sample size!! 
-perf_small <- perf(diablo_tuned_small, validation = "Mfold", folds = 3, nrepeat = 5)
-perf_large <- perf(diablo_tuned_large, validation = "Mfold", folds = 3, nrepeat = 5)
-# Plot performance:
-plot(perf_small)  
-plot(perf_large)  
-
-# different validation method
-perf_large <- perf(diablo_tuned_large, validation = "loo")
-perf_large$MER
