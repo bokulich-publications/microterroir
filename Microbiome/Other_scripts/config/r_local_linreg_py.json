@@ -1,8 +1,8 @@
 {
-  "experiment_tag": "r_local_models_py",
+  "experiment_tag": " all_models",
   "feature_prefix": "F",
   "ls_model_types": [
-    "linreg", "rf"
+    "linreg", "xgb", "nn_reg", "nn_class", "nn_corn", "rf"
   ],
   "max_cuncurrent_trials": 5,
   "num_trials": 100,
