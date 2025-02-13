@@ -1,10 +1,7 @@
-# MixOmics Diablo with all PostMLF Microbiome and LC-MS, GC-MS data 
-
+# MixOmics PLS with all Berry samples (different years)
+## MAYBE JUST DELETE?? 
 
 ### 0. SETUP 
-
-#BiocManager::install("mixOmics")
-
 library(mixOmics)
 library(caret)
 library(BiocParallel)
@@ -13,24 +10,14 @@ library(dplyr)
 library(ggrepel)
 library(scales)
 
-
-setwd('/Users/lfloerl/Desktop/MICROTERROIR/Data/Metabolomics/Multiomics_preparedData/PostMLF_MicrobiomeMetabolome/')
-
-# Define custom colors 
-custom_colors_3 <- c("#440154FF", "#238A8DFF", "#FDE725FF")  
-
-block_colors <- c(
-  'LCMS_Pos' = '#94D840FF',
-  'LCMS_Neg' = '#1F968BFF',
-  'GCMS' = '#2D718EFF',
-  'Fungi' = '#453781FF',
-  'Bacteria' = '#440154FF'  )
-
+setwd('/Users/lfloerl/Desktop/MICROTERROIR/Data/DIABLO-data/Berries')
 
 ### 1. LOAD DATA 
-
 # Read the CSV without using the first row as column names
 df_raw <- read.csv("MFA_table.csv", header = FALSE, stringsAsFactors = FALSE, check.names = FALSE)
+df_raw <- df_raw[-3, ]  # Remove the 3rd row
+df_raw <- df_raw[, -1]  # Remove the 1st column
+
 # Extract the group names from the first row
 groups <- as.character(df_raw[1, ])
 # Extract the variable names from the second row
@@ -45,24 +32,17 @@ group_info <- data.frame(Variable = variables, Group = groups)
 data_list <- split.default(df_clean, groups)
 
 # Split the data into separate data frames for each group
-groups <- c("LCMS_Pos", "LCMS_Neg","GCMS", "Wine Chemistry", "Plots", "Climate", "Fungi", "Bacteria", "Metadata")
-
-# Combine metabolomics data
-metabolomics <- list(
-  LCMS_Pos = data_list[["LCMS_Pos"]],
-  LCMS_Neg = data_list[["LCMS_Neg"]], 
-  GCMS = data_list[["GCMS"]] )
-
+groups <- c('Chemistry', 'Climate', 'Fungi', 'Metadata', 'Plots')
+# Combine metadata data
+data <- list(
+  Chemistry = data_list[["Chemistry"]],
+  Climate = data_list[["Climate"]], 
+  Plots = data_list[["Plots"]] )
 # Combine microbiome data
 microbiome <- list(
-  Fungi = data_list[["Fungi"]],
-  Bacteria = data_list[["Bacteria"]])
-
-# Combine metadata
+  Fungi = data_list[["Fungi"]])
+# Year / Plot 
 metadata <- list(
-  Wine_Chemistry = data_list[["Wine Chemistry"]],
-  Plots = data_list[["Plots"]],
-  Climate = data_list[["Climate"]],
   Metadata = data_list[['Metadata']])
 
 
@@ -72,48 +52,54 @@ convert_to_numeric <- function(df) {
   numeric_df <- as.data.frame(lapply(df, function(x) as.numeric(as.character(x))))
   # Convert to matrix
   return(as.matrix(numeric_df))}
-
 # Convert metabolomics data
-metabolomics <- list(
-  LCMS_Pos = convert_to_numeric(data_list[["LCMS_Pos"]]),
-  LCMS_Neg = convert_to_numeric(data_list[["LCMS_Neg"]]),
-  GCMS = convert_to_numeric(data_list[["GCMS"]]))
-
+data <- list(
+  Chemistry = convert_to_numeric(data_list[["Chemistry"]]),
+  Climate = convert_to_numeric(data_list[["Climate"]]),
+  Plots = convert_to_numeric(data_list[["Plots"]]))
 # Convert microbiome data
-microbiome <- list( Fungi = convert_to_numeric(data_list[["Fungi"]]),
-  Bacteria = convert_to_numeric(data_list[["Bacteria"]]))
+microbiome <- list( Fungi = convert_to_numeric(data_list[["Fungi"]]))
 
-# Combine all blocks into X
-X <- c(metabolomics, microbiome)
-sapply(X, ncol)
-# LCMS_Pos LCMS_Neg     GCMS    Fungi Bacteria 
-# 191      170      151       88       92 
-# identify and remove features with zero or near-zero variance
-# note: the LC-MS dataframes have very little variance so we just keep them 
-X <- lapply(X, function(block) {
+
+# Combine the predictor variables (Chemistry, Climate, Plots) into one data frame
+predictors <- cbind(data$Chemistry, data$Climate, data$Plots)
+# response 
+response <- microbiome$Fungi  
+dim(response)
+
+# remove samples with low variance (othwise it's an issue with scaling)
+response_rmLowVar <- lapply(list(response), function(block) {
   nzv <- nearZeroVar(block)
-  if(length(nzv) > 0) {return(block[, -nzv, drop = FALSE])
-  } else {return(block) }})
-# also remove columns with high colinearity 
-X <- lapply(X, function(block) {
-  correlations <- cor(block)
-  highCorr <- findCorrelation(correlations, cutoff = 0.95) # Relaxed cutoff
-  block[, -highCorr]
-})
-# how many left?
-sapply(X, ncol)
-# LCMS_Pos LCMS_Neg     GCMS    Fungi Bacteria 
-# 152      164       92       19       19 
-# must be a matrix 
-X <- lapply(X, as.matrix)
+  if (length(nzv) > 0) {
+    return(block[, -nzv, drop = FALSE])
+  } else {
+    return(block)
+  }
+})[[1]]
+dim(response_rmLowVar)
+
+# Standardize data (important for PLS)
+predictors <- scale(predictors)
+response <- scale(response_rmLowVar)
+sum(is.na(response))
+
+predictors <- as.matrix(predictors)
+response <- as.matrix(response)
+
+#########################################################
+# Perform PLS and cross-validation to find the optimal number of components
+pls_cv <- perf(pls(X = predictors, Y = response), validation = "Mfold", folds = 5)
+
+
+
+
 
 #########################################################
 
-### 2. SET UP DIABLO MODEL for YEAR
-# note, for plot this does not work because the groups are not balanced and very small (1-3 per)
+### 2. SET UP DIABLO MODEL for PLOT 
 
-# Define outcome variable (Y) : let's try 'year' 
-Y <- factor(metadata$Metadata$year)
+# Define outcome variable (Y)
+Y <- factor(metadata$Metadata$Year)
 
 # Design matrix (1 indicates connection between datasets)
 design <- matrix(1, ncol = length(X), nrow = length(X), 
@@ -126,24 +112,22 @@ diag(design) <- 0
 # Test what keepX values we should use! 
 # note, Complex data structure!! there are some linear dependencies, plus the sample size is too small relative to the number of variables! 
 set.seed(42)
-# Define range of components to test
-ncomp_range <- 1:5
 # Adjust test.keepX ( #nb. reduce this otherwise it won't run)
 test.keepX <- lapply(X, function(block) {
-  c(1, min(5, ncol(block)), min(10, ncol(block)), min(20, ncol(block)))})
+  c(1, min(5, ncol(block)), min(10, ncol(block)))})
 # Run tune.block.splsda with adjusted parameters 
-tune_results <- lapply(ncomp_range, function(ncomp) {
-  tune.block.splsda(X, Y, 
-                    ncomp = ncomp,
+folds <- min(2, min(table(Y)))  # Ensures folds don’t exceed class sizes
+tune.block.splsda(X, Y, 
+                    ncomp = 2,
                     test.keepX = test.keepX,
                     design = design,
                     validation = "Mfold", 
-                    folds = 5, 
-                    nrepeat = 5,  # Reduce repeats for testing
+                    folds = folds, 
+                    nrepeat = 5,
                     near.zero.var = TRUE,
                     dist = "centroids.dist", 
                     measure = "BER", progressBar=TRUE)
-})
+
 
 # Extract optimal values for each ncomp
 optimal_keepX <- lapply(tune_results, function(res) res$choice.keepX)
