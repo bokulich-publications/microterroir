@@ -1,14 +1,14 @@
 {
-  "experiment_tag": " all_models",
+  "experiment_tag": " all_models_extended_config",
   "feature_prefix": "F",
   "ls_model_types": [
-    "linreg", "xgb", "nn_reg", "nn_class", "nn_corn", "rf"
+    "linreg", "xgb", "rf"
   ],
-  "max_cuncurrent_trials": 5,
-  "num_trials": 100,
+  "max_cuncurrent_trials": 10,
+  "num_trials": 200,
   "seed_data": 12,
   "seed_model": 12,
-  "stratify_by_column": "Plot_ID",
+  "stratify_by_column": "Year",
   "target": "average_temperature",
   "test_mode": true,
   "tracking_uri": "mlruns"
