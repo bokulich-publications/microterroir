@@ -1,13 +1,13 @@
 {
-  "experiment_tag": " all_models_v4",
+  "experiment_tag": " Temp_byYear",
   "feature_prefix": "F",
   "ls_model_types": ["linreg", "xgb", "rf"],
   "max_cuncurrent_trials": 10,
-  "num_trials": 200,
+  "num_trials": 100,
   "seed_data": 14,
   "seed_model": 12,
   "group_by_column": "Year",
-  "target": "average_temperature",
+  "target": "median_temperature",
   "test_mode": false,
   "tracking_uri": "mlruns"
 }
