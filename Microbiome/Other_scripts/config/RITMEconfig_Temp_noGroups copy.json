@@ -1,0 +1,13 @@
+{
+  "experiment_tag": " all_models_noGroup",
+  "feature_prefix": "F",
+  "ls_model_types": ["linreg", "xgb", "rf"],
+  "max_cuncurrent_trials": 10,
+  "num_trials": 200,
+  "seed_data": 14,
+  "seed_model": 12,
+  "group_by_column": null,
+  "target": "average_temperature",
+  "test_mode": false,
+  "tracking_uri": "mlruns"
+}
