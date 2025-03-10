@@ -127,7 +127,7 @@
   "num_trials": 900,
   "seed_data": 14,
   "seed_model": 12,
-  "target": "median_temperature",
+  "target": "median_rh",
   "test_mode": false,
   "tracking_uri": "mlruns"
 }
