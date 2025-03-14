@@ -253,7 +253,7 @@ plot(diablo_perf)
 
 
 # Create the Circos plot
-png("diablo_circos_plot_corr90.png", width = 7, height = 7, units = "in", res = 1000)  
+png("/Users/lfloerl/Desktop/MICROTERROIR/Figures/diablo_circos_plot_corr90.png", width = 7, height = 7, units = "in", res = 1000)  
 circosPlot(diablo_tuned, 
            cutoff = 0.90,  # Correlation cutoff for displaying links
            line = TRUE,   # Show lines between correlated variables
