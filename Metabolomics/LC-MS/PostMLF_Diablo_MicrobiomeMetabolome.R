@@ -20,9 +20,9 @@ setwd('/Users/lfloerl/Desktop/MICROTERROIR/Data/Metabolomics/Multiomics_prepared
 custom_colors_3 <- c("#440154FF", "#238A8DFF", "#FDE725FF")  
 
 block_colors <- c(
-  'LCMS_Pos' = '#94D840FF',
-  'LCMS_Neg' = '#1F968BFF',
-  'GCMS' = '#2D718EFF',
+  'LCMS_Pos' = '#20A386FF',
+  'LCMS_Neg' = '#238A8DFF',
+  'GCMS' = '#32648EFF',
   'Fungi' = '#453781FF',
   'Bacteria' = '#440154FF'  )
 
@@ -253,7 +253,7 @@ plot(diablo_perf)
 
 
 # Create the Circos plot
-png("diablo_circos_plot_corr90.png", width = 7, height = 7, units = "in", res = 1000)  
+png("/Users/lfloerl/Desktop/MICROTERROIR/Figures/diablo_circos_plot_corr90.png", width = 7, height = 7, units = "in", res = 1000)  
 circosPlot(diablo_tuned, 
            cutoff = 0.90,  # Correlation cutoff for displaying links
            line = TRUE,   # Show lines between correlated variables
