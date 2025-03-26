@@ -12,6 +12,8 @@ library(ggplot2)
 library(dplyr)
 library(ggrepel)
 library(scales)
+library(reshape2)
+
 
 
 setwd('/Users/lfloerl/Desktop/MICROTERROIR/Data/Metabolomics/Multiomics_preparedData/PostMLF_MicrobiomeMetabolome/')
@@ -31,6 +33,8 @@ block_colors <- c(
 
 # Read the CSV without using the first row as column names
 df_raw <- read.csv("MFA_table.csv", header = FALSE, stringsAsFactors = FALSE, check.names = FALSE)
+df_raw[2, ][df_raw[2, ] == "NP-001596.1"] <- "Hexadecanedioic_acid"
+
 # Extract the group names from the first row
 groups <- as.character(df_raw[1, ])
 # Extract the variable names from the second row
@@ -175,11 +179,43 @@ diablo_tuned <- block.splsda(X = X, Y = Y, design = design, near.zero.var = TRUE
                                           Bacteria = c(5,1)))
 
 
+# Classification accuracy
+# Perform cross-validation to assess classification accuracy
+set.seed(123)  # Ensure reproducibility
+perf_diablo <- perf(diablo_tuned, validation = "Mfold", folds = 9, nrepeat = 50, progressBar = TRUE)
+
+# Print performance metrics
+print(perf_diablo$error.rate)
+
+# Compute accuracy for each data block
+accuracy_list <- lapply(perf_diablo$error.rate, function(error_matrix) {
+  1 - error_matrix  # Convert error rate to accuracy
+})
+print(accuracy_list)
+
+# Average accuracy across blocks and components
+mean_accuracy <- sapply(accuracy_list, function(acc_matrix) {
+  mean(acc_matrix, na.rm = TRUE)
+})
+
+# Print mean accuracy per block
+print(mean_accuracy)
+
+
+
+# Extract proportion of explained variance
+explained_var <- diablo_tuned$prop_expl_var
+print(explained_var)
+
+
 
 ### 5. VISUALIZATION 
 # Plot sample plot
-plotIndiv(diablo_tuned, group = Y, ind.names = FALSE, 
-          legend = TRUE, title = 'DIABLO: samples for plot',  col.per.group = custom_colors_3)
+png("/Users/lfloerl/Desktop/MICROTERROIR/Figures/diablo_PLSscores_plot.png", width = 6, height = 7.5, units = "in", res = 1000)  # Adjust resolution
+plotIndiv(diablo_tuned, group = Y, ind.names = FALSE, ellipse = TRUE,
+          legend = TRUE,  col.per.group = custom_colors_3)
+dev.off()
+
 
 # Set up the plotting area with extra space for the legend
 par(mar = c(5, 4, 4, 8), xpd = TRUE)
@@ -213,7 +249,7 @@ group_means <- df_scores %>%
   group_by(Block) %>%
   summarise(across(starts_with("comp"), mean))
 # Plot using ggplot2 with custom colors
-png("diablo_group_representation_plot.png", width = 6, height = 5, units = "in", res = 1000)  # Adjust resolution
+png("/Users/lfloerl/Desktop/MICROTERROIR/Figures/diablo_group_representation_plot.png", width = 4, height = 4, units = "in", res = 1000)  # Adjust resolution
 ggplot(group_means, aes(x = comp1, y = comp2, color = Block)) +
   geom_point(size = 5) +   # Plot group centroids
   geom_text_repel(aes(label = Block), box.padding = 0.5, max.overlaps = Inf) +  # Prevent overlap
@@ -224,11 +260,12 @@ ggplot(group_means, aes(x = comp1, y = comp2, color = Block)) +
   scale_x_continuous(labels = scientific_format(digits = 2)) +  # Keep scientific notation
   scale_y_continuous(labels = scientific_format(digits = 2)) +  # Keep scientific notation
   scale_color_manual(values = block_colors) +  # Apply custom colors
-  theme(legend.position = "right")  # Keep legend for clarity
+  theme(legend.position = "none")  # Remove legend
 dev.off()
 
+
 # Plot variable selection
-png("diablo_variable_plot.png", width = 6, height = 6, units = "in", res = 1000)  # Adjust resolution
+png("/Users/lfloerl/Desktop/MICROTERROIR/Figures/diablo_variable_plot.png", width = 6, height = 6, units = "in", res = 1000)  # Adjust resolution
 plotVar(diablo_tuned, var.names = TRUE,
         pch = list(rep(4, 152), rep(4, 164), rep(4, 92), rep(4, 19), rep(4, 19)),  
         cex = list(rep(2, 152), rep(2, 164), rep(2, 92), rep(2, 19), rep(2, 19)),  
@@ -253,7 +290,7 @@ plot(diablo_perf)
 
 
 # Create the Circos plot
-png("/Users/lfloerl/Desktop/MICROTERROIR/Figures/diablo_circos_plot_corr90.png", width = 7, height = 7, units = "in", res = 1000)  
+png("/Users/lfloerl/Desktop/MICROTERROIR/Figures/diablo_circos_plot_corr90.png", width = 6.5, height = 6.5, units = "in", res = 1000)  
 circosPlot(diablo_tuned, 
            cutoff = 0.90,  # Correlation cutoff for displaying links
            line = TRUE,   # Show lines between correlated variables
@@ -277,3 +314,33 @@ circosPlot(diablo_tuned,
            title = "DIABLO Circos Plot")
 dev.off()
 
+
+
+# Extract the similarity matrix
+circos_plot <- circosPlot(diablo_tuned, 
+                          cutoff = 0.90,
+                          line = TRUE,
+                          size.variables = 0.45,
+                          size.labels = 0.8,
+                          color.blocks = block_colors,
+                          color.cor = c("red", "blue"),
+                          var.adj = -0.5,
+                          title = "DIABLO Circos Plot")
+similarity_matrix <- circos_plot
+
+similarity_matrix_df <- melt(similarity_matrix, varnames = c("Row", "Col"), value.name = "Similarity")
+
+# Ensure unique pairs (A-B == B-A)
+similarity_matrix_df$Pair <- apply(similarity_matrix_df[, c("Row", "Col")], 1, function(x) paste(sort(x), collapse = "_"))
+
+# Remove self-comparisons and filter for absolute similarity > 0.9
+similarity_matrix_df_filtered <- similarity_matrix_df[similarity_matrix_df$Row != similarity_matrix_df$Col & 
+                                                        (abs(similarity_matrix_df$Similarity) > 0.9), ]
+
+# Remove duplicate pairs
+similarity_matrix_df_filtered <- similarity_matrix_df_filtered[!duplicated(similarity_matrix_df_filtered$Pair), ]
+
+# View the result
+print(similarity_matrix_df_filtered)
+
+write.csv(similarity_matrix_df_filtered, "Top_correlations_circos.csv", row.names = FALSE)
