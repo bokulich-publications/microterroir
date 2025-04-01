@@ -13,7 +13,7 @@ library(dplyr)
 library(ggrepel)
 library(scales)
 library(reshape2)
-
+library(tibble)
 
 
 setwd('/Users/lfloerl/Desktop/MICROTERROIR/Data/Metabolomics/Multiomics_preparedData/PostMLF_MicrobiomeMetabolome/')
@@ -28,7 +28,7 @@ block_colors <- c(
   'Fungi' = '#453781FF',
   'Bacteria' = '#440154FF'  )
 
-
+ 
 ### 1. LOAD DATA 
 
 # Read the CSV without using the first row as column names
@@ -248,6 +248,7 @@ df_scores <- bind_rows(block_scores)
 group_means <- df_scores %>%
   group_by(Block) %>%
   summarise(across(starts_with("comp"), mean))
+
 # Plot using ggplot2 with custom colors
 png("/Users/lfloerl/Desktop/MICROTERROIR/Figures/diablo_group_representation_plot.png", width = 4, height = 4, units = "in", res = 1000)  # Adjust resolution
 ggplot(group_means, aes(x = comp1, y = comp2, color = Block)) +
@@ -265,7 +266,6 @@ dev.off()
 
 
 # Plot variable selection
-png("/Users/lfloerl/Desktop/MICROTERROIR/Figures/diablo_variable_plot.png", width = 6, height = 6, units = "in", res = 1000)  # Adjust resolution
 plotVar(diablo_tuned, var.names = TRUE,
         pch = list(rep(4, 152), rep(4, 164), rep(4, 92), rep(4, 19), rep(4, 19)),  
         cex = list(rep(2, 152), rep(2, 164), rep(2, 92), rep(2, 19), rep(2, 19)),  
@@ -275,6 +275,50 @@ plotVar(diablo_tuned, var.names = TRUE,
                    rep(block_colors["Fungi"], 19),  
                    rep(block_colors["Bacteria"], 19)),  
         title = 'DIABLO Variable Plot')
+
+
+# make a custom Variable Plot (from Jorge!)
+plotVar(diablo_tuned, comp = c(1,2), title = "PLS-DA Variable Loadings", style = "ggplot2", 
+            var.names = TRUE, 
+            pch = list(rep(4, 152), rep(4, 164), rep(4, 92), rep(4, 19), rep(4, 19)),  
+            cex = list(rep(2, 152), rep(2, 164), rep(2, 92), rep(2, 19), rep(2, 19))) 
+
+# Export the data 
+plsda_loadings <- plotVar(diablo_tuned, comp = c(1,2), title = "PLS-DA Variable Loadings", style = "ggplot2", 
+                                  var.names = FALSE, 
+                                  pch = list(rep(4, 152), rep(4, 164), rep(4, 92), rep(4, 19), rep(4, 19)),  
+                                  cex = list(rep(2, 152), rep(2, 164), rep(2, 92), rep(2, 19), rep(2, 19))) 
+# Manual Plot
+png("/Users/lfloerl/Desktop/MICROTERROIR/Figures/diablo_variable_plot_manual.png", width = 7, height = 7, units = "in", res = 1000)  # Adjust resolution
+plsda_loadings %>%
+  as.data.frame() %>%
+  rownames_to_column() %>%
+  mutate(value = abs(x) + abs(y)) %>%  # Compute contribution score
+  arrange(desc(value)) %>%             # Sort by highest contribution
+  mutate(top = if_else(row_number() <= 10, rowname, "")) %>%  # Label only top 10
+  mutate(highlight = if_else(row_number() <= 10, "Top 10", "Others")) %>%  # Mark top 10
+  
+  ggplot(aes(x = x, y = y, color = highlight, fill = highlight)) +  # Highlight categories
+  geom_hline(yintercept = 0, linetype = "dashed", color = "darkgray") +
+  geom_vline(xintercept = 0, linetype = "dashed", color = "darkgray") +
+  annotate("path", x = 0.5 * cos(seq(0, 2*pi, length.out = 100)),
+           y = 0.5 * sin(seq(0, 2*pi, length.out = 100)), color = "darkgray", linetype = "solid") +
+  annotate("path", x = 1.0 * cos(seq(0, 2*pi, length.out = 100)),
+           y = 1.0 * sin(seq(0, 2*pi, length.out = 100)), color = "black", linetype = "solid") +
+  
+  geom_point(aes(size = highlight), shape = 21, stroke = 1) +  # Different size & border for Top 10
+  geom_text_repel(aes(label = top), max.overlaps = 10, size = 4, box.padding = 0.4) +
+  
+  theme_bw(base_size = 12) +
+  theme(legend.position = "none") + 
+  xlab("Component 1") +
+  ylab("Component 2") +
+  ggtitle("") +
+  
+  scale_fill_manual(values = c("Top 10" = "#FFA500", "Others" = "gray60")) +  # Color mapping
+  scale_colour_manual(values = c("Top 10" = "#FFA500", "Others" = "gray60")) +
+  scale_size_manual(values = c("Top 10" = 3, "Others" = 1.5)) +  # Bigger points for Top 10
+  coord_fixed()
 dev.off()
 
 
@@ -319,13 +363,15 @@ dev.off()
 # Extract the similarity matrix
 circos_plot <- circosPlot(diablo_tuned, 
                           cutoff = 0.90,
-                          line = TRUE,
-                          size.variables = 0.45,
-                          size.labels = 0.8,
+                          line = FALSE,
+                          size.variables = 0.0001,
+                          size.labels = 0.0001,
                           color.blocks = block_colors,
                           color.cor = c("red", "blue"),
                           var.adj = -0.5,
-                          title = "DIABLO Circos Plot")
+                          legend = FALSE,
+                          var.names = NULL,
+                          title = "")
 similarity_matrix <- circos_plot
 
 similarity_matrix_df <- melt(similarity_matrix, varnames = c("Row", "Col"), value.name = "Similarity")
@@ -342,5 +388,9 @@ similarity_matrix_df_filtered <- similarity_matrix_df_filtered[!duplicated(simil
 
 # View the result
 print(similarity_matrix_df_filtered)
+# Extracting unique values from the 'Row' and 'Col' columns
+unique_rows_cols <- unique(c(as.character(similarity_matrix_df_filtered$Row), as.character(similarity_matrix_df_filtered$Col)))
+writeLines(unique_rows_cols, "Top_correlations_circos_unique.txt")
+
 
 write.csv(similarity_matrix_df_filtered, "Top_correlations_circos.csv", row.names = FALSE)
