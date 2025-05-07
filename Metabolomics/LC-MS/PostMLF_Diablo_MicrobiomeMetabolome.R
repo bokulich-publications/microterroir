@@ -288,17 +288,46 @@ plsda_loadings <- plotVar(diablo_tuned, comp = c(1,2), title = "PLS-DA Variable 
                                   var.names = FALSE, 
                                   pch = list(rep(4, 152), rep(4, 164), rep(4, 92), rep(4, 19), rep(4, 19)),  
                                   cex = list(rep(2, 152), rep(2, 164), rep(2, 92), rep(2, 19), rep(2, 19))) 
+
+
+# get the top 10 loadings
+top10_vars <- plsda_loadings %>%
+  as.data.frame() %>%
+  rownames_to_column("Variable") %>%
+  mutate(Contribution = abs(x) + abs(y)) %>%
+  arrange(desc(Contribution)) %>%
+  slice_head(n = 10)
+print(top10_vars$Variable)
+
+# rename them 
+top10_vars_named <- top10_vars %>%
+  mutate(NewName = case_when(
+    Variable == "Hanseniaspora" ~ "Hanseniaspora sp.",
+    Variable == "Farnesol...2Z.6Z..." ~ "Farnesol, (2Z,6Z)-",
+    Variable == "X5.Hydroxytryptophol.1" ~ "Hydroxytryptophol",
+    Variable == "Cer.NS.d34.3" ~ "C16-0(Palmitoyl)ceramide",
+    Variable == "Lavandulyl..tetrahydro.." ~ "Tetrahydro lavandulyl acetate",
+    Variable == "Norepinephrine" ~ "Norepinephrine",
+    Variable == "Azelaic.acid" ~ "Azelaic acid",
+    Variable == "Saccharomyces_cerevisiae" ~ "Saccharomyces cerevisiae",
+    Variable == "Phe.Tyr" ~ "Phenylalanyltyrosine",
+    Variable == "L.Saccharopine.1" ~ "L-Saccharopine",
+    TRUE ~ Variable
+  ))
+
+# Join renamed labels back to full loading data
+loadings_df <- plsda_loadings %>%
+  as.data.frame() %>%
+  rownames_to_column("Variable") %>%
+  mutate(Contribution = abs(x) + abs(y)) %>%
+  left_join(top10_vars_named %>% select(Variable, NewName), by = "Variable") %>%
+  mutate(Label = if_else(!is.na(NewName), NewName, ""),
+         Highlight = if_else(!is.na(NewName), "Top 10", "Others"))
+
+
 # Manual Plot
 png("/Users/lfloerl/Desktop/MICROTERROIR/Figures/diablo_variable_plot_manual.png", width = 7, height = 7, units = "in", res = 1000)  # Adjust resolution
-plsda_loadings %>%
-  as.data.frame() %>%
-  rownames_to_column() %>%
-  mutate(value = abs(x) + abs(y)) %>%  # Compute contribution score
-  arrange(desc(value)) %>%             # Sort by highest contribution
-  mutate(top = if_else(row_number() <= 10, rowname, "")) %>%  # Label only top 10
-  mutate(highlight = if_else(row_number() <= 10, "Top 10", "Others")) %>%  # Mark top 10
-  
-  ggplot(aes(x = x, y = y, color = highlight, fill = highlight)) +  # Highlight categories
+ggplot(loadings_df, aes(x = x, y = y, color = Highlight, fill = Highlight)) +
   geom_hline(yintercept = 0, linetype = "dashed", color = "darkgray") +
   geom_vline(xintercept = 0, linetype = "dashed", color = "darkgray") +
   annotate("path", x = 0.5 * cos(seq(0, 2*pi, length.out = 100)),
@@ -306,8 +335,8 @@ plsda_loadings %>%
   annotate("path", x = 1.0 * cos(seq(0, 2*pi, length.out = 100)),
            y = 1.0 * sin(seq(0, 2*pi, length.out = 100)), color = "black", linetype = "solid") +
   
-  geom_point(aes(size = highlight), shape = 21, stroke = 1) +  # Different size & border for Top 10
-  geom_text_repel(aes(label = top), max.overlaps = 10, size = 4, box.padding = 0.4) +
+  geom_point(aes(size = Highlight), shape = 21, stroke = 1) +
+  geom_text_repel(aes(label = Label), max.overlaps = 10, size = 4, box.padding = 0.4) +
   
   theme_bw(base_size = 12) +
   theme(legend.position = "none") + 
@@ -315,9 +344,9 @@ plsda_loadings %>%
   ylab("Component 2") +
   ggtitle("") +
   
-  scale_fill_manual(values = c("Top 10" = "#FFA500", "Others" = "gray60")) +  # Color mapping
+  scale_fill_manual(values = c("Top 10" = "#FFA500", "Others" = "gray60")) +
   scale_colour_manual(values = c("Top 10" = "#FFA500", "Others" = "gray60")) +
-  scale_size_manual(values = c("Top 10" = 3, "Others" = 1.5)) +  # Bigger points for Top 10
+  scale_size_manual(values = c("Top 10" = 3, "Others" = 1.5)) +
   coord_fixed()
 dev.off()
 
@@ -333,8 +362,137 @@ plot(diablo_perf)
 
 
 
+# CIRCOS PLOT 
+
+# Extract all variable names across all blocks
+all_diablo_vars <- lapply(diablo_tuned$loadings, rownames) %>%
+  unlist(use.names = FALSE) %>%
+  unique()
+print(all_diablo_vars)
+
+# Define your renaming dictionary as a named vector
+rename_dict <- c(
+  "Hanseniaspora" = "Hanseniaspora sp.",
+  "Farnesol...2Z.6Z..." = "Farnesol, (2Z,6Z)-",
+  "X5.Hydroxytryptophol.1" = "5-Hydroxytryptophol",
+  "Cer.NS.d34.3" = "C16-0(Palmitoyl)ceramide",
+  "Lavandulyl..tetrahydro.." = "Tetrahydro lavandulyl acetate",
+  "Norepinephrine" = "Norepinephrine",
+  "Azelaic.acid" = "Azelaic acid",
+  "Saccharomyces_cerevisiae" = "Saccharomyces cerevisiae",
+  "Phe.Tyr" = "Phenylalanyltyrosine",
+  "L.Saccharopine.1" = "L-Saccharopine",
+  "X.g__S085.1" = "Dehalococcoidia sp.",
+  "X.s__Acetobacter_pasteurianus" = "Acetobacter pasteurianus",
+  "X.g__Aquabacterium" = "Aquabacterium sp.",
+  "X.g__KD4.96.1" = "Chloroflexi sp.", 
+  "X.s__Azospirillum_brasilense" = "Azospirillum brasilense",
+  "X.s__Oenococcus_oeni" = "Oenococcus oeni",
+  "Endoconidioma_populi" = "Endoconidioma populi",
+  "Ascomycota.1" = "Ascomycota sp.",
+  "Epicoccum_nigrum" = "Epicoccum nigrum", 
+  "Cladosporium_austrohemisphaericum" = "Cladosporium austrohemisphaericum", 
+  "Alternaria_subcucurbitae" = "Alternaria subcucurbitae",
+  "Alternaria.1" = "Alternaria sp.",
+  "Stemphylium_solani" = "Stemphylium solani",
+  "X4.Methyl.2..hydroxy.bicyclo.4.3.0.non.3.en.6.methanol" = "3-Me-BCN",
+  "X.Nonanoic.acid." = "Nonanoic acid",
+  "X1.Octene..6.methyl." = "1-Octene-6-methyl",
+  "X2.4.Nonadienol" = "2,4-Nonadienol",
+  "D.Hexanal" = "Hexanal",
+  "Benzaldehyde..2.4.dimethyl.." = "Benzaldehyde, 2,4-dimethyl-",
+  "Ethyl.linoleate" = "Ethyl linoleate",
+  "Hexanoic.acid" = "Hexanoic acid",
+  "Diethyl.succinate" = "Diethyl succinate", 
+  "X1.Octanol" = "1-Octanol",
+  "X1.Hexanol..3.5.5.trimethyl." = "3,5,5-Trimethyl-1-hexanol",
+  "X1.Hexanol..2.ethyl." = "2-Ethyl-1-hexanol",                                                                                                                                                                            
+  "X1.Hexene..3.5.dimethyl." = "3,5-Dimethyl-1-hexene",
+  "X2.Hexenoic.acid..ethyl.ester" = "Ethyl hexanoate", 
+  "X3.Hexen.1.ol...Z.." = "3-Hexen-1-ol, (Z)-",
+  "X4..benzoyloxy..2H.pyran.3.one" = "BzO", 
+  "Ethyl.3.hydroxytridecanoate" = "Ethyl 3-hydroxytridecanoate",
+  "X1.Heptanol" = "1-Heptanol", 
+  "Hexadecanoic.acid..ethyl.ester" = "Hexadecanoic acid, ethyl ester",
+  "UDP.N.acetylglucosamine" = "UDP-GlcNAc",
+  "Digalacturonic.acid" = "Digalacturonic acid",
+  "Suberic.acid" = "Suberic acid",
+  "trans.Aconitic.acid.1" = "trans-Aconitic acid",
+  "Hexadecanedioic_acid" = "Hexadecanedioic acid", 
+  "X2.2.difluoro.N..2.methyl.6..trifluoromethyl.pyridin.3.yl..2..phenylthio.acetamide" = "TFPMA",
+  "N..5.acetamidopentyl.acetamide" = "N-(5-acetamidopentyl)acetamide",
+  "Argininosuccinic.acid.1" = "Argininosuccinic acid",  
+  "Argininosuccinic.acid" = "Argininosuccinic acid",
+  "L.....Methionine.1" = "Methionine",
+  "X3.phenyl.5..1.2.3.thiadiazol.4.yl..1.2.4.oxadiazole" = "3-Phenyl-1,2,4-oxadiazole-5-thiol",
+  "α.Aspartylphenylalanine.1" = "α.Aspartylphenylalanine",
+  "X6.bromo.2..3.pyridylmethyl..2.3.dihydro.1H.benzo.de.isoquinoline.1.3.dione" = "6-Br-2-Et-BIQ",
+  "N..2..1.5.dimethyl.4.nitro.1H.pyrazol.3.yl.vinyl..N.N.dimethylamine" = "1,5-dimethyl-4-nitro-1H-pyrazole",
+  "X4.Acetamidobutanoic.acid" = "4-Acetamidobutanoic acid",
+  "Proline.Hydroxyproline" = "Hydroxyprolyl-Proline",
+  "N.Methyldioctylamine" = "N-Methyldioctylamine",
+  "Mycosphaerella_tassiana"  = "Mycosphaerella tassiana"  
+)
+
+# Function to apply variable renaming across the DIABLO model
+rename_variables_in_diablo <- function(diablo_model, rename_dict) {
+  # Helper function to make names unique
+  make_names_unique <- function(names_vec) {
+    make.unique(names_vec, sep = ".")
+  }
+  
+  # Rename and make rownames of loadings unique
+  diablo_model$loadings <- lapply(diablo_model$loadings, function(block) {
+    new_names <- ifelse(rownames(block) %in% names(rename_dict),
+                        rename_dict[rownames(block)],
+                        rownames(block))
+    rownames(block) <- make_names_unique(new_names)
+    block
+  })
+  
+  # Rename and make column names of X unique
+  diablo_model$X <- lapply(diablo_model$X, function(block) {
+    new_names <- ifelse(colnames(block) %in% names(rename_dict),
+                        rename_dict[colnames(block)],
+                        colnames(block))
+    colnames(block) <- make_names_unique(new_names)
+    block
+  })
+  
+  # Rename and make names$colnames unique
+  diablo_model$names$colnames <- lapply(diablo_model$names$colnames, function(names_vec) {
+    new_names <- ifelse(names_vec %in% names(rename_dict),
+                        rename_dict[names_vec],
+                        names_vec)
+    make_names_unique(new_names)
+  })
+  
+  return(diablo_model)
+}
+
+
+# Apply the renaming function
+diablo_tuned_renamed <- rename_variables_in_diablo(diablo_tuned, rename_dict)
+
+# Plot the Circos plot
+png("/Users/lfloerl/Desktop/MICROTERROIR/Figures/diablo_circos_plot_corr90.png", width = 6.6, height = 6.5, units = "in", res = 1000)  
+circosPlot(
+  diablo_tuned_renamed, 
+  cutoff = 0.90,
+  line = TRUE,
+  size.variables = 0.45,
+  size.labels = 0.8,
+  color.blocks = block_colors,
+  color.cor = c("red", "blue"),
+  var.adj = -0.5,
+  title = "DIABLO Circos Plot"
+)
+dev.off()
+
+
+
 # Create the Circos plot
-png("/Users/lfloerl/Desktop/MICROTERROIR/Figures/diablo_circos_plot_corr90.png", width = 6.5, height = 6.5, units = "in", res = 1000)  
+#png("/Users/lfloerl/Desktop/MICROTERROIR/Figures/diablo_circos_plot_corr90.png", width = 6.5, height = 6.5, units = "in", res = 1000)  
 circosPlot(diablo_tuned, 
            cutoff = 0.90,  # Correlation cutoff for displaying links
            line = TRUE,   # Show lines between correlated variables
@@ -361,7 +519,7 @@ dev.off()
 
 
 # Extract the similarity matrix
-circos_plot <- circosPlot(diablo_tuned, 
+circos_plot <- circosPlot(diablo_tuned_renamed, 
                           cutoff = 0.90,
                           line = FALSE,
                           size.variables = 0.0001,
